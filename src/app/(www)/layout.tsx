@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import { GoogleAnalytics } from '@next/third-parties/google';
+import { Analytics as VercelAnalytics } from '@vercel/analytics/react';
 
 import './globals.css';
 
@@ -25,11 +26,14 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const isVercel = !!process.env.NEXT_PUBLIC_VERCEL_URL;
+
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}
         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || ''} />
+        {isVercel && <VercelAnalytics />}
       </body>
     </html>
   );

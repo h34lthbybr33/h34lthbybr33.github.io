@@ -6,15 +6,14 @@
  */
 export default async (phase, { defaultConfig }) => {
   /** @type {import('next').NextConfig} */
-  const sharedConfig = {
-  };
+  const sharedConfig = {};
 
   // Run as a server while on vercel
   if (process.env.NEXT_PUBLIC_VERCEL_URL) {
     return {
       ...sharedConfig,
       pageExtensions: [
-        ...defaultConfig.pageExtensions.map(x => `svr.${x}`),
+        ...defaultConfig.pageExtensions.map((x) => `svr.${x}`),
         ...defaultConfig.pageExtensions,
       ],
     };
