@@ -30,8 +30,8 @@ export function Hero({ id, background }: Props) {
             <div className="why-box" data-aos="zoom-out" data-aos-delay="200">
               <h3>Who am I?</h3>
               <p>
-                I'm a licensed health insurance agent in Florida, Texas and Michigan here
-                to make choosing a plan that's affordable and meets your needs.
+                I am a licensed health insurance agent in Florida, Texas and Michigan here
+                to make choosing a plan that is affordable and meets your needs.
               </p>
               <div className="text-center">
                 <Link href="/#about" className="more-btn">
@@ -46,7 +46,7 @@ export function Hero({ id, background }: Props) {
               <div className="row gy-4">
                 <HeroTile icon={<BiClipboard />} title="Plans are confusing">
                   <p>
-                    Give me an opportunity to go over what's available, and find a plan
+                    Give me an opportunity to go over what is available, and find a plan
                     that meets
                     {` `}
                     <strong>your needs</strong>.
@@ -54,7 +54,7 @@ export function Hero({ id, background }: Props) {
                 </HeroTile>
                 <HeroTile icon={<BiWallet />} title="Sounds expensive">
                   <p>
-                    Not every plan has to cost you an arm and a leg. Let's find a plan
+                    Not every plan has to cost you an arm and a leg. Let us find a plan
                     that meets
                     {` `}
                     <strong>your budget</strong>.
@@ -62,7 +62,7 @@ export function Hero({ id, background }: Props) {
                 </HeroTile>
                 <HeroTile icon={<BsClock />} title="Time is money">
                   <p>
-                    Finding a plan shouldn't take all day. Let me do the research so you
+                    Finding a plan should not take all day. Let me do the research so you
                     can get back to
                     {` `}
                     <strong>your day</strong>.

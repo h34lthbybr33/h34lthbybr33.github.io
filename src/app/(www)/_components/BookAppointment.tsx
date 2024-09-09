@@ -6,7 +6,6 @@ import { PopupModal } from 'react-calendly';
 import { sendGAEvent } from '@next/third-parties/google';
 
 export function BookAppointment() {
-  const rootElement = React.createRef();
   const [isOpen, setIsOpen] = React.useState(false);
 
   const handleBooking: React.MouseEventHandler<HTMLAnchorElement> = (

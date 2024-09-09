@@ -9,18 +9,12 @@ import { normalizeTelephone, formatTelephone } from '@/lib/util';
 import contactInfo from '@www/_data/contact-info';
 
 export function ContactInfo() {
-  const email = React.useMemo(() => contactInfo.email, [contactInfo.email]);
-  const rawTelephone = React.useMemo(
-    () => normalizeTelephone(contactInfo.telephone),
-    [contactInfo.telephone],
-  );
-  const telephone = React.useMemo(
-    () => formatTelephone(contactInfo.telephone),
-    [contactInfo.telephone],
-  );
+  const email = React.useMemo(() => contactInfo.email, []);
+  const rawTelephone = React.useMemo(() => normalizeTelephone(contactInfo.telephone), []);
+  const telephone = React.useMemo(() => formatTelephone(contactInfo.telephone), []);
 
   const handleEmailClick: React.MouseEventHandler<HTMLAnchorElement> = (
-    e: React.MouseEvent<HTMLAnchorElement>,
+    e: React.MouseEvent<HTMLAnchorElement>, // eslint-disable-line @typescript-eslint/no-unused-vars
   ) => {
     sendGAEvent({
       event: 'click',
@@ -28,7 +22,7 @@ export function ContactInfo() {
     });
   };
   const handleTelephoneClick: React.MouseEventHandler<HTMLAnchorElement> = (
-    e: React.MouseEvent<HTMLAnchorElement>,
+    e: React.MouseEvent<HTMLAnchorElement>, // eslint-disable-line @typescript-eslint/no-unused-vars
   ) => {
     sendGAEvent({
       event: 'click',
