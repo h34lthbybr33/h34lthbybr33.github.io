@@ -1,24 +1,32 @@
 import type { Metadata } from 'next';
-import localFont from 'next/font/local';
+import { Roboto, Poppins, Raleway } from 'next/font/google';
 import { GoogleAnalytics } from '@next/third-parties/google';
 import { Analytics as VercelAnalytics } from '@vercel/analytics/react';
 
-import './globals.css';
+import siteInfo from '@www/_data/site-info';
+import Header from '@www/_components/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@www/_assets/css/main.css';
 
-const geistSans = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900',
+const roboto = Roboto({
+  weight: ['100', '300', '400', '500', '700', '900'],
+  style: ['italic', 'normal'],
+  subsets: ['latin'],
 });
-const geistMono = localFont({
-  src: './fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900',
+const poppins = Poppins({
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  style: ['italic', 'normal'],
+  subsets: ['latin'],
+});
+const raleway = Raleway({
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  style: ['italic', 'normal'],
+  subsets: ['latin'],
 });
 
 export const metadata: Metadata = {
-  title: process.env.NEXT_PUBLIC_SITE_TITLE,
-  description: process.env.NEXT_PUBLIC_SITE_DESCRIPTION,
+  title: siteInfo.title,
+  description: siteInfo.description,
 };
 
 export default function RootLayout({
@@ -30,8 +38,10 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        {children}
+      <body
+        className={`${roboto.className} ${poppins.className} ${raleway.className} antialiased`}>
+        <Header />
+        <main className="main">{children}</main>
         <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || ''} />
         {isVercel && <VercelAnalytics />}
       </body>
