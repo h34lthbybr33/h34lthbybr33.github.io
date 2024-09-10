@@ -2,8 +2,9 @@
 
 import React from 'react';
 import Link from 'next/link';
-import { PopupModal } from 'react-calendly';
 import { sendGAEvent } from '@next/third-parties/google';
+import { Button, Modal } from 'react-bootstrap';
+import Calendly from './Calendly';
 
 export function BookAppointment() {
   const [isOpen, setIsOpen] = React.useState(false);
@@ -24,13 +25,17 @@ export function BookAppointment() {
       <Link href="#" className="cta-btn d-none d-sm-block" onClick={handleBooking}>
         Book an Appointment
       </Link>
-      <div id="calendly-modal"></div>
-      <PopupModal
-        url={process.env.NEXT_PUBLIC_CALENDLY_URL || ''}
-        rootElement={document.body}
-        open={isOpen}
-        onModalClose={() => setIsOpen(false)}
-      />
+      <Modal show={isOpen} onHide={() => setIsOpen(false)} scrollable fullscreen>
+        <Modal.Header closeButton>Book an Appointment</Modal.Header>
+        <Modal.Body>
+          <Calendly accountId="h34lthbybr33" />
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={() => setIsOpen(false)}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
     </>
   );
 }

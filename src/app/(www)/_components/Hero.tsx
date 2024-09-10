@@ -2,7 +2,8 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { BiClipboard, BiChevronRight, BiWallet } from 'react-icons/bi';
+import { BiChevronRight, BiCalendar } from 'react-icons/bi';
+import { MdOutlineHealthAndSafety } from 'react-icons/md';
 import { BsClock } from 'react-icons/bs';
 
 import heroBg from '@www/_assets/img/hero-bg.png';
@@ -44,28 +45,23 @@ export function Hero({ id, background }: Props) {
           <div className="col-lg-8 d-flex align-items-stretch">
             <div className="d-flex flex-column justify-content-center">
               <div className="row gy-4">
-                <HeroTile icon={<BiClipboard />} title="Plans are confusing">
+                <HeroTile icon={<BiCalendar />} title="Efficient">
                   <p>
-                    Give me an opportunity to go over what is available, and find a plan
-                    that meets
-                    {` `}
-                    <strong>your needs</strong>.
+                    Meet when it's convenient for you. Click{' '}
+                    <strong>Book an Appointment</strong>
+                    {` `} at the upper right to find a time.
                   </p>
                 </HeroTile>
-                <HeroTile icon={<BiWallet />} title="Sounds expensive">
+                <HeroTile icon={<BsClock />} title="Review">
                   <p>
-                    Not every plan has to cost you an arm and a leg. Let us find a plan
-                    that meets
-                    {` `}
-                    <strong>your budget</strong>.
+                    In as little as 30 minutes, we can review options, and make sure
+                    everything meets your needs.
                   </p>
                 </HeroTile>
-                <HeroTile icon={<BsClock />} title="Time is money">
+                <HeroTile icon={<MdOutlineHealthAndSafety />} title="Security">
                   <p>
-                    Finding a plan should not take all day. Let me do the research so you
-                    can get back to
-                    {` `}
-                    <strong>your day</strong>.
+                    Feel confidet you have plan that works (and doesn't cost you an arm
+                    and a leg).
                   </p>
                 </HeroTile>
               </div>

@@ -1498,6 +1498,7 @@ section,
 .faq .faq-container .faq-item .faq-content p {
   margin-bottom: 0;
   overflow: hidden;
+  display: none;
 }
 
 .faq .faq-container .faq-item .faq-toggle {
@@ -1530,6 +1531,10 @@ section,
   visibility: visible;
   opacity: 1;
   padding-top: 10px;
+}
+.faq .faq-container .faq-active .faq-content p {
+  display: inherit;
+  margin-top: 1em;
 }
 
 .faq .faq-container .faq-active .faq-toggle {
