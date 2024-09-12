@@ -4,12 +4,20 @@ import React from 'react';
 
 type Props = {
   accountId: string;
+  action?: string;
 };
 
-export function Calendly({ accountId }: Props) {
+export function Calendly({ accountId, action }: Props) {
   const calendlyUrl = React.useMemo(() => {
-    return `https://calendly.com/${accountId}?embed_type=Inline&hide_gdpr_banner=1&hide_landing_page_details=1`;
-  }, [accountId]);
+    const url = `https://calendly.com/${accountId}${action && `/${encodeURIComponent(action)}`}`;
+    const params = [
+      'embed_type=Inline',
+      'hide_gdpr_banner=1',
+      'hide_landing_page_details=1',
+    ];
+    console.log(`URL: ${[url, '?', params.join('&')].join('')}`);
+    return [url, '?', params.join('&')].join('');
+  }, [accountId, action]);
 
   React.useEffect(() => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -19,16 +27,13 @@ export function Calendly({ accountId }: Props) {
         e.origin === 'https://calendly.com' &&
         e.data?.event?.indexOf('calendly.') === 0
       ) {
-        console.log(`Calendly: ${JSON.stringify(e.data)}`);
+        console.log(`event.data`, e.data);
       }
     };
 
     if (window) {
-      console.log(`Subscribing to message events`);
       window.addEventListener('message', handleMessage);
       return () => window.removeEventListener('message', handleMessage);
-    } else {
-      console.log(`Window not present`);
     }
   }, []);
 

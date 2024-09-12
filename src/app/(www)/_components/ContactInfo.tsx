@@ -7,8 +7,11 @@ import { BiEnvelope, BiPhone } from 'react-icons/bi';
 
 import { normalizeTelephone, formatTelephone } from '@/lib/util';
 import contactInfo from '@www/_data/contact-info';
+// import { useBookAppointment } from '@www/_ctx/BookAppointment';
 
 export function ContactInfo() {
+  // const { bookAppointment } = useBookAppointment();
+
   const email = React.useMemo(() => contactInfo.email, []);
   const rawTelephone = React.useMemo(() => normalizeTelephone(contactInfo.telephone), []);
   const telephone = React.useMemo(() => formatTelephone(contactInfo.telephone), []);
@@ -16,19 +19,19 @@ export function ContactInfo() {
   const handleEmailClick: React.MouseEventHandler<HTMLAnchorElement> = (
     e: React.MouseEvent<HTMLAnchorElement>, // eslint-disable-line @typescript-eslint/no-unused-vars
   ) => {
-    sendGAEvent({
-      event: 'click',
-      value: email,
-    });
+    sendGAEvent('event', 'linkClicked', { value: email });
   };
   const handleTelephoneClick: React.MouseEventHandler<HTMLAnchorElement> = (
     e: React.MouseEvent<HTMLAnchorElement>, // eslint-disable-line @typescript-eslint/no-unused-vars
   ) => {
-    sendGAEvent({
-      event: 'click',
-      value: telephone,
-    });
+    sendGAEvent('event', 'linkClicked', { value: telephone });
   };
+  // const handleBookingClick: React.MouseEventHandler = (
+  //   e: React.MouseEvent<HTMLAnchorElement>, // eslint-disable-line @typescript-eslint/no-unused-vars
+  // ) => {
+  //   bookAppointment();
+  //   e.preventDefault();
+  // };
 
   return (
     <div className="contact-info d-flex align-items-center">
@@ -40,6 +43,10 @@ export function ContactInfo() {
         <BiPhone />
         <span>{telephone}</span>
       </Link>
+      {/* <Link href="#" onClick={handleBookingClick}>
+        <BiCalendarEvent />
+        <span>Book Appointment</span>
+      </Link> */}
     </div>
   );
 }
