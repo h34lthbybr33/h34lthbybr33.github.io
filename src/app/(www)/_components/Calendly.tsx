@@ -1,5 +1,6 @@
 'use client';
 
+import { sendGAEvent } from '@next/third-parties/google';
 import React from 'react';
 
 type Props = {
@@ -9,7 +10,6 @@ type Props = {
 
 export function Calendly({ accountId, action }: Props) {
   const calendlyUrl = React.useMemo(() => {
-    console.log(`action: ${action}`);
     const url = `https://calendly.com/${accountId}${typeof action === 'string' ? `/${encodeURIComponent(action)}` : ''}`;
     const params = [
       'embed_type=Inline',
@@ -17,7 +17,6 @@ export function Calendly({ accountId, action }: Props) {
       'hide_landing_page_details=1',
       'embed_domain=1',
     ];
-    console.log(`URL: ${[url, '?', params.join('&')].join('')}`);
     return [url, '?', params.join('&')].join('');
   }, [accountId, action]);
 
@@ -46,7 +45,7 @@ export function Calendly({ accountId, action }: Props) {
         e.origin === 'https://calendly.com' &&
         e.data?.event?.indexOf('calendly.') === 0
       ) {
-        console.log(`event.data`, e.data);
+        sendGAEvent('event', e.data.event, e.data.payload);
       }
     };
 
