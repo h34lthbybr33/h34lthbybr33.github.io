@@ -8,7 +8,7 @@ import faqs, { type Question } from '@www/_data/faq';
 type ItemProps = {
   item: Question;
   isActive?: boolean;
-  onClick?: React.MouseEventHandler<HTMLDivElement>;
+  onClick?: React.MouseEventHandler;
 };
 
 const FAQItem: React.FC<ItemProps> = ({ item, onClick, isActive = false }) => (

@@ -9,6 +9,7 @@ import { BsClock } from 'react-icons/bs';
 import heroBg from '@www/_assets/img/hero-bg.png';
 import HeroTitle from '@www/_components/HeroTitle';
 import HeroTile from '@www/_components/HeroTile';
+import { useBookAppointment } from '@www/_ctx/BookAppointment';
 
 type Props = {
   id?: string;
@@ -16,6 +17,8 @@ type Props = {
 };
 
 export function Hero({ id, background }: Props) {
+  const { bookAppointment } = useBookAppointment();
+
   return (
     <section
       id={id || 'hero'}
@@ -35,8 +38,8 @@ export function Hero({ id, background }: Props) {
                 to make choosing a plan that is affordable and meets your needs.
               </p>
               <div className="text-center">
-                <Link href="/#about" className="more-btn">
-                  <span>Learn More</span>
+                <Link href="#" className="more-btn" onClick={() => bookAppointment()}>
+                  <span>Book Appointment</span>
                   <BiChevronRight />
                 </Link>
               </div>
@@ -47,21 +50,20 @@ export function Hero({ id, background }: Props) {
               <div className="row gy-4">
                 <HeroTile icon={<BiCalendar />} title="Efficient">
                   <p>
-                    Meet when it's convenient for you. Click{' '}
-                    <strong>Book an Appointment</strong>
-                    {` `} at the upper right to find a time.
+                    Pick a time and date that works for you to explain your current
+                    situation and see what's available.
                   </p>
                 </HeroTile>
                 <HeroTile icon={<BsClock />} title="Review">
                   <p>
                     In as little as 30 minutes, we can review options, and make sure
-                    everything meets your needs.
+                    everything meets your needs and expectations.
                   </p>
                 </HeroTile>
                 <HeroTile icon={<MdOutlineHealthAndSafety />} title="Security">
                   <p>
-                    Feel confidet you have plan that works (and doesn't cost you an arm
-                    and a leg).
+                    Feel confident you have plan that satisfies your requirements (and
+                    doesn't cost you an arm and a leg).
                   </p>
                 </HeroTile>
               </div>

@@ -245,6 +245,7 @@ h6 {
 .header .topbar .contact-info svg {
   font-style: normal;
   color: var(--contrast-color);
+  margin-top: -0.25em;
 }
 
 .header .topbar .contact-info a,
@@ -261,7 +262,8 @@ h6 {
 }
 
 .header .topbar .contact-info a,
-.header .topbar .contact-info i {
+.header .topbar .contact-info i,
+.header .topbar .contact-info svg {
   line-height: 0;
   transition: 0.3s;
 }

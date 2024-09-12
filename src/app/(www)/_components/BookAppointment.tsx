@@ -3,40 +3,24 @@
 import React from 'react';
 import Link from 'next/link';
 import { sendGAEvent } from '@next/third-parties/google';
-import { Button, Modal } from 'react-bootstrap';
-import Calendly from './Calendly';
+import { useBookAppointment } from '../_ctx/BookAppointment';
 
 export function BookAppointment() {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const { bookAppointment } = useBookAppointment();
 
-  const handleBooking: React.MouseEventHandler<HTMLAnchorElement> = (
-    e: React.MouseEvent<HTMLAnchorElement>,
-  ) => {
+  const handleBooking: React.MouseEventHandler = (e: React.MouseEvent) => {
     sendGAEvent({
       event: 'click',
       value: 'book-appointment',
     });
-    setIsOpen(true);
+    bookAppointment();
     e.preventDefault();
   };
 
   return (
-    <>
-      <Link href="#" className="cta-btn d-none d-sm-block" onClick={handleBooking}>
-        Book an Appointment
-      </Link>
-      <Modal show={isOpen} onHide={() => setIsOpen(false)} scrollable fullscreen>
-        <Modal.Header closeButton>Book an Appointment</Modal.Header>
-        <Modal.Body>
-          <Calendly accountId="h34lthbybr33" />
-        </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={() => setIsOpen(false)}>
-            Close
-          </Button>
-        </Modal.Footer>
-      </Modal>
-    </>
+    <Link href="#" className="cta-btn" onClick={handleBooking}>
+      Book an Appointment
+    </Link>
   );
 }
 
