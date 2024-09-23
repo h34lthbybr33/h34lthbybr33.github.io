@@ -1,3 +1,12 @@
+import createMDX from '@next/mdx';
+import grayMatter from 'gray-matter';
+
+const withMDX = createMDX({
+  options: {
+    remarkPlugins: [grayMatter],
+  },
+});
+
 /**
  * @param {string} phase
  * @param {object} opts
@@ -6,25 +15,27 @@
  */
 export default async (phase, { defaultConfig }) => {
   /** @type {import('next').NextConfig} */
-  const sharedConfig = {};
+  const sharedConfig = {
+    pageExtensions: [...defaultConfig.pageExtensions, 'md', 'mdx'],
+  };
 
   // Run as a server while on vercel
   if (process.env.NEXT_PUBLIC_VERCEL_URL) {
-    return {
+    return withMDX({
       ...sharedConfig,
       pageExtensions: [
         ...defaultConfig.pageExtensions.map((x) => `svr.${x}`),
-        ...defaultConfig.pageExtensions,
+        ...sharedConfig.pageExtensions,
       ],
-    };
+    });
   }
 
   // Otherwise, default behavior is static website
-  return {
+  return withMDX({
     ...sharedConfig,
     output: 'export',
     images: {
       unoptimized: true,
     },
-  };
+  });
 };
