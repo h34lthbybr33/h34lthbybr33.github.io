@@ -6,7 +6,7 @@ import { BiSolidCustomize } from 'react-icons/bi';
 import { IoIosMegaphone } from 'react-icons/io';
 
 import { About, CallToAction, Hero, IconCard, IconCardList } from '@www/_ui/';
-import heroImage from '@www/_assets/img/hero/bree-sunset-distance.jpg';
+import heroImage from '@www/_assets/img/hero/beach-sunset.jpg';
 import aboutImage from '@www/_assets/img/about/standing-by-window.jpg';
 import aboutAltImage from '@www/_assets/img/about/health-insurance-tiles.jpg';
 
