@@ -17,6 +17,10 @@ export type ContactInfo = {
   name: string;
   telephone: string;
   licenses: License[];
+  serving: {
+    [key: string]: string;
+  };
+  npnNumber: string;
 };
 
 export const contactInfo: ContactInfo = {
@@ -35,7 +39,6 @@ export const contactInfo: ContactInfo = {
       state: 'Florida',
       licenseNo: 'G086330',
       //licenseUrl: 'https://licenseesearch.fldfs.com/Licensee/2473302',
-      //npmNo: '21053872',
     },
     {
       state: 'Texas',
@@ -46,9 +49,42 @@ export const contactInfo: ContactInfo = {
       state: 'Michigan',
       licenseNo: '1318609',
       //licenseUrl: 'https://difs.state.mi.us/locators?searchtype=Insurance',
-      //npmNo: '21053872',
     },
   ],
+  serving: {
+    AL: 'Alabama',
+    AK: 'Alaska',
+    CO: 'Colorado',
+    DE: 'Delaware',
+    FL: 'Florida',
+    GA: 'Georgia',
+    IL: 'Illinois',
+    IN: 'Indiana',
+    IA: 'Iowa',
+    KS: 'Kansas',
+    KT: 'Kentucky',
+    LA: 'Louisiana',
+    MD: 'Maryland',
+    MI: 'Michigan',
+    MS: 'Mississippi',
+    MO: 'Missouri',
+    MT: 'Montana',
+    NE: 'Newbraska',
+    NV: 'Nevada',
+    NC: 'North Carolina',
+    OH: 'Ohio',
+    OK: 'Oklahoma',
+    SC: 'South Carolina',
+    SD: 'South Dakota',
+    TN: 'Tennessee',
+    TX: 'Texas',
+    UT: 'Utah',
+    VA: 'Virgina',
+    WV: 'West Virginia',
+    WI: 'Wisconsin',
+    WY: 'Wyoming',
+  },
+  npnNumber: '21053872',
 };
 
 export default contactInfo;

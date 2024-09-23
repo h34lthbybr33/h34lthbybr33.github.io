@@ -1,6 +1,7 @@
 export type SiteInfo = {
   title: string;
   description: string;
+  keywords: string[];
 };
 
 export const siteInfo: SiteInfo = {
@@ -8,6 +9,14 @@ export const siteInfo: SiteInfo = {
   description:
     process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
     'Making affordable health coverage a breeze',
+  keywords: [
+    'insurance',
+    'health insurance',
+    'health insurance agent',
+    'aca',
+    'ppo',
+    'hmo',
+  ],
 };
 
 export default siteInfo;
