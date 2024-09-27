@@ -1,7 +1,25 @@
 {
-  "commit": "865a45c82b90dc319ab1a812171d0849ee0a5dec",
-  "generated": "2024-09-27T20:48:19.684Z",
+  "commit": "2f2d471a64962ceb423d07d22d9bcff2cebafeb5",
+  "generated": "Fri, 27 Sep 2024 20:58:58 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "9bd841249d63929f464128a141843660c49fdb96",
+        "hash": "2136146354",
+        "path": "src/app/(www)/_data/frequently-asked-questions/why-choose-a-licensed-health-insurance-advisor.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "frequently-asked-questions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-27T18:50:05.835Z",
+      "slug": "why-choose-a-licensed-health-insurance-advisor",
+      "status": "published",
+      "title": "Why choose a licensed health insurance advisor?"
+    },
     {
       "__outstatic": {
         "commit": "008d8cb0a29c755be04953dc574489303ebefe28",
@@ -40,24 +58,6 @@
       },
       "collection": "faq",
       "slug": "00-why-choose-a-licensed-health-insurance-advisor",
-      "title": "Why choose a licensed health insurance advisor?"
-    },
-    {
-      "__outstatic": {
-        "commit": "865a45c82b90dc319ab1a812171d0849ee0a5dec",
-        "hash": "1698014808",
-        "path": "src/app/(www)/_data/frequently-asked-questions/why-choose-a-licensed-health-insurance-advisor.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
-      },
-      "collection": "frequently-asked-questions",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-09-27T18:50:05.835Z",
-      "slug": "why-choose-a-licensed-health-insurance-advisor",
-      "status": "published",
       "title": "Why choose a licensed health insurance advisor?"
     }
   ]
