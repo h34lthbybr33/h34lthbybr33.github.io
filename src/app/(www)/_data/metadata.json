@@ -1,6 +1,6 @@
 {
-  "commit": "3eaf7034bb8ce3bac1694b8fd32546e8e6a65dcc",
-  "generated": "2024-09-27T20:24:56.814Z",
+  "commit": "acd2dbbbee6dfc2e9f02ffc2c397281048f1a113",
+  "generated": "2024-09-27T20:27:15.761Z",
   "metadata": [
     {
       "__outstatic": {
@@ -80,7 +80,7 @@
     },
     {
       "__outstatic": {
-        "commit": "3eaf7034bb8ce3bac1694b8fd32546e8e6a65dcc",
+        "commit": "acd2dbbbee6dfc2e9f02ffc2c397281048f1a113",
         "hash": "2493594620",
         "path": "src/app/(www)/_data/frequently-asked-questions/which-insurance-options-is-best-for-me.md"
       },
