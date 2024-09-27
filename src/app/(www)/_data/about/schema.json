@@ -8,6 +8,13 @@
       "fieldType": "Boolean",
       "dataType": "boolean",
       "title": "darkBackground"
+    },
+    "imageOnRight": {
+      "required": false,
+      "description": "Place the cover image to the right?",
+      "fieldType": "Boolean",
+      "dataType": "boolean",
+      "title": "imageOnRight"
     }
   }
 }
