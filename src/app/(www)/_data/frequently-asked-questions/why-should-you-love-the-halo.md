@@ -1,6 +1,6 @@
 ---
 title: 'Why should you love the Halo?'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/180702101?v=4'
