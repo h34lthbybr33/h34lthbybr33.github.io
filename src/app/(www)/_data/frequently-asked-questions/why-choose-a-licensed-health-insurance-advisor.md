@@ -1,6 +1,6 @@
 ---
 title: 'Why choose a licensed health insurance advisor?'
-status: 'draft'
+status: 'published'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/180702101?v=4'
