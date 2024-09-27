@@ -30,11 +30,6 @@ const HeaderMain: React.FC<HeaderMainProps> = ({ ...props }): JSX.Element => {
       url: '/',
     },
     {
-      text: 'Schedule',
-      title: 'Schedule a Meeting',
-      url: '/schedule',
-    },
-    {
       text: 'FAQ',
       title: 'Frequently Asked Questions',
       url: '/faq',
