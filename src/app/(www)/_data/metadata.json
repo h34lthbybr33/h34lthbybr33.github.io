@@ -1,11 +1,29 @@
 {
-  "commit": "2f2d471a64962ceb423d07d22d9bcff2cebafeb5",
-  "generated": "Fri, 27 Sep 2024 21:00:12 GMT",
+  "commit": "62ef3485eda714c1bf5909bc24d68a78a07ad889",
+  "generated": "Fri, 27 Sep 2024 21:02:10 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "9bd841249d63929f464128a141843660c49fdb96",
-        "hash": "2136146354",
+        "commit": "33e14f0f2cb2aebc4d496976e66f75c437fb94ac",
+        "hash": "2099530387",
+        "path": "src/app/(www)/_data/frequently-asked-questions/which-insurance-options-is-best-for-me.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "frequently-asked-questions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-27T20:00:36.112Z",
+      "slug": "which-insurance-options-is-best-for-me",
+      "status": "published",
+      "title": "Which insurance options is best for me?"
+    },
+    {
+      "__outstatic": {
+        "commit": "7a5d6f0e3d8d9cee415af4f4db296e8bbe4f4ca2",
+        "hash": "985851090",
         "path": "src/app/(www)/_data/frequently-asked-questions/why-choose-a-licensed-health-insurance-advisor.md"
       },
       "author": {
