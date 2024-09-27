@@ -1,6 +1,6 @@
 {
-  "commit": "f4b0f3f57b422487a8e8da9c68a6d87c7a47e5d0",
-  "generated": "2024-09-27T21:12:04.841Z",
+  "commit": "d43496b3fc7a050c2a11ec06032ae738bdd8def8",
+  "generated": "2024-09-27T21:12:38.940Z",
   "metadata": [
     {
       "__outstatic": {
@@ -55,6 +55,24 @@
       "slug": "nice-to-meet-you",
       "status": "published",
       "title": "Nice to meet you…"
+    },
+    {
+      "__outstatic": {
+        "commit": "d43496b3fc7a050c2a11ec06032ae738bdd8def8",
+        "hash": "3528045825",
+        "path": "src/app/(www)/_data/about/my-mission-goal.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "about",
+      "coverImage": "/images/health-insurance-tiles-ExOT.jpg",
+      "description": "",
+      "publishedAt": "2024-09-27T20:48:10.003Z",
+      "slug": "my-mission-goal",
+      "status": "published",
+      "title": "My Mission / Goal"
     }
   ]
 }
