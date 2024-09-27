@@ -1,6 +1,6 @@
 {
-  "commit": "7a1f749556427da03fb34e2929d4ec3afc43988c",
-  "generated": "2024-09-27T22:09:19.238Z",
+  "commit": "f189f07fd61d10cd797b3c5042a77bbd943b1f0f",
+  "generated": "2024-09-27T22:14:45.853Z",
   "metadata": [
     {
       "__outstatic": {
@@ -77,6 +77,24 @@
       "slug": "my-mission-goal",
       "status": "published",
       "title": "My Mission / Goal"
+    },
+    {
+      "__outstatic": {
+        "commit": "f189f07fd61d10cd797b3c5042a77bbd943b1f0f",
+        "hash": "1374372590",
+        "path": "src/app/(www)/_data/testimonials/saul-goodman.md"
+      },
+      "author": {
+        "name": "Saul Goodman",
+        "picture": "/images/testimonials-1-Q4NT.jpg"
+      },
+      "collection": "testimonials",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-27T21:48:04.188Z",
+      "slug": "saul-goodman",
+      "status": "published",
+      "title": "Saul Goodman"
     }
   ]
 }
