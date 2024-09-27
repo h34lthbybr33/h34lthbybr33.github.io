@@ -1783,6 +1783,12 @@ section,
 /*--------------------------------------------------------------
 # Custom styles
 --------------------------------------------------------------*/
+
+header .nav-link.active {
+  color: var(--cta-color);
+  border-bottom: 1px solid var(--cta-color);
+}
+
 .btn-primary,
 .btn-primary:focus {
   background-color: var(--accent-color);
