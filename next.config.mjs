@@ -21,6 +21,7 @@ export default async (phase, { defaultConfig }) => {
 
   // Run as a server while on vercel
   if (process.env.NEXT_PUBLIC_VERCEL_URL) {
+    console.log('Using server config');
     return withMDX({
       ...sharedConfig,
       pageExtensions: [
@@ -31,6 +32,7 @@ export default async (phase, { defaultConfig }) => {
   }
 
   // Otherwise, default behavior is static website
+  console.log('Using static config');
   return withMDX({
     ...sharedConfig,
     output: 'export',
