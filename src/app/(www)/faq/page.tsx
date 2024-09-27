@@ -1,7 +1,8 @@
-import { FAQ, PageTitle } from '@www/_ui';
 import { Metadata } from 'next';
 import { OstDocument } from 'outstatic';
 import { load } from 'outstatic/server';
+
+import { FAQ, Markdown, PageTitle } from '@www/_ui';
 
 export const metadata: Metadata = {
   title: 'Frequently Asked Questions',
@@ -25,7 +26,7 @@ export default async function Faq() {
       <FAQ
         questions={faqs.map((question) => ({
           title: question.title,
-          body: <div dangerouslySetInnerHTML={{ __html: question.content }} />,
+          body: <Markdown content={question.content} />,
         }))}
       />
     </>
