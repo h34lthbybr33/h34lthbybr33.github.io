@@ -1,0 +1,13 @@
+{
+  "title": "about",
+  "type": "object",
+  "properties": {
+    "darkBackground": {
+      "required": false,
+      "description": "Use a dark background?",
+      "fieldType": "Boolean",
+      "dataType": "boolean",
+      "title": "darkBackground"
+    }
+  }
+}
