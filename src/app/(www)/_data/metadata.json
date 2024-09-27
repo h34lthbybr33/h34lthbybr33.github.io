@@ -1,6 +1,6 @@
 {
   "commit": "6672f8a60e4b8215103ac84899f90d3e582dd7b0",
-  "generated": "2024-09-27T20:21:32.416Z",
+  "generated": "2024-09-27T20:21:36.875Z",
   "metadata": [
     {
       "__outstatic": {
@@ -62,9 +62,9 @@
     },
     {
       "__outstatic": {
-        "commit": "5af48a19797279e18544cc9a1af6c1e9bd0d6a6d",
-        "hash": "3852681845",
-        "path": "src/app/(www)/_data/frequently-asked-questions/why-should-you-love-the-halo.md"
+        "commit": "a923b3ae35675fbad76dbdec62317711ea30a987",
+        "hash": "2121109496",
+        "path": "src/app/(www)/_data/frequently-asked-questions/hello-bree.md"
       },
       "author": {
         "name": "",
@@ -73,10 +73,10 @@
       "collection": "frequently-asked-questions",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-09-27T19:14:47.563Z",
-      "slug": "why-should-you-love-the-halo",
+      "publishedAt": "2024-09-27T19:14:12.106Z",
+      "slug": "hello-bree",
       "status": "published",
-      "title": "Why should you love the Halo?"
+      "title": "Hello, Bree"
     }
   ]
 }
