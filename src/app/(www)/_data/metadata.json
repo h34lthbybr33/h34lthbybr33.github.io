@@ -1,6 +1,6 @@
 {
-  "commit": "6672f8a60e4b8215103ac84899f90d3e582dd7b0",
-  "generated": "2024-09-27T20:21:36.875Z",
+  "commit": "3eaf7034bb8ce3bac1694b8fd32546e8e6a65dcc",
+  "generated": "2024-09-27T20:24:56.814Z",
   "metadata": [
     {
       "__outstatic": {
@@ -77,6 +77,24 @@
       "slug": "hello-bree",
       "status": "published",
       "title": "Hello, Bree"
+    },
+    {
+      "__outstatic": {
+        "commit": "3eaf7034bb8ce3bac1694b8fd32546e8e6a65dcc",
+        "hash": "2493594620",
+        "path": "src/app/(www)/_data/frequently-asked-questions/which-insurance-options-is-best-for-me.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "frequently-asked-questions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-27T20:00:36.112Z",
+      "slug": "which-insurance-options-is-best-for-me",
+      "status": "published",
+      "title": "Which insurance options is best for me?"
     }
   ]
 }
