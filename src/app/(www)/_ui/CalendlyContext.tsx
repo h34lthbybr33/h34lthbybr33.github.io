@@ -15,6 +15,7 @@ import Calendly, {
 import { sendGAEvent } from '@next/third-parties/google';
 
 export interface CalendlyContext {
+  accountId: string;
   bookAppointment: VoidFunction;
 
   bookApplication: VoidFunction;
@@ -32,10 +33,12 @@ export const CalendlyContext = React.createContext<CalendlyContext | undefined>(
 CalendlyContext.displayName = 'CalendlyContext';
 
 export interface CalendlyContextProviderProps {
+  accountId: string;
   children?: React.ReactNode;
 }
 
 const CalendlyContextProvider: React.FC<CalendlyContextProviderProps> = ({
+  accountId,
   children,
 }) => {
   const [isOpen, setIsOpen] = React.useState<boolean>(false);
@@ -49,6 +52,7 @@ const CalendlyContextProvider: React.FC<CalendlyContextProviderProps> = ({
     };
   };
   const value: CalendlyContext = {
+    accountId,
     bookAppointment: book(),
 
     bookApplication: book(CalendlyApplication),
@@ -66,13 +70,10 @@ const CalendlyContextProvider: React.FC<CalendlyContextProviderProps> = ({
   return (
     <CalendlyContext.Provider value={value}>
       {children}
-      <Modal show={isOpen} onHide={handleHide} scrollable fullscreen>
+      <Modal show={isOpen} onHide={handleHide} scrollable fullscreen="md-down" size="lg">
         <Modal.Header closeButton>Book an Appointment</Modal.Header>
         <Modal.Body>
-          <Calendly
-            accountId={process.env.NEXT_PUBLIC_CALENDLY_ACCOUNTID || ''}
-            action={action}
-          />
+          <Calendly action={action} />
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={() => setIsOpen(false)}>

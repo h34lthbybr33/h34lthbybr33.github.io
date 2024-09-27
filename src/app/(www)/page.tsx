@@ -97,7 +97,7 @@ export default function Home() {
           me as a token of appreciation!
         </p>
         <Link
-          href="https://xpl0ydmsdxh.typeform.com/to/Gki8gO9x?typeform-source=htalthbybree.com"
+          href={`https://xpl0ydmsdxh.typeform.com/to/Gki8gO9x?typeform-source=${process.env.NEXT_PUBLIC_BASE_URL}`}
           target="_blank"
           className="btn btn-primary">
           Refer a friend

@@ -18,6 +18,7 @@ import socialMedia from '@www/_data/social-links';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@www/_assets/css/main.css';
+import Metricool from './_ui/Metricool';
 
 const roboto = Roboto({
   weight: ['100', '300', '400', '500', '700', '900'],
@@ -65,6 +66,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }): JSX.Element => {
         <>
           <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID || ''} />
           {process.env.NEXT_PUBLIC_VERCEL_URL && <VercelAnalytics />}
+          <Metricool hash={process.env.NEXT_PUBLIC_METRICOOL_HASH || ''} />
         </>
       );
     }
@@ -89,7 +91,8 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }): JSX.Element => {
     <html lang="en">
       <body className={bodyClassName}>
         <SiteContext value={siteContextValue}>
-          <CalendlyContextProvider>
+          <CalendlyContextProvider
+            accountId={process.env.NEXT_PUBLIC_CALENDLY_ACCOUNTID || ''}>
             <Header />
             <main className="main">{children}</main>
             <Footer />

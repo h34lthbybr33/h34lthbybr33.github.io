@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { sendGAEvent } from '@next/third-parties/google';
+import { useCalendly } from '.';
 
 export const CalendlyApplication = 'application';
 export const CalendlyQuote = 'quote';
@@ -20,16 +21,13 @@ export type CalendlyAction =
   | null;
 
 export interface CalendlyProps {
-  accountId: string;
   action?: CalendlyAction;
   onLoad?: React.ReactEventHandler<HTMLIFrameElement>;
 }
 
-const Calendly: React.FC<CalendlyProps> = ({
-  accountId,
-  action,
-  onLoad,
-}: CalendlyProps) => {
+const Calendly: React.FC<CalendlyProps> = ({ action, onLoad }: CalendlyProps) => {
+  const { accountId } = useCalendly();
+
   const calendlyUrl = React.useMemo(() => {
     const url = [
       'https://calendly.com/',
