@@ -89,7 +89,8 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }): JSX.Element => {
     <html lang="en">
       <body className={bodyClassName}>
         <SiteContext value={siteContextValue}>
-          <CalendlyContextProvider>
+          <CalendlyContextProvider
+            accountId={process.env.NEXT_PUBLIC_CALENDLY_ACCOUNTID || ''}>
             <Header />
             <main className="main">{children}</main>
             <Footer />
