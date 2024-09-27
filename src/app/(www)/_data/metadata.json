@@ -1,11 +1,11 @@
 {
-  "commit": "d5961215f110b1a035c5bc295a6f44a6522b3650",
-  "generated": "Fri, 27 Sep 2024 19:24:44 GMT",
+  "commit": "2f2d471a64962ceb423d07d22d9bcff2cebafeb5",
+  "generated": "Fri, 27 Sep 2024 19:34:53 GMT",
   "metadata": [
     {
       "__outstatic": {
         "commit": "9bd841249d63929f464128a141843660c49fdb96",
-        "hash": "1898108518",
+        "hash": "2081648765",
         "path": "src/app/(www)/_data/frequently-asked-questions/why-choose-a-licensed-health-insurance-advisor.md"
       },
       "author": {
@@ -32,6 +32,16 @@
     },
     {
       "__outstatic": {
+        "commit": "c69d6d7760efaf6ae2f5328008a6e61506408c3c",
+        "hash": "871456389",
+        "path": "src/app/(www)/_data/faq/02-do-you-have-access-to-other-types-of-insurance-too.md"
+      },
+      "collection": "faq",
+      "slug": "02-do-you-have-access-to-other-types-of-insurance-too",
+      "title": "Do you have access to other types of insurance, too?"
+    },
+    {
+      "__outstatic": {
         "commit": "339e4bb3c385e484293cb2ac636a08023cf78b57",
         "hash": "10659311",
         "path": "src/app/(www)/_data/faq/01-which-insurance-option-is-best-for-me.md"
@@ -49,16 +59,6 @@
       "collection": "faq",
       "slug": "00-why-choose-a-licensed-health-insurance-advisor",
       "title": "Why choose a licensed health insurance advisor?"
-    },
-    {
-      "__outstatic": {
-        "commit": "c69d6d7760efaf6ae2f5328008a6e61506408c3c",
-        "hash": "871456389",
-        "path": "src/app/(www)/_data/faq/02-do-you-have-access-to-other-types-of-insurance-too.md"
-      },
-      "collection": "faq",
-      "slug": "02-do-you-have-access-to-other-types-of-insurance-too",
-      "title": "Do you have access to other types of insurance, too?"
     }
   ]
 }
