@@ -1,6 +1,6 @@
 {
-  "commit": "d43496b3fc7a050c2a11ec06032ae738bdd8def8",
-  "generated": "2024-09-27T21:12:38.940Z",
+  "commit": "11c93240fd92517c383b9ff4dfedc29039a73aec",
+  "generated": "2024-09-27T21:13:59.574Z",
   "metadata": [
     {
       "__outstatic": {
@@ -40,24 +40,6 @@
     },
     {
       "__outstatic": {
-        "commit": "f4b0f3f57b422487a8e8da9c68a6d87c7a47e5d0",
-        "hash": "718717637",
-        "path": "src/app/(www)/_data/about/nice-to-meet-you.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
-      },
-      "collection": "about",
-      "coverImage": "/images/standing-by-window-c1OT.jpg",
-      "description": "",
-      "publishedAt": "2024-09-27T20:40:52.691Z",
-      "slug": "nice-to-meet-you",
-      "status": "published",
-      "title": "Nice to meet you…"
-    },
-    {
-      "__outstatic": {
         "commit": "d43496b3fc7a050c2a11ec06032ae738bdd8def8",
         "hash": "3528045825",
         "path": "src/app/(www)/_data/about/my-mission-goal.md"
@@ -73,6 +55,26 @@
       "slug": "my-mission-goal",
       "status": "published",
       "title": "My Mission / Goal"
+    },
+    {
+      "__outstatic": {
+        "commit": "11c93240fd92517c383b9ff4dfedc29039a73aec",
+        "hash": "337482678",
+        "path": "src/app/(www)/_data/about/nice-to-meet-you.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "about",
+      "coverImage": "/images/standing-by-window-c1OT.jpg",
+      "darkBackground": "",
+      "description": "",
+      "imageOnRight": "",
+      "publishedAt": "2024-09-27T20:40:52.691Z",
+      "slug": "nice-to-meet-you",
+      "status": "published",
+      "title": "Nice to meet you…"
     }
   ]
 }

@@ -7,6 +7,8 @@ author:
 slug: 'nice-to-meet-you'
 description: ''
 coverImage: '/images/standing-by-window-c1OT.jpg'
+darkBackground: ''
+imageOnRight: ''
 publishedAt: '2024-09-27T20:40:52.691Z'
 ---
 
