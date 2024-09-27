@@ -7,6 +7,8 @@ author:
 slug: 'my-mission-goal'
 description: ''
 coverImage: '/images/health-insurance-tiles-ExOT.jpg'
+darkBackground: 'true'
+imageOnRight: 'true'
 publishedAt: '2024-09-27T20:48:10.003Z'
 ---
 
