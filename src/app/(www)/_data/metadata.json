@@ -1,6 +1,6 @@
 {
   "commit": "5af48a19797279e18544cc9a1af6c1e9bd0d6a6d",
-  "generated": "2024-09-27T19:39:36.807Z",
+  "generated": "2024-09-27T19:39:48.458Z",
   "metadata": [
     {
       "__outstatic": {
@@ -81,7 +81,7 @@
     {
       "__outstatic": {
         "commit": "5af48a19797279e18544cc9a1af6c1e9bd0d6a6d",
-        "hash": "3024545749",
+        "hash": "3852681845",
         "path": "src/app/(www)/_data/frequently-asked-questions/why-should-you-love-the-halo.md"
       },
       "author": {

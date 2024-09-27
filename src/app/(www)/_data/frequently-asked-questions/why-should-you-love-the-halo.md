@@ -10,4 +10,4 @@ coverImage: ''
 publishedAt: '2024-09-27T19:14:47.563Z'
 ---
 
-Because he is adorable.
+Because he is adorable. And he is a cute puppy.
