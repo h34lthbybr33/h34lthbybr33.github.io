@@ -1,6 +1,6 @@
 {
-  "commit": "1c415882e7686e5ff0a9013c276338f1ac1fc585",
-  "generated": "2024-09-27T21:14:09.486Z",
+  "commit": "7a1f749556427da03fb34e2929d4ec3afc43988c",
+  "generated": "2024-09-27T22:09:19.238Z",
   "metadata": [
     {
       "__outstatic": {
@@ -60,8 +60,8 @@
     },
     {
       "__outstatic": {
-        "commit": "1c415882e7686e5ff0a9013c276338f1ac1fc585",
-        "hash": "4229891328",
+        "commit": "7a1f749556427da03fb34e2929d4ec3afc43988c",
+        "hash": "3571114413",
         "path": "src/app/(www)/_data/about/my-mission-goal.md"
       },
       "author": {

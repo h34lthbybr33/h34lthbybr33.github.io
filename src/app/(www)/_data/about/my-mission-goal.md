@@ -1,14 +1,14 @@
 ---
-title: 'My Mission / Goal'
-status: 'published'
+imageOnRight: 'true'
+darkBackground: 'true'
+coverImage: '/images/health-insurance-tiles-ExOT.jpg'
+description: ''
+slug: 'my-mission-goal'
 author:
   name: ''
   picture: 'https://avatars.githubusercontent.com/u/180702101?v=4'
-slug: 'my-mission-goal'
-description: ''
-coverImage: '/images/health-insurance-tiles-ExOT.jpg'
-darkBackground: 'true'
-imageOnRight: 'true'
+status: 'published'
+title: 'My Mission / Goal'
 publishedAt: '2024-09-27T20:48:10.003Z'
 ---
 
