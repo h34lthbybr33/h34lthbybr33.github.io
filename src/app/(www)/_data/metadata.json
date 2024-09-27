@@ -1,6 +1,6 @@
 {
-  "commit": "62ef3485eda714c1bf5909bc24d68a78a07ad889",
-  "generated": "Fri, 27 Sep 2024 21:02:10 GMT",
+  "commit": "0eb61b41366141565f54481e04d9d304bad70edc",
+  "generated": "2024-09-27T21:06:14.386Z",
   "metadata": [
     {
       "__outstatic": {
@@ -37,6 +37,24 @@
       "slug": "why-choose-a-licensed-health-insurance-advisor",
       "status": "published",
       "title": "Why choose a licensed health insurance advisor?"
+    },
+    {
+      "__outstatic": {
+        "commit": "0eb61b41366141565f54481e04d9d304bad70edc",
+        "hash": "718717637",
+        "path": "src/app/(www)/_data/about/nice-to-meet-you.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "about",
+      "coverImage": "/images/standing-by-window-c1OT.jpg",
+      "description": "",
+      "publishedAt": "2024-09-27T20:40:52.691Z",
+      "slug": "nice-to-meet-you",
+      "status": "published",
+      "title": "Nice to meet you…"
     }
   ]
 }
