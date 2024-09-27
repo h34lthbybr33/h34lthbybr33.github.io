@@ -1,6 +1,6 @@
 {
-  "commit": "2f2d471a64962ceb423d07d22d9bcff2cebafeb5",
-  "generated": "Fri, 27 Sep 2024 19:34:53 GMT",
+  "commit": "a923b3ae35675fbad76dbdec62317711ea30a987",
+  "generated": "2024-09-27T19:38:22.416Z",
   "metadata": [
     {
       "__outstatic": {
@@ -59,6 +59,24 @@
       "collection": "faq",
       "slug": "00-why-choose-a-licensed-health-insurance-advisor",
       "title": "Why choose a licensed health insurance advisor?"
+    },
+    {
+      "__outstatic": {
+        "commit": "a923b3ae35675fbad76dbdec62317711ea30a987",
+        "hash": "2121109496",
+        "path": "src/app/(www)/_data/frequently-asked-questions/hello-bree.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "frequently-asked-questions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-27T19:14:12.106Z",
+      "slug": "hello-bree",
+      "status": "published",
+      "title": "Hello, Bree"
     }
   ]
 }
