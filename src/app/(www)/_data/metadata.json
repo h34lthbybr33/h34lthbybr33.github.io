@@ -1,6 +1,6 @@
 {
-  "commit": "0eb61b41366141565f54481e04d9d304bad70edc",
-  "generated": "2024-09-27T21:06:14.386Z",
+  "commit": "f4b0f3f57b422487a8e8da9c68a6d87c7a47e5d0",
+  "generated": "2024-09-27T21:12:04.841Z",
   "metadata": [
     {
       "__outstatic": {
@@ -40,7 +40,7 @@
     },
     {
       "__outstatic": {
-        "commit": "0eb61b41366141565f54481e04d9d304bad70edc",
+        "commit": "f4b0f3f57b422487a8e8da9c68a6d87c7a47e5d0",
         "hash": "718717637",
         "path": "src/app/(www)/_data/about/nice-to-meet-you.md"
       },
