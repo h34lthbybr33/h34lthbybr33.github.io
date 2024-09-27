@@ -8,6 +8,7 @@ export interface IconCardProps extends React.HTMLAttributes<HTMLElement> {
   title: string;
   titleHref?: string;
   children?: React.ReactNode;
+  columnWidth?: number;
 }
 
 const IconCard: React.FC<IconCardProps> = ({
@@ -16,9 +17,12 @@ const IconCard: React.FC<IconCardProps> = ({
   titleHref = '#',
   className,
   children,
+  columnWidth,
   ...props
 }) => (
-  <div className={`col-xl-3 col-lg-6 ${className && className}`} {...props}>
+  <div
+    className={`col-xl-${columnWidth || 3} col-lg-6 ${className && className}`}
+    {...props}>
     <div className="service-item position-relative">
       <div className="icon">{icon}</div>
       <Link href={titleHref} className="stretched-link">

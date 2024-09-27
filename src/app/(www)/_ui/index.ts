@@ -1,5 +1,5 @@
 export { default as About } from './About';
-export { default as Calendly } from './Calendly';
+export { default as Calendly, type CalendlyAction } from './Calendly';
 export { default as CalendlyContextProvider, useCalendly } from './CalendlyContext';
 export { default as CalloutBox } from './CalloutBox';
 export { default as CallToAction } from './CallToAction';
