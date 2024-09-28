@@ -1,0 +1,118 @@
+{
+  "commit": "7f2c86a43880344f120883617159a8fa025fe2c4",
+  "generated": "2024-09-27T22:15:45.792Z",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "33e14f0f2cb2aebc4d496976e66f75c437fb94ac",
+        "hash": "2099530387",
+        "path": "src/app/(www)/_data/frequently-asked-questions/which-insurance-options-is-best-for-me.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "frequently-asked-questions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-27T20:00:36.112Z",
+      "slug": "which-insurance-options-is-best-for-me",
+      "status": "published",
+      "title": "Which insurance options is best for me?"
+    },
+    {
+      "__outstatic": {
+        "commit": "7a5d6f0e3d8d9cee415af4f4db296e8bbe4f4ca2",
+        "hash": "985851090",
+        "path": "src/app/(www)/_data/frequently-asked-questions/why-choose-a-licensed-health-insurance-advisor.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "frequently-asked-questions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-27T18:50:05.835Z",
+      "slug": "why-choose-a-licensed-health-insurance-advisor",
+      "status": "published",
+      "title": "Why choose a licensed health insurance advisor?"
+    },
+    {
+      "__outstatic": {
+        "commit": "11c93240fd92517c383b9ff4dfedc29039a73aec",
+        "hash": "337482678",
+        "path": "src/app/(www)/_data/about/nice-to-meet-you.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "about",
+      "coverImage": "/images/standing-by-window-c1OT.jpg",
+      "darkBackground": "",
+      "description": "",
+      "imageOnRight": "",
+      "publishedAt": "2024-09-27T20:40:52.691Z",
+      "slug": "nice-to-meet-you",
+      "status": "published",
+      "title": "Nice to meet you…"
+    },
+    {
+      "__outstatic": {
+        "commit": "7a1f749556427da03fb34e2929d4ec3afc43988c",
+        "hash": "3571114413",
+        "path": "src/app/(www)/_data/about/my-mission-goal.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "about",
+      "coverImage": "/images/health-insurance-tiles-ExOT.jpg",
+      "darkBackground": "true",
+      "description": "",
+      "imageOnRight": "true",
+      "publishedAt": "2024-09-27T20:48:10.003Z",
+      "slug": "my-mission-goal",
+      "status": "published",
+      "title": "My Mission / Goal"
+    },
+    {
+      "__outstatic": {
+        "commit": "f189f07fd61d10cd797b3c5042a77bbd943b1f0f",
+        "hash": "1374372590",
+        "path": "src/app/(www)/_data/testimonials/saul-goodman.md"
+      },
+      "author": {
+        "name": "Saul Goodman",
+        "picture": "/images/testimonials-1-Q4NT.jpg"
+      },
+      "collection": "testimonials",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-27T21:48:04.188Z",
+      "slug": "saul-goodman",
+      "status": "published",
+      "title": "Saul Goodman"
+    },
+    {
+      "__outstatic": {
+        "commit": "7f2c86a43880344f120883617159a8fa025fe2c4",
+        "hash": "2076610139",
+        "path": "src/app/(www)/_data/testimonials/sara-wilsson.md"
+      },
+      "author": {
+        "name": "Sara Wilsson",
+        "picture": "/images/testimonials-3-k4OT.jpg"
+      },
+      "collection": "testimonials",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-27T21:51:00.777Z",
+      "slug": "sara-wilsson",
+      "status": "published",
+      "title": "Sara Wilsson"
+    }
+  ]
+}

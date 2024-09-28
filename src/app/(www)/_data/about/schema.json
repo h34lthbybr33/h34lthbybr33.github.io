@@ -1,0 +1,20 @@
+{
+  "title": "about",
+  "type": "object",
+  "properties": {
+    "darkBackground": {
+      "required": false,
+      "description": "Use a dark background?",
+      "fieldType": "Boolean",
+      "dataType": "boolean",
+      "title": "darkBackground"
+    },
+    "imageOnRight": {
+      "required": false,
+      "description": "Place the cover image to the right?",
+      "fieldType": "Boolean",
+      "dataType": "boolean",
+      "title": "imageOnRight"
+    }
+  }
+}

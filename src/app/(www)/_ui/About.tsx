@@ -8,7 +8,7 @@ import Image, { StaticImageData } from 'next/image';
 interface AboutProps extends React.HTMLAttributes<HTMLElement> {
   id?: string;
   background?: SectionBackground;
-  image: StaticImageData;
+  image: StaticImageData | string;
   imageAlignment?: 'left' | 'right';
   children?: React.ReactNode;
 }
@@ -23,7 +23,18 @@ const About: React.FC<AboutProps> = ({
 }) => {
   const AboutImage = () => (
     <div className="col-lg-6 position-relative align-self-start">
-      <Image src={image} alt="about image" className="img-fluid" />
+      {typeof image === 'string' ? (
+        <Image
+          src={image}
+          width={1024}
+          height={1024}
+          style={{ width: '100%', height: 'auto' }}
+          alt="about image"
+          className="img-fluid"
+        />
+      ) : (
+        <Image src={image} alt="about image" className="img-fluid" />
+      )}
     </div>
   );
 

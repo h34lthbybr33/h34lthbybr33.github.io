@@ -1642,7 +1642,7 @@ section,
   transform: scale(-1, -1);
 }
 
-.testimonials .testimonial-item p {
+.testimonials .testimonial-item div.testimonial-content {
   font-style: italic;
   margin: 15px auto 15px auto;
 }

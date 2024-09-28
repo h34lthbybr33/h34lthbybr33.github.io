@@ -1,13 +1,25 @@
-import { FAQ, PageTitle } from '@www/_ui';
 import { Metadata } from 'next';
-import { getFAQ } from '@www/_data/faq/index';
+import { OstDocument } from 'outstatic';
+import { load } from 'outstatic/server';
+
+import { FAQ, Markdown, PageTitle } from '@www/_ui';
 
 export const metadata: Metadata = {
   title: 'Frequently Asked Questions',
 };
 
+type FAQ = OstDocument;
+
 export default async function Faq() {
-  const faqs = await getFAQ();
+  const db = await load();
+  const faqs = await db
+    .find<FAQ>({
+      collection: 'frequently-asked-questions',
+      status: 'published',
+    })
+    .project(['title', 'publishedAt', 'slug', 'content'])
+    .sort({ publishedAt: 1 })
+    .toArray();
 
   return (
     <>
@@ -15,10 +27,9 @@ export default async function Faq() {
       <FAQ
         questions={faqs.map((question) => ({
           title: question.title,
-          body: (
-            <div dangerouslySetInnerHTML={{ __html: question.html || question.text }} />
-          ),
-        }))}></FAQ>
+          body: <Markdown content={question.content} />,
+        }))}
+      />
     </>
   );
 }
