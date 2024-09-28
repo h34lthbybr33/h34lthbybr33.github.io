@@ -1,6 +1,6 @@
 {
-  "commit": "7f2c86a43880344f120883617159a8fa025fe2c4",
-  "generated": "2024-09-27T22:15:45.792Z",
+  "commit": "bcbe7afb70e830b43f67d5f46e49215dd0efe7de",
+  "generated": "2024-09-28T21:49:04.845Z",
   "metadata": [
     {
       "__outstatic": {
@@ -113,6 +113,42 @@
       "slug": "sara-wilsson",
       "status": "published",
       "title": "Sara Wilsson"
+    },
+    {
+      "__outstatic": {
+        "commit": "c6ad2d5a394d286b6071cf5b2f127671d41dba79",
+        "hash": "3544432190",
+        "path": "src/app/(www)/_data/frequently-asked-questions/do-you-have-access-to-other-types-of-insurance-too.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "frequently-asked-questions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-28T21:23:15.941Z",
+      "slug": "do-you-have-access-to-other-types-of-insurance-too",
+      "status": "published",
+      "title": "Do you have access to other types of insurance, too?"
+    },
+    {
+      "__outstatic": {
+        "commit": "bcbe7afb70e830b43f67d5f46e49215dd0efe7de",
+        "hash": "1910009736",
+        "path": "src/app/(www)/_data/frequently-asked-questions/do-i-have-to-wait-for-open-enrollment-period-to-setup-private-insurance.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "frequently-asked-questions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-28T21:23:56.994Z",
+      "slug": "do-i-have-to-wait-for-open-enrollment-period-to-setup-private-insurance",
+      "status": "published",
+      "title": "Do I have to wait for \"open enrollment\" period to setup private insurance?"
     }
   ]
 }
