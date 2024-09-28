@@ -6,7 +6,8 @@
     "dev": "next dev --hostname h34lthbybr33.localtest.me --port 880",
     "build": "next build",
     "start": "next start",
-    "start:local": "next start --hostname h34lthbybr33.localtest.me --port 880",
+    "start:local": "next build && next start --hostname h34lthbybr33.localtest.me --port 880",
+    "start:static": "next build && http-server --host h34lthbybr33.localtest.me --port 880 ./out",
     "lint": "next lint",
     "format": "prettier --check .",
     "format:fix": "prettier --write --list-different .",
@@ -32,7 +33,8 @@
     "remark-gfm": "^4.0.0",
     "remark-html": "^16.0.1",
     "remark-parse": "^11.0.0",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "swiper": "^11.1.14"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -41,6 +43,7 @@
     "eslint": "^8",
     "eslint-config-next": "^14.2.13",
     "eslint-config-prettier": "^9.1.0",
+    "http-server": "^14.1.1",
     "husky": "^8.0.0",
     "lint-staged": "^15.2.10",
     "postcss": "^8",

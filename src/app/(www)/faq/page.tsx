@@ -18,6 +18,7 @@ export default async function Faq() {
       status: 'published',
     })
     .project(['title', 'publishedAt', 'slug', 'content'])
+    .sort({ publishedAt: 1 })
     .toArray();
 
   return (

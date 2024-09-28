@@ -4,62 +4,31 @@ import { FaMoneyBill } from 'react-icons/fa';
 import { FaMagnifyingGlass } from 'react-icons/fa6';
 import { BiSolidCustomize } from 'react-icons/bi';
 import { IoIosMegaphone } from 'react-icons/io';
+import { getAbout, getTestimonials } from '@www/_data/outstatic';
 
-import { About, CallToAction, Hero, IconCard, IconCardList } from '@www/_ui/';
+import { About, CallToAction, Hero, IconCard, IconCardList, Markdown } from '@www/_ui/';
 import heroImage from '@www/_assets/img/hero/beach-sunset.jpg';
-import aboutImage from '@www/_assets/img/about/standing-by-window.jpg';
-import aboutAltImage from '@www/_assets/img/about/health-insurance-tiles.jpg';
+import Testimonials from './_ui/Testimonials';
 
 export const metadata: Metadata = {};
 
-export default function Home() {
+export default async function Home() {
+  const abouts = await getAbout();
+  const testimonials = await getTestimonials();
+
   return (
     <>
       <Hero image={heroImage} />
-      <About image={aboutImage}>
-        <h3>Nice to meet you&hellip;</h3>
-        <p>
-          My name is Bree, and I'm elated to be your dedicated health insurance advisor,
-          ready to navigate the world of health coverage with comprehensive knowledge and
-          ease. I've traded the crisp New Hampshire winters for the vibrant warmth of
-          Florida.
-        </p>
-        <p>
-          When I'm not enjoying walks on the beach with my crazy pup, Halo, I'm staying up
-          to date with new ways to provide the most comprehensive and affordable coverage
-          for my clients. I specialize in finding health coverage that benefits everyone
-          from individuals to families, and the self-employed!
-        </p>
-        <p>Making a positive difference in the lives of others is my passion.</p>
-      </About>
-      <About image={aboutAltImage} imageAlignment="left" background="light">
-        <h3>My Mission / Goal</h3>
-        <p>
-          My mission is to listen to your unique health needs, comprehensively analyze all
-          the coverage options available to you, and ensure you and your loved ones get
-          the premium coverage you need. I put my clients' needs and wants at the center
-          of the process and provide support through every step on the journey of finding,
-          securing, keeping, and changing coverages. It is my goal to be your agent for
-          life, and provide expertise, value, and ease to the process.
-        </p>
-        <p>
-          Together, we'll find a plan that fits your needs and lifestyle perfectly. Let's
-          join forces and transform those coverage puzzles into a seamless journey of
-          security and tranquility.
-        </p>
-        <p>Your well-being and happiness are my top priorities!</p>
-        {/* <IconList>
-          <IconListItem icon={<FaQuoteLeft />} title="Hair today, gone tomorrow">
-            <p>Some cool quote</p>
-          </IconListItem>
-          <IconListItem icon={<FaQuoteLeft />} title="Hair today, gone tomorrow">
-            <p>Some cool quote</p>
-          </IconListItem>
-          <IconListItem icon={<FaQuoteLeft />} title="Hair today, gone tomorrow">
-            <p>Some cool quote</p>
-          </IconListItem>
-        </IconList> */}
-      </About>
+      {abouts.map((about, key) => (
+        <About
+          image={about.coverImage!}
+          background={about.darkBackground ? 'light' : undefined}
+          imageAlignment={!!about.imageOnRight ? 'right' : 'left'}
+          key={key}>
+          <h3>{about.title}</h3>
+          <Markdown content={about.content} />
+        </About>
+      ))}
       <IconCardList>
         <IconCard icon={<FaMoneyBill />} title="Affordable Options">
           <p>
@@ -103,6 +72,15 @@ export default function Home() {
           Refer a friend
         </Link>
       </CallToAction>
+      {testimonials && (
+        <Testimonials
+          testimonials={testimonials.map((t) => ({
+            name: t.author?.name || 'Anonymous',
+            image: t.author?.picture || '',
+            content: t.content,
+          }))}
+        />
+      )}
       {/* <Tabs title="Services" subtitle="Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit">
         <Tab id="affordable-options" title="Affordable Options" image={tabAffordableImage}>
           <p>
