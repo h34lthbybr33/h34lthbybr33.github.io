@@ -21,12 +21,14 @@ import {
   isTwitter,
   isYouTube,
 } from '@www/_data/social-links';
+import classNames from 'classnames';
 
 interface SocialIconProps {
   account: SocialMediaAccount;
+  className?: string;
 }
 
-const SocialIcon: React.FC<SocialIconProps> = ({ account }) => {
+const SocialIcon: React.FC<SocialIconProps> = ({ account, className }) => {
   const icon = React.useMemo<JSX.Element>(() => {
     if (isInstagram(account)) {
       return <BiLogoInstagram />;
@@ -53,7 +55,7 @@ const SocialIcon: React.FC<SocialIconProps> = ({ account }) => {
   return (
     <Link
       href={account.url}
-      className={account.type.toLocaleLowerCase()}
+      className={classNames(account.type.toLocaleLowerCase(), className)}
       onClick={handleClick}
       target="_blank">
       {icon}
