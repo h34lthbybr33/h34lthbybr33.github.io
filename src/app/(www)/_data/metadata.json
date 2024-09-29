@@ -1,7 +1,65 @@
 {
-  "commit": "bcbe7afb70e830b43f67d5f46e49215dd0efe7de",
-  "generated": "2024-09-28T21:49:04.845Z",
+  "commit": "02a1436c218b2084b56cb537f22004aa61534118",
+  "generated": "Sun, 29 Sep 2024 20:13:16 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "3d5f6865ddff18b968be4c036448b7b7ecb4bc87",
+        "hash": "944757758",
+        "path": "src/app/(www)/_data/about/nice-to-meet-you.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "about",
+      "coverImage": "/images/standing-by-window-c1OT.jpg",
+      "darkBackground": "",
+      "description": "",
+      "imageOnRight": "",
+      "publishedAt": "2024-09-27T20:40:52.691Z",
+      "slug": "nice-to-meet-you",
+      "status": "published",
+      "title": "Nice to meet you…"
+    },
+    {
+      "__outstatic": {
+        "commit": "745a5b62809082bc0dc78a2c2e23f70701fba2e5",
+        "hash": "1995041331",
+        "path": "src/app/(www)/_data/about/my-mission-goal.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "about",
+      "coverImage": "/images/health-insurance-tiles-ExOT.jpg",
+      "darkBackground": "true",
+      "description": "",
+      "imageOnRight": "true",
+      "publishedAt": "2024-09-27T20:48:10.003Z",
+      "slug": "my-mission-goal",
+      "status": "published",
+      "title": "My Mission / Goal"
+    },
+    {
+      "__outstatic": {
+        "commit": "2e7b209da4b3674e6af0a76935dde7635c2b14f0",
+        "hash": "4254138632",
+        "path": "src/app/(www)/_data/posts/welcome-to-my-blog.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/045a014e-IxMD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/pexels-cottonbro-3826676-g4Nz.jpg",
+      "description": "",
+      "publishedAt": "2024-09-29T18:44:47.675Z",
+      "slug": "welcome-to-my-blog",
+      "status": "published",
+      "title": "Welcome to My Blog: Your Trusted Health Insurance Guide!"
+    },
     {
       "__outstatic": {
         "commit": "33e14f0f2cb2aebc4d496976e66f75c437fb94ac",
@@ -40,83 +98,7 @@
     },
     {
       "__outstatic": {
-        "commit": "11c93240fd92517c383b9ff4dfedc29039a73aec",
-        "hash": "337482678",
-        "path": "src/app/(www)/_data/about/nice-to-meet-you.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
-      },
-      "collection": "about",
-      "coverImage": "/images/standing-by-window-c1OT.jpg",
-      "darkBackground": "",
-      "description": "",
-      "imageOnRight": "",
-      "publishedAt": "2024-09-27T20:40:52.691Z",
-      "slug": "nice-to-meet-you",
-      "status": "published",
-      "title": "Nice to meet you…"
-    },
-    {
-      "__outstatic": {
-        "commit": "7a1f749556427da03fb34e2929d4ec3afc43988c",
-        "hash": "3571114413",
-        "path": "src/app/(www)/_data/about/my-mission-goal.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
-      },
-      "collection": "about",
-      "coverImage": "/images/health-insurance-tiles-ExOT.jpg",
-      "darkBackground": "true",
-      "description": "",
-      "imageOnRight": "true",
-      "publishedAt": "2024-09-27T20:48:10.003Z",
-      "slug": "my-mission-goal",
-      "status": "published",
-      "title": "My Mission / Goal"
-    },
-    {
-      "__outstatic": {
-        "commit": "f189f07fd61d10cd797b3c5042a77bbd943b1f0f",
-        "hash": "1374372590",
-        "path": "src/app/(www)/_data/testimonials/saul-goodman.md"
-      },
-      "author": {
-        "name": "Saul Goodman",
-        "picture": "/images/testimonials-1-Q4NT.jpg"
-      },
-      "collection": "testimonials",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-09-27T21:48:04.188Z",
-      "slug": "saul-goodman",
-      "status": "published",
-      "title": "Saul Goodman"
-    },
-    {
-      "__outstatic": {
-        "commit": "7f2c86a43880344f120883617159a8fa025fe2c4",
-        "hash": "2076610139",
-        "path": "src/app/(www)/_data/testimonials/sara-wilsson.md"
-      },
-      "author": {
-        "name": "Sara Wilsson",
-        "picture": "/images/testimonials-3-k4OT.jpg"
-      },
-      "collection": "testimonials",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-09-27T21:51:00.777Z",
-      "slug": "sara-wilsson",
-      "status": "published",
-      "title": "Sara Wilsson"
-    },
-    {
-      "__outstatic": {
-        "commit": "c6ad2d5a394d286b6071cf5b2f127671d41dba79",
+        "commit": "7ca1fdd8325a39997a3cb2a39279accd59542105",
         "hash": "3544432190",
         "path": "src/app/(www)/_data/frequently-asked-questions/do-you-have-access-to-other-types-of-insurance-too.md"
       },
@@ -134,7 +116,7 @@
     },
     {
       "__outstatic": {
-        "commit": "bcbe7afb70e830b43f67d5f46e49215dd0efe7de",
+        "commit": "46e27489ffd36fe128d06d7c7a47dc747f36f0b0",
         "hash": "1910009736",
         "path": "src/app/(www)/_data/frequently-asked-questions/do-i-have-to-wait-for-open-enrollment-period-to-setup-private-insurance.md"
       },
