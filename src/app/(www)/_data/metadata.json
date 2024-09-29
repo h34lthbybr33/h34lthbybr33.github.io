@@ -1,6 +1,6 @@
 {
-  "commit": "bcbe7afb70e830b43f67d5f46e49215dd0efe7de",
-  "generated": "2024-09-28T21:49:04.845Z",
+  "commit": "a88415fa3deb1992c2964bb44f932f9e6c0a42f0",
+  "generated": "2024-09-29T19:17:10.139Z",
   "metadata": [
     {
       "__outstatic": {
@@ -149,6 +149,24 @@
       "slug": "do-i-have-to-wait-for-open-enrollment-period-to-setup-private-insurance",
       "status": "published",
       "title": "Do I have to wait for \"open enrollment\" period to setup private insurance?"
+    },
+    {
+      "__outstatic": {
+        "commit": "a88415fa3deb1992c2964bb44f932f9e6c0a42f0",
+        "hash": "4254138632",
+        "path": "src/app/(www)/_data/posts/welcome-to-my-blog.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/045a014e-IxMD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/pexels-cottonbro-3826676-g4Nz.jpg",
+      "description": "",
+      "publishedAt": "2024-09-29T18:44:47.675Z",
+      "slug": "welcome-to-my-blog",
+      "status": "published",
+      "title": "Welcome to My Blog: Your Trusted Health Insurance Guide!"
     }
   ]
 }
