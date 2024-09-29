@@ -1,6 +1,6 @@
 {
-  "commit": "a88415fa3deb1992c2964bb44f932f9e6c0a42f0",
-  "generated": "2024-09-29T19:17:10.139Z",
+  "commit": "21a03d06360e6f3ebf352d72e8065f8263305800",
+  "generated": "2024-09-29T20:07:53.876Z",
   "metadata": [
     {
       "__outstatic": {
@@ -95,24 +95,6 @@
       "slug": "saul-goodman",
       "status": "published",
       "title": "Saul Goodman"
-    },
-    {
-      "__outstatic": {
-        "commit": "7f2c86a43880344f120883617159a8fa025fe2c4",
-        "hash": "2076610139",
-        "path": "src/app/(www)/_data/testimonials/sara-wilsson.md"
-      },
-      "author": {
-        "name": "Sara Wilsson",
-        "picture": "/images/testimonials-3-k4OT.jpg"
-      },
-      "collection": "testimonials",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-09-27T21:51:00.777Z",
-      "slug": "sara-wilsson",
-      "status": "published",
-      "title": "Sara Wilsson"
     },
     {
       "__outstatic": {
