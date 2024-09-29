@@ -72,7 +72,7 @@ export default async function Home() {
           Refer a friend
         </Link>
       </CallToAction>
-      {testimonials && (
+      {testimonials && testimonials.length && (
         <Testimonials
           testimonials={testimonials.map((t) => ({
             name: t.author?.name || 'Anonymous',
