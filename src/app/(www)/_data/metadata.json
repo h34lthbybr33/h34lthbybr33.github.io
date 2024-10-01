@@ -1,6 +1,6 @@
 {
-  "commit": "02a1436c218b2084b56cb537f22004aa61534118",
-  "generated": "Sun, 29 Sep 2024 20:13:16 GMT",
+  "commit": "a9d610e491f4e6149be0b464d743c2d08eec4089",
+  "generated": "2024-10-01T19:56:02.796Z",
   "metadata": [
     {
       "__outstatic": {
@@ -131,6 +131,24 @@
       "slug": "do-i-have-to-wait-for-open-enrollment-period-to-setup-private-insurance",
       "status": "published",
       "title": "Do I have to wait for \"open enrollment\" period to setup private insurance?"
+    },
+    {
+      "__outstatic": {
+        "commit": "a9d610e491f4e6149be0b464d743c2d08eec4089",
+        "hash": "2403059348",
+        "path": "src/app/(www)/_data/posts/the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/045a014e-AzNz.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/pexels-kindelmedia-7688366-Q4Mz.jpg",
+      "description": "",
+      "publishedAt": "2024-10-01T19:28:17.124Z",
+      "slug": "the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment",
+      "status": "published",
+      "title": "The Benefits of Using a Personal Insurance Agent During Open Enrollment"
     }
   ]
 }
