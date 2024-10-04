@@ -1,4 +1,4 @@
-import { GetStaticPaths, Metadata } from 'next';
+import { Metadata } from 'next';
 
 import { BlogPost, PageTitle } from '@www/_ui';
 import { siteInfo } from '@www/_data/site-info';
@@ -30,16 +30,11 @@ export default async function BlogPostPage({ params: { slug } }: PageProps) {
   );
 }
 
-export const getStaticPaths: GetStaticPaths = async () => {
+export const generateStaticParams = async () => {
   const posts = await getBlogPosts();
-  return {
-    paths: posts.map((post) => ({
-      params: {
-        slug: post.slug,
-      },
-    })),
-    fallback: false,
-  };
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
 };
 
 type GenerateMetadata = ({ params }: PageProps) => Promise<Metadata>;
