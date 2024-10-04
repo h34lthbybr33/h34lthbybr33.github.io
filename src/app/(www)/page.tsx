@@ -12,7 +12,7 @@ import Testimonials from './_ui/Testimonials';
 
 export const metadata: Metadata = {};
 
-export default async function Home() {
+export default async function HomePage() {
   const abouts = await getAbout();
   const testimonials = await getTestimonials();
 

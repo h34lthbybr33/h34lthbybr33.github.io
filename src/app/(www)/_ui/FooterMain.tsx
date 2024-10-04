@@ -39,7 +39,7 @@ const FooterMain: React.FC<FooterMainProps> = ({ className, ...props }) => {
   );
 
   return (
-    <div className={`container footer-top ${className && className}`} {...props}>
+    <div className={classNames('container', 'footer-top', className)} {...props}>
       <div className="row gy-4">
         <div className="col-lg-4 col-md-12 footer-about">
           <Link href="/" className="d-flex align-items-left align-items-sm-left">
@@ -58,6 +58,9 @@ const FooterMain: React.FC<FooterMainProps> = ({ className, ...props }) => {
           <ul>
             <li className={footerLiClassName}>
               <Link href=".">Home</Link>
+            </li>
+            <li className={footerLiClassName}>
+              <Link href="/blog">Blog Posts</Link>
             </li>
             <li className={footerLiClassName}>
               <Link href="/faq">Frequently Asked Questions</Link>

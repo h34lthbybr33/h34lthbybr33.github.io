@@ -17,6 +17,7 @@ import {
 import socialMedia from '@www/_data/social-links';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'animate.css';
 import '@www/_assets/css/main.css';
 import Metricool from './_ui/Metricool';
 

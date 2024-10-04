@@ -1,6 +1,8 @@
 'use client';
 
 import React from 'react';
+import classNames from 'classnames';
+
 import { Section, SectionBackground } from '.';
 
 export interface CallToActionProps extends React.HTMLAttributes<HTMLElement> {
@@ -21,7 +23,7 @@ const CallToAction: React.FC<CallToActionProps> = ({
       id={id}
       background={background}
       name="call-to-action"
-      className={`text-center ${className && className}`}
+      className={classNames('text-center', className)}
       {...props}>
       <div className="container">
         <div className="gy-4">{children}</div>
