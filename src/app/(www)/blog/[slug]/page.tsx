@@ -49,7 +49,9 @@ export const generateMetadata: GenerateMetadata = async ({ params: { slug } }) =
       title: post.title,
       description: post.description,
       url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/${post.slug}`,
-      images: [post.coverImage || defaultPostImage.src],
+      images: [
+        `${process.env.NEXT_PUBLIC_BASE_URL}${post.coverImage || defaultPostImage.src}`,
+      ],
       publishedTime: post.publishedAt,
       authors: post.author?.name,
     },

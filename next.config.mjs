@@ -35,6 +35,10 @@ export default async (phase, { defaultConfig }) => {
   console.log('Using static config');
   return withMDX({
     ...sharedConfig,
+    pageExtensions: [
+      ...defaultConfig.pageExtensions.map((x) => `static.${x}`),
+      ...sharedConfig.pageExtensions,
+    ],
     output: 'export',
     images: {
       unoptimized: true,

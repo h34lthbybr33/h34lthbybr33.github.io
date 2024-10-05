@@ -6,12 +6,12 @@ import { GoClock, GoPersonFill } from 'react-icons/go';
 import Link from 'next/link';
 import moment from 'moment';
 
-import { BlogPost } from '@www/_data/outstatic';
+import { BlogPost as BlogPostType } from '@www/_data/outstatic';
 import { Markdown, Section } from '.';
 import { BiFolder, BiTag } from 'react-icons/bi';
 
 export interface BlogPostProps extends React.HTMLAttributes<HTMLElement> {
-  post: BlogPost;
+  post: BlogPostType;
 }
 
 const BlogPost: React.FC<BlogPostProps> = ({ post, className, ...props }) => {
