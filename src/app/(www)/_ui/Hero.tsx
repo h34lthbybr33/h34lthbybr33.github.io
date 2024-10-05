@@ -42,7 +42,7 @@ const Hero: React.FC<HeroProps> = ({ id, image, background, ...props }) => {
             </CalloutBox>
           </div>
 
-          <div className="col-lg-8 d-flex align-items-stretch">
+          <div className="col-lg-8 d-flex align-items-stretch gy-sm-4">
             <div className="d-flex flex-column justify-content-center">
               <div className="row gy-4">
                 <div className="col-xl-4 d-flex align-items-stretch">

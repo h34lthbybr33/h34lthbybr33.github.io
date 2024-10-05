@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import React from 'react';
+import classNames from 'classnames';
 
 export interface PageTitleProps extends React.HTMLAttributes<HTMLElement> {
   breadcrumbs?: {
@@ -21,8 +22,8 @@ const PageTitle: React.FC<PageTitleProps> = ({
   ...props
 }) => {
   return (
-    <div className={`container ${className && className}`} {...props}>
-      <div className="page-title">
+    <div className={classNames('container', className)} {...props}>
+      <div className="page-title border-top">
         <nav>
           <ol>
             <li>
@@ -36,12 +37,12 @@ const PageTitle: React.FC<PageTitleProps> = ({
                   </Link>
                 </li>
               ))}
-            {!breadcrumbs && <li>{breadcrumbTitle || title}</li>}
+            {breadcrumbTitle && <li>{breadcrumbTitle}</li>}
           </ol>
         </nav>
         {title && (
           <div className="heading">
-            <h1>{title}</h1>
+            <h2 className="text-center">{title}</h2>
           </div>
         )}
       </div>

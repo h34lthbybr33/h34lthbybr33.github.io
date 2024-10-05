@@ -38,7 +38,7 @@ export const Section: React.FC<SectionProps> = ({
       name,
       'section',
       background && `${background}-background`,
-      ...(className?.split(' ') || []),
+      className,
     );
   }, [name, background, className]);
 

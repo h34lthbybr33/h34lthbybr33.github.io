@@ -1,7 +1,25 @@
 {
-  "commit": "02a1436c218b2084b56cb537f22004aa61534118",
-  "generated": "Sun, 29 Sep 2024 20:13:16 GMT",
+  "commit": "dfef40ab2d643f452ea20cc9916d8570cb8f0a9d",
+  "generated": "Tue, 01 Oct 2024 19:56:36 GMT",
   "metadata": [
+    {
+      "__outstatic": {
+        "commit": "46e27489ffd36fe128d06d7c7a47dc747f36f0b0",
+        "hash": "1910009736",
+        "path": "src/app/(www)/_data/frequently-asked-questions/do-i-have-to-wait-for-open-enrollment-period-to-setup-private-insurance.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "frequently-asked-questions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-28T21:23:56.994Z",
+      "slug": "do-i-have-to-wait-for-open-enrollment-period-to-setup-private-insurance",
+      "status": "published",
+      "title": "Do I have to wait for \"open enrollment\" period to setup private insurance?"
+    },
     {
       "__outstatic": {
         "commit": "3d5f6865ddff18b968be4c036448b7b7ecb4bc87",
@@ -44,6 +62,24 @@
     },
     {
       "__outstatic": {
+        "commit": "89880da07f7886e641254efc1dccbbfb61264a68",
+        "hash": "2403059348",
+        "path": "src/app/(www)/_data/posts/the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/045a014e-AzNz.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/pexels-kindelmedia-7688366-Q4Mz.jpg",
+      "description": "",
+      "publishedAt": "2024-10-01T19:28:17.124Z",
+      "slug": "the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment",
+      "status": "published",
+      "title": "The Benefits of Using a Personal Insurance Agent During Open Enrollment"
+    },
+    {
+      "__outstatic": {
         "commit": "2e7b209da4b3674e6af0a76935dde7635c2b14f0",
         "hash": "4254138632",
         "path": "src/app/(www)/_data/posts/welcome-to-my-blog.md"
@@ -59,24 +95,6 @@
       "slug": "welcome-to-my-blog",
       "status": "published",
       "title": "Welcome to My Blog: Your Trusted Health Insurance Guide!"
-    },
-    {
-      "__outstatic": {
-        "commit": "33e14f0f2cb2aebc4d496976e66f75c437fb94ac",
-        "hash": "2099530387",
-        "path": "src/app/(www)/_data/frequently-asked-questions/which-insurance-options-is-best-for-me.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
-      },
-      "collection": "frequently-asked-questions",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-09-27T20:00:36.112Z",
-      "slug": "which-insurance-options-is-best-for-me",
-      "status": "published",
-      "title": "Which insurance options is best for me?"
     },
     {
       "__outstatic": {
@@ -116,9 +134,9 @@
     },
     {
       "__outstatic": {
-        "commit": "46e27489ffd36fe128d06d7c7a47dc747f36f0b0",
-        "hash": "1910009736",
-        "path": "src/app/(www)/_data/frequently-asked-questions/do-i-have-to-wait-for-open-enrollment-period-to-setup-private-insurance.md"
+        "commit": "33e14f0f2cb2aebc4d496976e66f75c437fb94ac",
+        "hash": "2099530387",
+        "path": "src/app/(www)/_data/frequently-asked-questions/which-insurance-options-is-best-for-me.md"
       },
       "author": {
         "name": "",
@@ -127,10 +145,10 @@
       "collection": "frequently-asked-questions",
       "coverImage": "",
       "description": "",
-      "publishedAt": "2024-09-28T21:23:56.994Z",
-      "slug": "do-i-have-to-wait-for-open-enrollment-period-to-setup-private-insurance",
+      "publishedAt": "2024-09-27T20:00:36.112Z",
+      "slug": "which-insurance-options-is-best-for-me",
       "status": "published",
-      "title": "Do I have to wait for \"open enrollment\" period to setup private insurance?"
+      "title": "Which insurance options is best for me?"
     }
   ]
 }

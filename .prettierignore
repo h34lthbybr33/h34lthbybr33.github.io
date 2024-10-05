@@ -2,3 +2,6 @@
 .next/
 node_modules/
 out/
+
+# outstatic content
+src/app/(www)/_data/**/*.md

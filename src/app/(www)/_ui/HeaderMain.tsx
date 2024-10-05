@@ -7,6 +7,7 @@ import { usePathname } from 'next/navigation';
 
 import { useCalendly, useSiteContext } from '.';
 import headerImage from '@www/_assets/img/logo/blue-bold.svg';
+import headerLinks from '@www/_data/header-links';
 import Image from 'next/image';
 
 export interface HeaderMainProps extends React.HTMLAttributes<HTMLElement> {}
@@ -23,22 +24,9 @@ const HeaderMain: React.FC<HeaderMainProps> = ({ ...props }): JSX.Element => {
     bookQuote();
   };
 
-  const links = [
-    {
-      text: 'Home',
-      title: 'Homepage',
-      url: '/',
-    },
-    {
-      text: 'FAQ',
-      title: 'Frequently Asked Questions',
-      url: '/faq',
-    },
-  ];
-
   return (
     <div
-      className="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 border-bottom"
+      className="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3"
       {...props}>
       <div className="col-md-3 mb-2 mb-md-0">
         <Link
@@ -55,7 +43,7 @@ const HeaderMain: React.FC<HeaderMainProps> = ({ ...props }): JSX.Element => {
       </div>
 
       <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        {links.map((link, key) => (
+        {headerLinks.map((link, key) => (
           <li key={key}>
             <Link
               href={link.url}
@@ -70,7 +58,7 @@ const HeaderMain: React.FC<HeaderMainProps> = ({ ...props }): JSX.Element => {
       <div className="col-md-3 text-end">
         <button
           type="button"
-          className="btn btn-primary"
+          className="btn btn-primary animate__animated animate__pulse animate__infinite animate__slow"
           onClick={handleCtaClick}
           title="Request a Quote">
           <CTAIcon className="mx-1" /> Get Quote
