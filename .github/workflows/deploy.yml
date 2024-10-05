@@ -5,6 +5,16 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
+env:
+  NEXT_PUBLIC_GA_ID: G-MXY62K3R5K
+  NEXT_PUBLIC_CALENDLY_URL: https://calendly.com/h34lthbybr33
+  NEXT_PUBLIC_CALENDLY_ACCOUNTID: h34lthbybr33
+  NEXT_PUBLIC_METRICOOL_HASH: d1ee97e16c3ad749e55205ef15e4805f
+  OST_REPO_OWNER: h34lthbybr33
+  OST_REPO_SLUG: h34lthbybr33.github.io
+  OST_REPO_BRANCH: develop
+  OST_CONTENT_PATH: src/app/(www)/_data
+
 permissions:
   contents: read
   pages: write
@@ -17,6 +27,8 @@ concurrency:
 jobs:
   # Build job
   build:
+    environment:
+      name: Production
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
