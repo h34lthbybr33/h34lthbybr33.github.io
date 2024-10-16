@@ -1,6 +1,6 @@
 {
-  "commit": "9584b61371def224b8c41e08abdb24c19dad9f4f",
-  "generated": "2024-10-16T21:21:16.747Z",
+  "commit": "5b001aa7ea5757d47861fb55b8e0c5ef01d41608",
+  "generated": "2024-10-16T21:21:30.663Z",
   "metadata": [
     {
       "__outstatic": {
@@ -59,24 +59,6 @@
       "slug": "my-mission-goal",
       "status": "published",
       "title": "My Mission / Goal"
-    },
-    {
-      "__outstatic": {
-        "commit": "89880da07f7886e641254efc1dccbbfb61264a68",
-        "hash": "2403059348",
-        "path": "src/app/(www)/_data/posts/the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/045a014e-AzNz.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/pexels-kindelmedia-7688366-Q4Mz.jpg",
-      "description": "",
-      "publishedAt": "2024-10-01T19:28:17.124Z",
-      "slug": "the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment",
-      "status": "published",
-      "title": "The Benefits of Using a Personal Insurance Agent During Open Enrollment"
     },
     {
       "__outstatic": {
@@ -177,6 +159,34 @@
         }
       ],
       "title": "Welcome to My Blog: Your Trusted Health Insurance Guide!"
+    },
+    {
+      "__outstatic": {
+        "commit": "5b001aa7ea5757d47861fb55b8e0c5ef01d41608",
+        "hash": "4273031402",
+        "path": "src/app/(www)/_data/posts/the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/045a014e-AzNz.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/pexels-kindelmedia-7688366-Q4Mz.jpg",
+      "description": "",
+      "publishedAt": "2024-10-01T19:28:17.124Z",
+      "slug": "the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Healthcare",
+          "value": "healthcare"
+        }
+      ],
+      "title": "The Benefits of Using a Personal Insurance Agent During Open Enrollment"
     }
   ]
 }
