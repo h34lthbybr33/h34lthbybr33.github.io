@@ -1,6 +1,6 @@
 {
   "commit": "5b001aa7ea5757d47861fb55b8e0c5ef01d41608",
-  "generated": "2024-10-16T21:21:30.663Z",
+  "generated": "2024-10-16T21:21:46.066Z",
   "metadata": [
     {
       "__outstatic": {
@@ -163,7 +163,7 @@
     {
       "__outstatic": {
         "commit": "5b001aa7ea5757d47861fb55b8e0c5ef01d41608",
-        "hash": "4273031402",
+        "hash": "4110812908",
         "path": "src/app/(www)/_data/posts/the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment.md"
       },
       "author": {
@@ -184,6 +184,10 @@
         {
           "label": "Healthcare",
           "value": "healthcare"
+        },
+        {
+          "label": "Open Enrollment",
+          "value": "openEnrollment"
         }
       ],
       "title": "The Benefits of Using a Personal Insurance Agent During Open Enrollment"

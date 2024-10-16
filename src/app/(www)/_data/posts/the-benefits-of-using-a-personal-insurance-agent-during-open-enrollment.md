@@ -7,7 +7,7 @@ author:
 slug: 'the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment'
 description: ''
 coverImage: '/images/pexels-kindelmedia-7688366-Q4Mz.jpg'
-tags: [{"value":"insurance","label":"Insurance"},{"value":"healthcare","label":"Healthcare"}]
+tags: [{"value":"insurance","label":"Insurance"},{"value":"healthcare","label":"Healthcare"},{"label":"Open Enrollment","value":"openEnrollment"}]
 publishedAt: '2024-10-01T19:28:17.124Z'
 ---
 

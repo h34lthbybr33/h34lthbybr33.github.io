@@ -16,6 +16,10 @@
         {
           "value": "healthcare",
           "label": "Healthcare"
+        },
+        {
+          "value": "openEnrollment",
+          "label": "Open Enrollment"
         }
       ]
     }
