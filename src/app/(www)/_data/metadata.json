@@ -1,6 +1,6 @@
 {
-  "commit": "116e11267e1d60b1c7d0a10ac67650bec16560b9",
-  "generated": "2024-10-16T19:42:00.084Z",
+  "commit": "87a8f4061da5345a1f746c1dc955fafb3e3dd76d",
+  "generated": "2024-10-16T19:46:51.837Z",
   "metadata": [
     {
       "__outstatic": {
@@ -152,8 +152,8 @@
     },
     {
       "__outstatic": {
-        "commit": "116e11267e1d60b1c7d0a10ac67650bec16560b9",
-        "hash": "2205687490",
+        "commit": "87a8f4061da5345a1f746c1dc955fafb3e3dd76d",
+        "hash": "4114227872",
         "path": "src/app/(www)/_data/posts/the-importance-of-finding-the-right-health-coverage.md"
       },
       "author": {
@@ -165,7 +165,7 @@
       "description": "This post offers practical advice on how to navigate the health insurance landscape, encouraging those in the market for health insurance to assess their needs, evaluate their budgets, compare plans, ask questions, and review their choices annually.",
       "publishedAt": "2024-10-16T18:58:27.106Z",
       "slug": "the-importance-of-finding-the-right-health-coverage",
-      "status": "draft",
+      "status": "published",
       "title": "The Importance of Finding the Right Health Coverage: Insights from a Health Insurance Agent"
     }
   ]

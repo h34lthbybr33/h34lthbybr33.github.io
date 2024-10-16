@@ -1,6 +1,6 @@
 ---
 title: 'The Importance of Finding the Right Health Coverage: Insights from a Health Insurance Agent'
-status: 'draft'
+status: 'published'
 author:
   name: 'Bree Thomas'
   picture: '/images/avatar-A0MD.png'
