@@ -1,6 +1,6 @@
 {
-  "commit": "5b001aa7ea5757d47861fb55b8e0c5ef01d41608",
-  "generated": "2024-10-16T21:21:46.066Z",
+  "commit": "b5225ad61e6c1f5eff69a19b0a65198b1379ea5e",
+  "generated": "2024-10-16T21:22:06.618Z",
   "metadata": [
     {
       "__outstatic": {
@@ -116,24 +116,6 @@
     },
     {
       "__outstatic": {
-        "commit": "87a8f4061da5345a1f746c1dc955fafb3e3dd76d",
-        "hash": "4114227872",
-        "path": "src/app/(www)/_data/posts/the-importance-of-finding-the-right-health-coverage.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/diabetic-blood-test-QxND.jpg",
-      "description": "This post offers practical advice on how to navigate the health insurance landscape, encouraging those in the market for health insurance to assess their needs, evaluate their budgets, compare plans, ask questions, and review their choices annually.",
-      "publishedAt": "2024-10-16T18:58:27.106Z",
-      "slug": "the-importance-of-finding-the-right-health-coverage",
-      "status": "published",
-      "title": "The Importance of Finding the Right Health Coverage: Insights from a Health Insurance Agent"
-    },
-    {
-      "__outstatic": {
         "commit": "9584b61371def224b8c41e08abdb24c19dad9f4f",
         "hash": "3468792464",
         "path": "src/app/(www)/_data/posts/welcome-to-my-blog.md"
@@ -191,6 +173,38 @@
         }
       ],
       "title": "The Benefits of Using a Personal Insurance Agent During Open Enrollment"
+    },
+    {
+      "__outstatic": {
+        "commit": "b5225ad61e6c1f5eff69a19b0a65198b1379ea5e",
+        "hash": "4182802489",
+        "path": "src/app/(www)/_data/posts/the-importance-of-finding-the-right-health-coverage.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/diabetic-blood-test-QxND.jpg",
+      "description": "This post offers practical advice on how to navigate the health insurance landscape, encouraging those in the market for health insurance to assess their needs, evaluate their budgets, compare plans, ask questions, and review their choices annually.",
+      "publishedAt": "2024-10-16T18:58:27.106Z",
+      "slug": "the-importance-of-finding-the-right-health-coverage",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Healthcare",
+          "value": "healthcare"
+        },
+        {
+          "label": "Open Enrollment",
+          "value": "openEnrollment"
+        }
+      ],
+      "title": "The Importance of Finding the Right Health Coverage: Insights from a Health Insurance Agent"
     }
   ]
 }
