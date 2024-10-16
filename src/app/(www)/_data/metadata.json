@@ -1,6 +1,6 @@
 {
-  "commit": "87a8f4061da5345a1f746c1dc955fafb3e3dd76d",
-  "generated": "2024-10-16T19:46:51.837Z",
+  "commit": "9584b61371def224b8c41e08abdb24c19dad9f4f",
+  "generated": "2024-10-16T21:21:16.747Z",
   "metadata": [
     {
       "__outstatic": {
@@ -80,24 +80,6 @@
     },
     {
       "__outstatic": {
-        "commit": "2e7b209da4b3674e6af0a76935dde7635c2b14f0",
-        "hash": "4254138632",
-        "path": "src/app/(www)/_data/posts/welcome-to-my-blog.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/045a014e-IxMD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/pexels-cottonbro-3826676-g4Nz.jpg",
-      "description": "",
-      "publishedAt": "2024-09-29T18:44:47.675Z",
-      "slug": "welcome-to-my-blog",
-      "status": "published",
-      "title": "Welcome to My Blog: Your Trusted Health Insurance Guide!"
-    },
-    {
-      "__outstatic": {
         "commit": "7a5d6f0e3d8d9cee415af4f4db296e8bbe4f4ca2",
         "hash": "985851090",
         "path": "src/app/(www)/_data/frequently-asked-questions/why-choose-a-licensed-health-insurance-advisor.md"
@@ -167,6 +149,34 @@
       "slug": "the-importance-of-finding-the-right-health-coverage",
       "status": "published",
       "title": "The Importance of Finding the Right Health Coverage: Insights from a Health Insurance Agent"
+    },
+    {
+      "__outstatic": {
+        "commit": "9584b61371def224b8c41e08abdb24c19dad9f4f",
+        "hash": "3468792464",
+        "path": "src/app/(www)/_data/posts/welcome-to-my-blog.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/045a014e-IxMD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/pexels-cottonbro-3826676-g4Nz.jpg",
+      "description": "",
+      "publishedAt": "2024-09-29T18:44:47.675Z",
+      "slug": "welcome-to-my-blog",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Healthcare",
+          "value": "healthcare"
+        }
+      ],
+      "title": "Welcome to My Blog: Your Trusted Health Insurance Guide!"
     }
   ]
 }
