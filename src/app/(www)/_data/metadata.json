@@ -1,6 +1,6 @@
 {
-  "commit": "dfef40ab2d643f452ea20cc9916d8570cb8f0a9d",
-  "generated": "Tue, 01 Oct 2024 19:56:36 GMT",
+  "commit": "116e11267e1d60b1c7d0a10ac67650bec16560b9",
+  "generated": "2024-10-16T19:42:00.084Z",
   "metadata": [
     {
       "__outstatic": {
@@ -149,6 +149,24 @@
       "slug": "which-insurance-options-is-best-for-me",
       "status": "published",
       "title": "Which insurance options is best for me?"
+    },
+    {
+      "__outstatic": {
+        "commit": "116e11267e1d60b1c7d0a10ac67650bec16560b9",
+        "hash": "2205687490",
+        "path": "src/app/(www)/_data/posts/the-importance-of-finding-the-right-health-coverage.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/diabetic-blood-test-QxND.jpg",
+      "description": "This post offers practical advice on how to navigate the health insurance landscape, encouraging those in the market for health insurance to assess their needs, evaluate their budgets, compare plans, ask questions, and review their choices annually.",
+      "publishedAt": "2024-10-16T18:58:27.106Z",
+      "slug": "the-importance-of-finding-the-right-health-coverage",
+      "status": "draft",
+      "title": "The Importance of Finding the Right Health Coverage: Insights from a Health Insurance Agent"
     }
   ]
 }
