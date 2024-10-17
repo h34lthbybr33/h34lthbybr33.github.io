@@ -70,13 +70,18 @@ const CalendlyContextProvider: React.FC<CalendlyContextProviderProps> = ({
   return (
     <CalendlyContext.Provider value={value}>
       {children}
-      <Modal show={isOpen} onHide={handleHide} scrollable fullscreen>
+      <Modal
+        show={isOpen}
+        onHide={handleHide}
+        scrollable
+        fullscreen="sm-down"
+        dialogClassName="modal-calendly">
         <Modal.Header closeButton>Book an Appointment</Modal.Header>
         <Modal.Body>
           <Calendly action={action} />
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={() => setIsOpen(false)}>
+          <Button variant="primary" onClick={() => setIsOpen(false)}>
             Close
           </Button>
         </Modal.Footer>

@@ -7,6 +7,7 @@ author:
 slug: 'welcome-to-my-blog'
 description: ''
 coverImage: '/images/pexels-cottonbro-3826676-g4Nz.jpg'
+tags: [{"label":"Insurance","value":"insurance"},{"label":"Healthcare","value":"healthcare"}]
 publishedAt: '2024-09-29T18:44:47.675Z'
 ---
 

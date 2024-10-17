@@ -1,6 +1,6 @@
 {
-  "commit": "87a8f4061da5345a1f746c1dc955fafb3e3dd76d",
-  "generated": "2024-10-16T19:46:51.837Z",
+  "commit": "b5225ad61e6c1f5eff69a19b0a65198b1379ea5e",
+  "generated": "2024-10-16T21:22:06.618Z",
   "metadata": [
     {
       "__outstatic": {
@@ -62,42 +62,6 @@
     },
     {
       "__outstatic": {
-        "commit": "89880da07f7886e641254efc1dccbbfb61264a68",
-        "hash": "2403059348",
-        "path": "src/app/(www)/_data/posts/the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/045a014e-AzNz.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/pexels-kindelmedia-7688366-Q4Mz.jpg",
-      "description": "",
-      "publishedAt": "2024-10-01T19:28:17.124Z",
-      "slug": "the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment",
-      "status": "published",
-      "title": "The Benefits of Using a Personal Insurance Agent During Open Enrollment"
-    },
-    {
-      "__outstatic": {
-        "commit": "2e7b209da4b3674e6af0a76935dde7635c2b14f0",
-        "hash": "4254138632",
-        "path": "src/app/(www)/_data/posts/welcome-to-my-blog.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/045a014e-IxMD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/pexels-cottonbro-3826676-g4Nz.jpg",
-      "description": "",
-      "publishedAt": "2024-09-29T18:44:47.675Z",
-      "slug": "welcome-to-my-blog",
-      "status": "published",
-      "title": "Welcome to My Blog: Your Trusted Health Insurance Guide!"
-    },
-    {
-      "__outstatic": {
         "commit": "7a5d6f0e3d8d9cee415af4f4db296e8bbe4f4ca2",
         "hash": "985851090",
         "path": "src/app/(www)/_data/frequently-asked-questions/why-choose-a-licensed-health-insurance-advisor.md"
@@ -152,8 +116,68 @@
     },
     {
       "__outstatic": {
-        "commit": "87a8f4061da5345a1f746c1dc955fafb3e3dd76d",
-        "hash": "4114227872",
+        "commit": "9584b61371def224b8c41e08abdb24c19dad9f4f",
+        "hash": "3468792464",
+        "path": "src/app/(www)/_data/posts/welcome-to-my-blog.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/045a014e-IxMD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/pexels-cottonbro-3826676-g4Nz.jpg",
+      "description": "",
+      "publishedAt": "2024-09-29T18:44:47.675Z",
+      "slug": "welcome-to-my-blog",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Healthcare",
+          "value": "healthcare"
+        }
+      ],
+      "title": "Welcome to My Blog: Your Trusted Health Insurance Guide!"
+    },
+    {
+      "__outstatic": {
+        "commit": "5b001aa7ea5757d47861fb55b8e0c5ef01d41608",
+        "hash": "4110812908",
+        "path": "src/app/(www)/_data/posts/the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/045a014e-AzNz.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/pexels-kindelmedia-7688366-Q4Mz.jpg",
+      "description": "",
+      "publishedAt": "2024-10-01T19:28:17.124Z",
+      "slug": "the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Healthcare",
+          "value": "healthcare"
+        },
+        {
+          "label": "Open Enrollment",
+          "value": "openEnrollment"
+        }
+      ],
+      "title": "The Benefits of Using a Personal Insurance Agent During Open Enrollment"
+    },
+    {
+      "__outstatic": {
+        "commit": "b5225ad61e6c1f5eff69a19b0a65198b1379ea5e",
+        "hash": "4182802489",
         "path": "src/app/(www)/_data/posts/the-importance-of-finding-the-right-health-coverage.md"
       },
       "author": {
@@ -166,6 +190,20 @@
       "publishedAt": "2024-10-16T18:58:27.106Z",
       "slug": "the-importance-of-finding-the-right-health-coverage",
       "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Healthcare",
+          "value": "healthcare"
+        },
+        {
+          "label": "Open Enrollment",
+          "value": "openEnrollment"
+        }
+      ],
       "title": "The Importance of Finding the Right Health Coverage: Insights from a Health Insurance Agent"
     }
   ]

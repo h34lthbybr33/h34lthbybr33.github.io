@@ -7,6 +7,7 @@ author:
 slug: 'the-importance-of-finding-the-right-health-coverage'
 description: 'This post offers practical advice on how to navigate the health insurance landscape, encouraging those in the market for health insurance to assess their needs, evaluate their budgets, compare plans, ask questions, and review their choices annually.'
 coverImage: '/images/diabetic-blood-test-QxND.jpg'
+tags: [{"value":"insurance","label":"Insurance"},{"value":"healthcare","label":"Healthcare"},{"value":"openEnrollment","label":"Open Enrollment"}]
 publishedAt: '2024-10-16T18:58:27.106Z'
 ---
 

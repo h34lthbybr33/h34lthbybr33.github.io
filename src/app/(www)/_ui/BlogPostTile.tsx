@@ -13,8 +13,8 @@ export interface BlogPostTileProps extends React.HTMLAttributes<HTMLElement> {
 
 const BlogPostTile: React.FC<BlogPostTileProps> = ({ post, className, ...props }) => {
   return (
-    <div className={classNames('col-lg-4 col-md-6 col-sm-12', className)} {...props}>
-      <article>
+    <div className={classNames('col-lg-4 col-md-6 col-sm-12 py-2', className)} {...props}>
+      <article className="card">
         <div className="post-img">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src={post.coverImage || ''} alt={post.title} className="img-fluid" />

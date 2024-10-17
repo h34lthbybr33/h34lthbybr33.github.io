@@ -59,12 +59,11 @@ const BlogPost: React.FC<BlogPostProps> = ({ post, className, ...props }) => {
                   </ul>
                   <BiTag />
                   <ul className="tags">
-                    <li>
-                      <Link href="#">Insurance</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Healthcare</Link>
-                    </li>
+                    {post.tags?.map((tag, key) => (
+                      <li key={key}>
+                        <Link href={`#${tag.value}`}>{tag.label}</Link>
+                      </li>
+                    ))}
                   </ul>
                 </div>
               </article>
@@ -87,16 +86,11 @@ const BlogPost: React.FC<BlogPostProps> = ({ post, className, ...props }) => {
             <div className="categories-widget widget-item">
               <h3 className="widget-title">Categories</h3>
               <ul className="mt-3">
-                <li>
-                  <Link href="#">
-                    Insurance <span>(1)</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="#">
-                    Healthcare <span>(1)</span>
-                  </Link>
-                </li>
+                {post.tags.map((tag, key) => (
+                  <li key={key}>
+                    <Link href={`#${tag.value}`}>{tag.label}</Link>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>

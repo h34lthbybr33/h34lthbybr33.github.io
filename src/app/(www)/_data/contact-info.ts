@@ -12,10 +12,11 @@ export type License = {
 };
 
 export type ContactInfo = {
-  address: Address;
+  address?: Address;
   email: string;
   name: string;
   telephone: string;
+  texting: string;
   licenses: License[];
   serving: {
     [key: string]: string;
@@ -24,16 +25,10 @@ export type ContactInfo = {
 };
 
 export const contactInfo: ContactInfo = {
-  address: {
-    line1: '9620 Executive Center Dr N',
-    line2: 'Suite 150',
-    city: 'St. Petersburg',
-    state: 'FL',
-    zipCode: '33702',
-  },
-  email: 'agent.breethomas@gmail.com',
+  email: 'info@healthbybree.com',
   name: 'Bree Thomas',
-  telephone: '1.727.899.6077',
+  telephone: '1.813.489.9844',
+  texting: '1.813.489.9844',
   licenses: [
     {
       state: 'Florida',

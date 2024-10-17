@@ -83,6 +83,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }): JSX.Element => {
     contactEmail: contactInfo.email,
     contactName: contactInfo.name,
     contactTelephone: contactInfo.telephone,
+    textingTelephone: contactInfo.texting,
     siteTitle: siteInfo.title,
     siteDescription: siteInfo.description,
     socialMedias: socialMedia,
