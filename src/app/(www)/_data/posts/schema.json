@@ -20,6 +20,10 @@
         {
           "value": "openEnrollment",
           "label": "Open Enrollment"
+        },
+        {
+          "value": "checklist",
+          "label": "Checklist"
         }
       ]
     }
