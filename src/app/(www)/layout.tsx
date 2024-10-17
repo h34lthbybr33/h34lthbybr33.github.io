@@ -91,6 +91,26 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }): JSX.Element => {
 
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title={siteInfo.title}
+          href="/rss.xml"
+        />
+        <link
+          rel="alternate"
+          type="application/atom+xml"
+          title={siteInfo.title}
+          href="/atom.xml"
+        />
+        <link
+          rel="alternate"
+          type="application/feed+json"
+          title={siteInfo.title}
+          href="/feed.json"
+        />
+      </head>
       <body className={bodyClassName}>
         <SiteContext value={siteContextValue}>
           <CalendlyContextProvider
