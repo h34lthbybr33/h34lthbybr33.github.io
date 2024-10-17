@@ -1,6 +1,6 @@
 {
-  "commit": "2dcf2010d8486138df12e219d4f4954a38cc57a7",
-  "generated": "2024-10-17T20:21:40.094Z",
+  "commit": "f5fe1477a22c7559aa7fe0bff5b02bc36049d707",
+  "generated": "2024-10-17T20:22:11.187Z",
   "metadata": [
     {
       "__outstatic": {
@@ -208,8 +208,8 @@
     },
     {
       "__outstatic": {
-        "commit": "2dcf2010d8486138df12e219d4f4954a38cc57a7",
-        "hash": "992428258",
+        "commit": "f5fe1477a22c7559aa7fe0bff5b02bc36049d707",
+        "hash": "1195575010",
         "path": "src/app/(www)/_data/posts/your-pre-enrollment-to-do-list-essential-steps-before-searching-for-health-insurance.md"
       },
       "author": {
@@ -221,7 +221,7 @@
       "description": "This blog post outlines a comprehensive pre-enrollment to-do list for individuals preparing to search for health insurance during open enrollment. By following this checklist, individuals can streamline their health insurance search, ultimately finding coverage that best suits their family's needs.",
       "publishedAt": "2024-10-17T19:49:31.959Z",
       "slug": "your-pre-enrollment-to-do-list-essential-steps-before-searching-for-health-insurance",
-      "status": "draft",
+      "status": "published",
       "tags": [
         {
           "label": "Open Enrollment",

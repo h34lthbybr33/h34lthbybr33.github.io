@@ -1,6 +1,6 @@
 ---
 title: 'Your Pre-Enrollment To-Do List: Essential Steps Before Searching for Health Insurance'
-status: 'draft'
+status: 'published'
 author:
   name: 'Bree Thomas'
   picture: '/images/avatar-A0MD.png'
