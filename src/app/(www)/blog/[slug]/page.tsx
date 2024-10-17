@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 
 import { BlogPost, PageTitle } from '@www/_ui';
 import { siteInfo } from '@www/_data/site-info';
-import { getBlogPost, getBlogPosts } from '@www/_data/outstatic';
+import { getBlogPostBySlug, getBlogPosts } from '@www/_data/outstatic';
 import defaultPostImage from '@www/_assets/img/logo/full.png';
 
 interface PageProps {
@@ -12,7 +12,7 @@ interface PageProps {
 }
 
 export default async function BlogPostPage({ params: { slug } }: PageProps) {
-  const post = await getBlogPost(slug);
+  const post = await getBlogPostBySlug(slug);
 
   const breadcrumbs = [
     {
@@ -31,7 +31,7 @@ export default async function BlogPostPage({ params: { slug } }: PageProps) {
 }
 
 export const generateStaticParams = async () => {
-  const posts = await getBlogPosts();
+  const posts = await getBlogPosts(6);
   return posts.map((post) => ({
     slug: post.slug,
   }));
@@ -40,7 +40,7 @@ export const generateStaticParams = async () => {
 type GenerateMetadata = ({ params }: PageProps) => Promise<Metadata>;
 
 export const generateMetadata: GenerateMetadata = async ({ params: { slug } }) => {
-  const post = await getBlogPost(slug);
+  const post = await getBlogPostBySlug(slug);
   return {
     title: post.title || siteInfo.title,
     description: post.description || siteInfo.title,
@@ -54,6 +54,7 @@ export const generateMetadata: GenerateMetadata = async ({ params: { slug } }) =
       ],
       publishedTime: post.publishedAt,
       authors: post.author?.name,
+      tags: post.tags.map((tag) => tag.label),
     },
   };
 };

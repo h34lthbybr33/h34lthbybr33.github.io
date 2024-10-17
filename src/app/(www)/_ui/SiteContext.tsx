@@ -7,6 +7,7 @@ interface ISiteContext {
   contactEmail: string;
   contactName: string;
   contactTelephone: string;
+  textingTelephone: string;
   siteTitle: string;
   siteDescription: string;
   socialMedias: SocialMediaAccount[];

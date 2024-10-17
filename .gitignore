@@ -43,3 +43,8 @@ next-env.d.ts
 
 # vscdoe
 .vscode/
+
+# Feed files
+public/atom.xml
+public/feed.json
+public/rss.xml

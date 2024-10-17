@@ -1,5 +1,10 @@
-import { OstDocument } from 'outstatic';
+import { type OstDocument } from 'outstatic';
 import { load } from 'outstatic/server';
+
+export type Tag = {
+  value: string;
+  label: string;
+};
 
 // TODO: Create an underlying class that handles the fetching and ensuring
 // the content is published, and the necessary field(s) are retrieved.
@@ -28,8 +33,10 @@ export const getAbout = async (): Promise<AboutCollection> => {
   return collection;
 };
 
-export type BlogPost = OstDocument;
-export type BlogPostCollection = Testimonial[];
+export type BlogPost = OstDocument & {
+  tags: Tag[];
+};
+export type BlogPostCollection = BlogPost[];
 const BlogPostCollectionName = 'posts';
 const BlogProjection = [
   'author',
@@ -39,9 +46,10 @@ const BlogProjection = [
   'content',
   'slug',
   'publishedAt',
+  'tags',
 ];
 
-export const getBlogPost = async (slug: string): Promise<BlogPost> => {
+export const getBlogPostBySlug = async (slug: string): Promise<BlogPost> => {
   const db = await load();
   const match: BlogPost = await db
     .find<BlogPost>({
@@ -53,13 +61,16 @@ export const getBlogPost = async (slug: string): Promise<BlogPost> => {
     .first();
   return match;
 };
-export const getBlogPosts = async (): Promise<BlogPostCollection> => {
+export const getBlogPosts = async (limit?: number): Promise<BlogPostCollection> => {
   const db = await load();
-  const collection: BlogPostCollection = await db
-    .find<FAQ>({ collection: BlogPostCollectionName, status: 'published' })
+  let query = db
+    .find<BlogPost>({ collection: BlogPostCollectionName, status: 'published' })
     .project(BlogProjection)
-    .sort({ publishedDate: 1 })
-    .toArray();
+    .sort({ publishedAt: -1 });
+  if (typeof limit !== 'undefined') {
+    query = query.limit(limit);
+  }
+  const collection: BlogPostCollection = await query.toArray();
   return collection;
 };
 

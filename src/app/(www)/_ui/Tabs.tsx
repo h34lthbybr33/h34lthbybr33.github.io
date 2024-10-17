@@ -10,6 +10,7 @@ export interface TabsProps extends React.HTMLAttributes<HTMLElement> {
   id?: string;
   title: string;
   subtitle?: string;
+  activeTabIndex?: number;
   children?: React.ReactNode;
 }
 
@@ -17,11 +18,12 @@ const Tabs: React.FC<TabsProps> = ({
   id,
   title,
   subtitle,
+  activeTabIndex = 0,
   children,
   className,
   ...props
 }) => {
-  const [activeTab, setActiveTab] = React.useState<number>(0);
+  const [activeTab, setActiveTab] = React.useState<number>(activeTabIndex || 0);
   const isTab = (el: React.ReactNode): el is React.ReactElement<TabProps> => {
     return !!el;
   };

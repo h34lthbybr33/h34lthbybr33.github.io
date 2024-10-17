@@ -1,4 +1,3 @@
-export { default as About } from './About';
 export { default as BlogPost } from './BlogPost';
 export { default as BlogPosts } from './BlogPosts';
 export { default as BlogPostTile } from './BlogPostTile';
@@ -20,6 +19,7 @@ export { default as IconCard } from './IconCard';
 export { default as IconCardList } from './IconCardList';
 export { default as IconList } from './IconList';
 export { default as IconListItem } from './IconListItem';
+export { default as ImageCard } from './ImageCard';
 export { default as Markdown } from './Markdown';
 export { default as PageTitle } from './PageTitle';
 export { default as Section, type SectionBackground, type SectionName } from './Section';

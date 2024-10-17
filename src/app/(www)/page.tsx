@@ -6,7 +6,14 @@ import { BiSolidCustomize } from 'react-icons/bi';
 import { IoIosMegaphone } from 'react-icons/io';
 import { getAbout, getTestimonials } from '@www/_data/outstatic';
 
-import { About, CallToAction, Hero, IconCard, IconCardList, Markdown } from '@www/_ui/';
+import {
+  ImageCard,
+  CallToAction,
+  Hero,
+  IconCard,
+  IconCardList,
+  Markdown,
+} from '@www/_ui/';
 import heroImage from '@www/_assets/img/hero/beach-sunset.jpg';
 import Testimonials from './_ui/Testimonials';
 
@@ -20,14 +27,14 @@ export default async function HomePage() {
     <>
       <Hero image={heroImage} />
       {abouts.map((about, key) => (
-        <About
+        <ImageCard
           image={about.coverImage!}
           background={about.darkBackground ? 'light' : undefined}
           imageAlignment={!!about.imageOnRight ? 'right' : 'left'}
           key={key}>
           <h3>{about.title}</h3>
           <Markdown content={about.content} />
-        </About>
+        </ImageCard>
       ))}
       <IconCardList>
         <IconCard icon={<FaMoneyBill />} title="Affordable Options">

@@ -4,7 +4,9 @@ import React, { Suspense } from 'react';
 import { remark } from 'remark';
 import remarkParse from 'remark-parse';
 import remarkGfm from 'remark-gfm';
-import remarkHtml from 'remark-html';
+import remarkRehype from 'remark-rehype';
+import rehypeStringify from 'rehype-stringify';
+import rehypeExternalLinks from 'rehype-external-links';
 
 export interface MarkdownProps extends React.HTMLAttributes<HTMLDivElement> {
   content: string;
@@ -13,7 +15,13 @@ export interface MarkdownProps extends React.HTMLAttributes<HTMLDivElement> {
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const Markdown: React.FC<MarkdownProps> = ({ content, ...props }) => {
   const html = React.useMemo(() => {
-    return remark().use(remarkParse).use(remarkGfm).use(remarkHtml).processSync(content);
+    return remark()
+      .use(remarkParse)
+      .use(remarkGfm)
+      .use(remarkRehype)
+      .use(rehypeExternalLinks, { target: '_blank' })
+      .use(rehypeStringify)
+      .processSync(content);
   }, [content]);
 
   return (
