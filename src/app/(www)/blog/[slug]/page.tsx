@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 
 import { BlogPost, PageTitle } from '@www/_ui';
 import { siteInfo } from '@www/_data/site-info';
+import { buildFullUrl } from '@www/_lib/util';
 import { getBlogPostBySlug, getBlogPosts } from '@www/_data/outstatic';
 import defaultPostImage from '@www/_assets/img/logo/full.png';
 
@@ -48,10 +49,8 @@ export const generateMetadata: GenerateMetadata = async ({ params: { slug } }) =
       type: 'article',
       title: post.title,
       description: post.description,
-      url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/${post.slug}`,
-      images: [
-        `${process.env.NEXT_PUBLIC_BASE_URL}${post.coverImage || defaultPostImage.src}`,
-      ],
+      url: buildFullUrl(`/blog/${post.slug}`),
+      images: [buildFullUrl(post.coverImage || defaultPostImage.src)],
       publishedTime: post.publishedAt,
       authors: post.author?.name,
       tags: post.tags.map((tag) => tag.label),
