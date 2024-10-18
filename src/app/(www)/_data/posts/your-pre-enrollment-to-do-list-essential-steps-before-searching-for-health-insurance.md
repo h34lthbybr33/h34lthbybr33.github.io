@@ -74,3 +74,7 @@ Set a timeline for your health insurance search and enrollment process:
 ### Conclusion
 
 By completing this pre-enrollment to-do list, you’ll be well-prepared to embark on your health insurance search. Having detailed information at hand will allow you to make informed choices that cater to your family’s needs. Take the time to set yourself up for success this open enrollment season; remember, the right health insurance is crucial for both your peace of mind and your family’s well-being. Happy enrollment!
+
+Stay healthy and informed,\
+Bree Thomas\
+Your Health Insurance Agent

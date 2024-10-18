@@ -1,6 +1,6 @@
 {
-  "commit": "59e63a8b1b936cc666e9a711a8abe508ed6ea541",
-  "generated": "2024-10-18T14:18:25.580Z",
+  "commit": "93da12dea0840099c5d80daddcb0d7dcc4698753",
+  "generated": "2024-10-18T14:18:42.978Z",
   "metadata": [
     {
       "__outstatic": {
@@ -208,8 +208,28 @@
     },
     {
       "__outstatic": {
-        "commit": "f5fe1477a22c7559aa7fe0bff5b02bc36049d707",
-        "hash": "1195575010",
+        "commit": "59e63a8b1b936cc666e9a711a8abe508ed6ea541",
+        "hash": "3893933147",
+        "path": "src/app/(www)/_data/posts/understanding-why-aca-plans-can-be-costlier-than-private-insurance-for-the-healthy.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "description": "This blog post explains why ACA plans can be more expensive for relatively healthy individuals compared to private insurance. It encourages healthy individuals to evaluate their healthcare usage and consider alternative options, such as lower-premium private plans or catastrophic coverage, to find insurance that better aligns with their needs and budget.",
+      "publishedAt": "2024-10-18T13:50:38.052Z",
+      "slug": "understanding-why-aca-plans-can-be-costlier-than-private-insurance-for-the-healthy",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Understanding Why ACA Plans Can Be Costlier Than Private Insurance for the Healthy"
+    },
+    {
+      "__outstatic": {
+        "commit": "93da12dea0840099c5d80daddcb0d7dcc4698753",
+        "hash": "711681554",
         "path": "src/app/(www)/_data/posts/your-pre-enrollment-to-do-list-essential-steps-before-searching-for-health-insurance.md"
       },
       "author": {
@@ -233,26 +253,6 @@
         }
       ],
       "title": "Your Pre-Enrollment To-Do List: Essential Steps Before Searching for Health Insurance"
-    },
-    {
-      "__outstatic": {
-        "commit": "59e63a8b1b936cc666e9a711a8abe508ed6ea541",
-        "hash": "3893933147",
-        "path": "src/app/(www)/_data/posts/understanding-why-aca-plans-can-be-costlier-than-private-insurance-for-the-healthy.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "",
-      "description": "This blog post explains why ACA plans can be more expensive for relatively healthy individuals compared to private insurance. It encourages healthy individuals to evaluate their healthcare usage and consider alternative options, such as lower-premium private plans or catastrophic coverage, to find insurance that better aligns with their needs and budget.",
-      "publishedAt": "2024-10-18T13:50:38.052Z",
-      "slug": "understanding-why-aca-plans-can-be-costlier-than-private-insurance-for-the-healthy",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Understanding Why ACA Plans Can Be Costlier Than Private Insurance for the Healthy"
     }
   ]
 }
