@@ -3,7 +3,7 @@ title: 'Welcome to My Blog: Your Trusted Health Insurance Guide!'
 status: 'published'
 author:
   name: 'Bree Thomas'
-  picture: '/images/045a014e-IxMD.png'
+  picture: '/images/avatar-A0MD.png'
 slug: 'welcome-to-my-blog'
 description: ''
 coverImage: '/images/pexels-cottonbro-3826676-g4Nz.jpg'

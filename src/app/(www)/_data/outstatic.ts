@@ -1,10 +1,16 @@
 import { type OstDocument } from 'outstatic';
 import { load } from 'outstatic/server';
 
-export type Tag = {
-  value: string;
-  label: string;
+export type Tag =
+  | {
+      value: string;
+      label: string;
+    }
+  | undefined;
+export type TagWithMetadata = Tag & {
+  count: number;
 };
+export type TagCollection = Tag[] | TagWithMetadata[];
 
 // TODO: Create an underlying class that handles the fetching and ensuring
 // the content is published, and the necessary field(s) are retrieved.
@@ -73,6 +79,44 @@ export const getBlogPosts = async (limit?: number): Promise<BlogPostCollection> 
   const collection: BlogPostCollection = await query.toArray();
   return collection;
 };
+export const getBlogPostsByTag = async (
+  tagValue: string,
+): Promise<BlogPostCollection> => {
+  const db = await load();
+  const collection: BlogPostCollection = await db
+    .find<BlogPost>({
+      collection: BlogPostCollectionName,
+      status: 'published',
+      tags: {
+        $elemMatch: {
+          value: tagValue,
+        },
+      },
+    })
+    .project(BlogProjection)
+    .sort({ publishedAt: -1 })
+    .toArray();
+  return collection;
+};
+export const getBlogPostTag = async (value: string): Promise<Tag> => {
+  const allTags = await getBlogPostTags();
+  return allTags.find((tag) => tag && tag.value === value);
+};
+export const getBlogPostTags = async (): Promise<TagCollection> => {
+  const allBlogPosts = await getBlogPosts();
+  // TODO: Track count and bubble up as TagWithMetadata
+  const tags: TagCollection = allBlogPosts
+    .map((post) => post.tags)
+    .reduce((accumulator, tags) => {
+      tags.forEach((tag) => {
+        if (tag && !accumulator.find((x) => x && x.value == tag.value)) {
+          accumulator.push(tag);
+        }
+      });
+      return accumulator;
+    }, [] as TagCollection);
+  return tags;
+};
 
 export type FAQ = OstDocument;
 export type FAQCollection = FAQ[];
@@ -84,7 +128,7 @@ export const getFrequentlyAskedQuestions = async (): Promise<FAQCollection> => {
   const collection: FAQCollection = await db
     .find<FAQ>({ collection: FAQCollectionName, status: 'published' })
     .project(FAQProjection)
-    .sort({ publishedDate: 1 })
+    .sort({ publishedAt: -1 })
     .toArray();
   return collection;
 };
@@ -99,7 +143,7 @@ export const getTestimonials = async (): Promise<FAQCollection> => {
   const collection: FAQCollection = await db
     .find<FAQ>({ collection: TestimonialCollectionName, status: 'published' })
     .project(TestimonialProjection)
-    .sort({ publishedDate: 1 })
+    .sort({ publishedAt: -1 })
     .toArray();
   return collection;
 };

@@ -3,7 +3,7 @@ title: 'The Benefits of Using a Personal Insurance Agent During Open Enrollment'
 status: 'published'
 author:
   name: 'Bree Thomas'
-  picture: '/images/045a014e-AzNz.png'
+  picture: '/images/avatar-A0MD.png'
 slug: 'the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment'
 description: ''
 coverImage: '/images/pexels-kindelmedia-7688366-Q4Mz.jpg'

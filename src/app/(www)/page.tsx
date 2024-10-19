@@ -15,7 +15,7 @@ import {
   Markdown,
 } from '@www/_ui/';
 import heroImage from '@www/_assets/img/hero/beach-sunset.jpg';
-import Testimonials from './_ui/Testimonials';
+import Testimonials from '@www/_ui/Testimonials';
 
 export const metadata: Metadata = {};
 
@@ -88,32 +88,6 @@ export default async function HomePage() {
           }))}
         />
       )}
-      {/* <Tabs title="Services" subtitle="Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit">
-        <Tab id="affordable-options" title="Affordable Options" image={tabAffordableImage}>
-          <p>
-            By partnering with insurers on the public and private market, I'm able
-            to help you secure the best rates possible before annual increases and
-            look into ways you can qualify to save on health coverage
-          </p>
-        </Tab>
-        <Tab id="personalized-plans" title="Personalized Plans" image={tabPuzzleImage}>
-          <p>
-            Let's customize your health plan to match your lifestyle, needs, and budget.
-          </p>
-        </Tab>
-        <Tab id="transparency" title="Transparency" image={tabTransparentImage}>
-          <p>
-            The power of your plan is in your hands. It's my job to break down all your
-            options and make sure that there are no surprises!
-          </p>
-        </Tab>
-        <Tab id="advocacy" title="Advocacy" image={tabAdvocateImage}>
-          <p>
-            As your agent for life, I'm also your advocate. Don't worry about going back
-            and forth with insurance companies. I'm here to be your intermediary.
-          </p>
-        </Tab>
-      </Tabs> */}
     </>
   );
 }
