@@ -1,15 +1,16 @@
-import { Feed } from 'feed';
-import path from 'node:path';
-import fs from 'node:fs/promises';
+'use server';
 
-import { getBlogPosts } from '@www/_data/outstatic';
-import { PUBLIC_DIR } from '@www/_lib/const';
-import { buildFullUrl } from '@www/_lib/util';
-import siteInfo from '../_data/site-info';
-import contactInfo from '../_data/contact-info';
+import { Feed } from 'feed';
+import path from 'path';
+import fs from 'fs/promises';
 import { getImageProps } from 'next/image';
 
-export async function generateFeeds(): Promise<void> {
+import { getBlogPosts } from '@www/_data/outstatic';
+import { buildFullUrl } from '@www/_lib/util';
+import siteInfo from '@www/_data/site-info';
+import contactInfo from '@www/_data/contact-info';
+
+export async function generateFeeds(destinationPath: string): Promise<void> {
   const posts = await getBlogPosts();
   const siteImageProps = getImageProps({
     alt: '',
@@ -54,14 +55,14 @@ export async function generateFeeds(): Promise<void> {
       ],
     });
     post.tags.forEach((tag) => {
-      if (categories.indexOf(tag.label) === -1) {
+      if (tag && categories.indexOf(tag.label) === -1) {
         categories.push(tag.label);
         feed.addCategory(tag.label);
       }
     });
   });
 
-  await fs.writeFile(path.join(PUBLIC_DIR, 'feed.json'), feed.json1());
-  await fs.writeFile(path.join(PUBLIC_DIR, 'rss.xml'), feed.rss2());
-  await fs.writeFile(path.join(PUBLIC_DIR, 'atom.xml'), feed.atom1());
+  await fs.writeFile(path.join(destinationPath, 'feed.json'), feed.json1());
+  await fs.writeFile(path.join(destinationPath, 'rss.xml'), feed.rss2());
+  await fs.writeFile(path.join(destinationPath, 'atom.xml'), feed.atom1());
 }
