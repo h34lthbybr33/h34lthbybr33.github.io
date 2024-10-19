@@ -5,3 +5,5 @@ out/
 
 # outstatic content
 src/app/(www)/_data/**/*.md
+src/app/(www)/_data/**/schema.json
+src/app/(www)/_data/metadata.json
