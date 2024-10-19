@@ -1,6 +1,6 @@
 {
-  "commit": "de4b053293e58321c7323f20e49cb5ba3a1bf41e",
-  "generated": "2024-10-18T14:19:54.274Z",
+  "commit": "a22b24254737800effb251ab9380f810abe772d0",
+  "generated": "2024-10-19T17:56:19.802Z",
   "metadata": [
     {
       "__outstatic": {
@@ -253,6 +253,34 @@
       "tags": [
       ],
       "title": "Understanding Why ACA Plans Can Be Costlier Than Private Insurance for the Healthy"
+    },
+    {
+      "__outstatic": {
+        "commit": "a22b24254737800effb251ab9380f810abe772d0",
+        "hash": "4176707408",
+        "path": "src/app/(www)/_data/posts/why-you-should-avoid-general-insurance-quote-websites-and-choose-a-licensed-insurance-broker.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/woman-on-laptop-YxNz.jpg",
+      "description": "In this post, I discuss the drawbacks of using general insurance quote websites, including the potential sale of your personal information, lack of personalized support, and hidden costs. Instead, I advocate for leveraging a licensed insurance broker who can provide tailored recommendations, expert knowledge, and dedicated advocacy, ensuring you find the best coverage for your individual needs.",
+      "publishedAt": "2024-10-19T17:24:15.000Z",
+      "slug": "why-you-should-avoid-general-insurance-quote-websites-and-choose-a-licensed-insurance-broker",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Open Enrollment",
+          "value": "openEnrollment"
+        }
+      ],
+      "title": "Why You Should Avoid General Insurance Quote Websites and Choose a Licensed Insurance Broker"
     }
   ]
 }
