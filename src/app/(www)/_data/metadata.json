@@ -1,6 +1,6 @@
 {
-  "commit": "a22b24254737800effb251ab9380f810abe772d0",
-  "generated": "2024-10-19T17:56:19.802Z",
+  "commit": "ce711b9211ff7d4dd33d55ec207716f2d4d6a2ac",
+  "generated": "2024-10-19T22:52:07.712Z",
   "metadata": [
     {
       "__outstatic": {
@@ -256,7 +256,7 @@
     },
     {
       "__outstatic": {
-        "commit": "a22b24254737800effb251ab9380f810abe772d0",
+        "commit": "ce711b9211ff7d4dd33d55ec207716f2d4d6a2ac",
         "hash": "4176707408",
         "path": "src/app/(www)/_data/posts/why-you-should-avoid-general-insurance-quote-websites-and-choose-a-licensed-insurance-broker.md"
       },
