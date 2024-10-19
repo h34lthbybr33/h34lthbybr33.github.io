@@ -1,25 +1,7 @@
 {
-  "commit": "ce711b9211ff7d4dd33d55ec207716f2d4d6a2ac",
-  "generated": "2024-10-19T22:52:07.712Z",
+  "commit": "6902f7c4a50e28075a4396d7d0610a8dfe286aaf",
+  "generated": "Sat, 19 Oct 2024 22:52:48 GMT",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "46e27489ffd36fe128d06d7c7a47dc747f36f0b0",
-        "hash": "1910009736",
-        "path": "src/app/(www)/_data/frequently-asked-questions/do-i-have-to-wait-for-open-enrollment-period-to-setup-private-insurance.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
-      },
-      "collection": "frequently-asked-questions",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-09-28T21:23:56.994Z",
-      "slug": "do-i-have-to-wait-for-open-enrollment-period-to-setup-private-insurance",
-      "status": "published",
-      "title": "Do I have to wait for \"open enrollment\" period to setup private insurance?"
-    },
     {
       "__outstatic": {
         "commit": "3d5f6865ddff18b968be4c036448b7b7ecb4bc87",
@@ -62,89 +44,7 @@
     },
     {
       "__outstatic": {
-        "commit": "7a5d6f0e3d8d9cee415af4f4db296e8bbe4f4ca2",
-        "hash": "985851090",
-        "path": "src/app/(www)/_data/frequently-asked-questions/why-choose-a-licensed-health-insurance-advisor.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
-      },
-      "collection": "frequently-asked-questions",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-09-27T18:50:05.835Z",
-      "slug": "why-choose-a-licensed-health-insurance-advisor",
-      "status": "published",
-      "title": "Why choose a licensed health insurance advisor?"
-    },
-    {
-      "__outstatic": {
-        "commit": "7ca1fdd8325a39997a3cb2a39279accd59542105",
-        "hash": "3544432190",
-        "path": "src/app/(www)/_data/frequently-asked-questions/do-you-have-access-to-other-types-of-insurance-too.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
-      },
-      "collection": "frequently-asked-questions",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-09-28T21:23:15.941Z",
-      "slug": "do-you-have-access-to-other-types-of-insurance-too",
-      "status": "published",
-      "title": "Do you have access to other types of insurance, too?"
-    },
-    {
-      "__outstatic": {
-        "commit": "33e14f0f2cb2aebc4d496976e66f75c437fb94ac",
-        "hash": "2099530387",
-        "path": "src/app/(www)/_data/frequently-asked-questions/which-insurance-options-is-best-for-me.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
-      },
-      "collection": "frequently-asked-questions",
-      "coverImage": "",
-      "description": "",
-      "publishedAt": "2024-09-27T20:00:36.112Z",
-      "slug": "which-insurance-options-is-best-for-me",
-      "status": "published",
-      "title": "Which insurance options is best for me?"
-    },
-    {
-      "__outstatic": {
-        "commit": "9584b61371def224b8c41e08abdb24c19dad9f4f",
-        "hash": "3468792464",
-        "path": "src/app/(www)/_data/posts/welcome-to-my-blog.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/045a014e-IxMD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/pexels-cottonbro-3826676-g4Nz.jpg",
-      "description": "",
-      "publishedAt": "2024-09-29T18:44:47.675Z",
-      "slug": "welcome-to-my-blog",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Healthcare",
-          "value": "healthcare"
-        }
-      ],
-      "title": "Welcome to My Blog: Your Trusted Health Insurance Guide!"
-    },
-    {
-      "__outstatic": {
-        "commit": "5b001aa7ea5757d47861fb55b8e0c5ef01d41608",
+        "commit": "123446575e25ad53dc6f6e6f09a1bf5dde9436e4",
         "hash": "4110812908",
         "path": "src/app/(www)/_data/posts/the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment.md"
       },
@@ -176,7 +76,183 @@
     },
     {
       "__outstatic": {
-        "commit": "b5225ad61e6c1f5eff69a19b0a65198b1379ea5e",
+        "commit": "7a5d6f0e3d8d9cee415af4f4db296e8bbe4f4ca2",
+        "hash": "985851090",
+        "path": "src/app/(www)/_data/frequently-asked-questions/why-choose-a-licensed-health-insurance-advisor.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "frequently-asked-questions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-27T18:50:05.835Z",
+      "slug": "why-choose-a-licensed-health-insurance-advisor",
+      "status": "published",
+      "title": "Why choose a licensed health insurance advisor?"
+    },
+    {
+      "__outstatic": {
+        "commit": "33e14f0f2cb2aebc4d496976e66f75c437fb94ac",
+        "hash": "2099530387",
+        "path": "src/app/(www)/_data/frequently-asked-questions/which-insurance-options-is-best-for-me.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "frequently-asked-questions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-27T20:00:36.112Z",
+      "slug": "which-insurance-options-is-best-for-me",
+      "status": "published",
+      "title": "Which insurance options is best for me?"
+    },
+    {
+      "__outstatic": {
+        "commit": "7ca1fdd8325a39997a3cb2a39279accd59542105",
+        "hash": "3544432190",
+        "path": "src/app/(www)/_data/frequently-asked-questions/do-you-have-access-to-other-types-of-insurance-too.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "frequently-asked-questions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-28T21:23:15.941Z",
+      "slug": "do-you-have-access-to-other-types-of-insurance-too",
+      "status": "published",
+      "title": "Do you have access to other types of insurance, too?"
+    },
+    {
+      "__outstatic": {
+        "commit": "46e27489ffd36fe128d06d7c7a47dc747f36f0b0",
+        "hash": "1910009736",
+        "path": "src/app/(www)/_data/frequently-asked-questions/do-i-have-to-wait-for-open-enrollment-period-to-setup-private-insurance.md"
+      },
+      "author": {
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
+      },
+      "collection": "frequently-asked-questions",
+      "coverImage": "",
+      "description": "",
+      "publishedAt": "2024-09-28T21:23:56.994Z",
+      "slug": "do-i-have-to-wait-for-open-enrollment-period-to-setup-private-insurance",
+      "status": "published",
+      "title": "Do I have to wait for \"open enrollment\" period to setup private insurance?"
+    },
+    {
+      "__outstatic": {
+        "commit": "6290315ea229cf5edde48bccb014c2ce8f6cbddd",
+        "hash": "4176707408",
+        "path": "src/app/(www)/_data/posts/why-you-should-avoid-general-insurance-quote-websites-and-choose-a-licensed-insurance-broker.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/woman-on-laptop-YxNz.jpg",
+      "description": "In this post, I discuss the drawbacks of using general insurance quote websites, including the potential sale of your personal information, lack of personalized support, and hidden costs. Instead, I advocate for leveraging a licensed insurance broker who can provide tailored recommendations, expert knowledge, and dedicated advocacy, ensuring you find the best coverage for your individual needs.",
+      "publishedAt": "2024-10-19T17:24:15.000Z",
+      "slug": "why-you-should-avoid-general-insurance-quote-websites-and-choose-a-licensed-insurance-broker",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Open Enrollment",
+          "value": "openEnrollment"
+        }
+      ],
+      "title": "Why You Should Avoid General Insurance Quote Websites and Choose a Licensed Insurance Broker"
+    },
+    {
+      "__outstatic": {
+        "commit": "39936d2c778df63f18f9e8567aa459f21efcd999",
+        "hash": "711681554",
+        "path": "src/app/(www)/_data/posts/your-pre-enrollment-to-do-list-essential-steps-before-searching-for-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/mother-and-child-at-table-Q4OD.jpg",
+      "description": "This blog post outlines a comprehensive pre-enrollment to-do list for individuals preparing to search for health insurance during open enrollment. By following this checklist, individuals can streamline their health insurance search, ultimately finding coverage that best suits their family's needs.",
+      "publishedAt": "2024-10-17T19:49:31.959Z",
+      "slug": "your-pre-enrollment-to-do-list-essential-steps-before-searching-for-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Open Enrollment",
+          "value": "openEnrollment"
+        },
+        {
+          "label": "Checklist",
+          "value": "checklist"
+        }
+      ],
+      "title": "Your Pre-Enrollment To-Do List: Essential Steps Before Searching for Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "292212b2ec9ae1817bc37a17970cee99fffdba92",
+        "hash": "3468792464",
+        "path": "src/app/(www)/_data/posts/welcome-to-my-blog.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/045a014e-IxMD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/pexels-cottonbro-3826676-g4Nz.jpg",
+      "description": "",
+      "publishedAt": "2024-09-29T18:44:47.675Z",
+      "slug": "welcome-to-my-blog",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Healthcare",
+          "value": "healthcare"
+        }
+      ],
+      "title": "Welcome to My Blog: Your Trusted Health Insurance Guide!"
+    },
+    {
+      "__outstatic": {
+        "commit": "f2cfbad33490c79a18ee0674aebbdec9eac470de",
+        "hash": "1073032539",
+        "path": "src/app/(www)/_data/posts/understanding-why-aca-plans-can-be-costlier-than-private-insurance-for-the-healthy.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/money-budgeting-I3ND.jpg",
+      "description": "This blog post explains why ACA plans can be more expensive for relatively healthy individuals compared to private insurance. It encourages healthy individuals to evaluate their healthcare usage and consider alternative options, such as lower-premium private plans or catastrophic coverage, to find insurance that better aligns with their needs and budget.",
+      "publishedAt": "2024-10-18T13:50:38.052Z",
+      "slug": "understanding-why-aca-plans-can-be-costlier-than-private-insurance-for-the-healthy",
+      "status": "published",
+      "tags": [
+      ],
+      "title": "Understanding Why ACA Plans Can Be Costlier Than Private Insurance for the Healthy"
+    },
+    {
+      "__outstatic": {
+        "commit": "0ecfbae8961c136a69a22f12eff78b0942d31511",
         "hash": "4182802489",
         "path": "src/app/(www)/_data/posts/the-importance-of-finding-the-right-health-coverage.md"
       },
@@ -205,82 +281,6 @@
         }
       ],
       "title": "The Importance of Finding the Right Health Coverage: Insights from a Health Insurance Agent"
-    },
-    {
-      "__outstatic": {
-        "commit": "93da12dea0840099c5d80daddcb0d7dcc4698753",
-        "hash": "711681554",
-        "path": "src/app/(www)/_data/posts/your-pre-enrollment-to-do-list-essential-steps-before-searching-for-health-insurance.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/mother-and-child-at-table-Q4OD.jpg",
-      "description": "This blog post outlines a comprehensive pre-enrollment to-do list for individuals preparing to search for health insurance during open enrollment. By following this checklist, individuals can streamline their health insurance search, ultimately finding coverage that best suits their family's needs.",
-      "publishedAt": "2024-10-17T19:49:31.959Z",
-      "slug": "your-pre-enrollment-to-do-list-essential-steps-before-searching-for-health-insurance",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Open Enrollment",
-          "value": "openEnrollment"
-        },
-        {
-          "label": "Checklist",
-          "value": "checklist"
-        }
-      ],
-      "title": "Your Pre-Enrollment To-Do List: Essential Steps Before Searching for Health Insurance"
-    },
-    {
-      "__outstatic": {
-        "commit": "de4b053293e58321c7323f20e49cb5ba3a1bf41e",
-        "hash": "1073032539",
-        "path": "src/app/(www)/_data/posts/understanding-why-aca-plans-can-be-costlier-than-private-insurance-for-the-healthy.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/money-budgeting-I3ND.jpg",
-      "description": "This blog post explains why ACA plans can be more expensive for relatively healthy individuals compared to private insurance. It encourages healthy individuals to evaluate their healthcare usage and consider alternative options, such as lower-premium private plans or catastrophic coverage, to find insurance that better aligns with their needs and budget.",
-      "publishedAt": "2024-10-18T13:50:38.052Z",
-      "slug": "understanding-why-aca-plans-can-be-costlier-than-private-insurance-for-the-healthy",
-      "status": "published",
-      "tags": [
-      ],
-      "title": "Understanding Why ACA Plans Can Be Costlier Than Private Insurance for the Healthy"
-    },
-    {
-      "__outstatic": {
-        "commit": "ce711b9211ff7d4dd33d55ec207716f2d4d6a2ac",
-        "hash": "4176707408",
-        "path": "src/app/(www)/_data/posts/why-you-should-avoid-general-insurance-quote-websites-and-choose-a-licensed-insurance-broker.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/woman-on-laptop-YxNz.jpg",
-      "description": "In this post, I discuss the drawbacks of using general insurance quote websites, including the potential sale of your personal information, lack of personalized support, and hidden costs. Instead, I advocate for leveraging a licensed insurance broker who can provide tailored recommendations, expert knowledge, and dedicated advocacy, ensuring you find the best coverage for your individual needs.",
-      "publishedAt": "2024-10-19T17:24:15.000Z",
-      "slug": "why-you-should-avoid-general-insurance-quote-websites-and-choose-a-licensed-insurance-broker",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Open Enrollment",
-          "value": "openEnrollment"
-        }
-      ],
-      "title": "Why You Should Avoid General Insurance Quote Websites and Choose a Licensed Insurance Broker"
     }
   ]
 }
