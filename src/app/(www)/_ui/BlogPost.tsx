@@ -9,6 +9,7 @@ import moment from 'moment';
 import { BlogPost as BlogPostType } from '@www/_data/outstatic';
 import { Markdown, Section } from '.';
 import { BiFolder, BiTag } from 'react-icons/bi';
+import { buildFullUrl } from '@www/_lib/util';
 
 export interface BlogPostProps extends React.HTMLAttributes<HTMLElement> {
   post: BlogPostType;
@@ -54,14 +55,16 @@ const BlogPost: React.FC<BlogPostProps> = ({ post, className, ...props }) => {
                   <BiFolder />
                   <ul className="cats">
                     <li>
-                      <Link href="#">Blog Posts</Link>
+                      <Link href="/blog">Blog Posts</Link>
                     </li>
                   </ul>
                   <BiTag />
                   <ul className="tags">
                     {post.tags?.map((tag, key) => (
                       <li key={key}>
-                        <Link href={`#${tag.value}`}>{tag.label}</Link>
+                        <Link href={buildFullUrl(`/blog/tag/${tag?.value}`)}>
+                          {tag?.label}
+                        </Link>
                       </li>
                     ))}
                   </ul>
@@ -86,9 +89,11 @@ const BlogPost: React.FC<BlogPostProps> = ({ post, className, ...props }) => {
             <div className="categories-widget widget-item">
               <h3 className="widget-title">Categories</h3>
               <ul className="mt-3">
-                {post.tags.map((tag, key) => (
+                {post.tags?.map((tag, key) => (
                   <li key={key}>
-                    <Link href={`#${tag.value}`}>{tag.label}</Link>
+                    <Link href={buildFullUrl(`/blog/tag/${tag?.value}`)}>
+                      {tag?.label}
+                    </Link>
                   </li>
                 ))}
               </ul>
