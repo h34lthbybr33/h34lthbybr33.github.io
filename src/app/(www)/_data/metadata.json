@@ -1,6 +1,6 @@
 {
-  "commit": "65f208e89162ff936064a50e9ec27d04e8e3ccdb",
-  "generated": "2024-10-19T23:01:40.537Z",
+  "commit": "3943415d71451fd9b6b9f8fe7829f3344bae1e9b",
+  "generated": "2024-10-20T15:23:47.892Z",
   "metadata": [
     {
       "__outstatic": {
@@ -289,6 +289,38 @@
         }
       ],
       "title": "Understanding Why ACA Plans Can Be Costlier Than Private Insurance for the Healthy"
+    },
+    {
+      "__outstatic": {
+        "commit": "3943415d71451fd9b6b9f8fe7829f3344bae1e9b",
+        "hash": "2333074329",
+        "path": "src/app/(www)/_data/posts/smart-strategies-for-reducing-health-insurance-costs.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/man-counting-money-E1OT.jpg",
+      "description": "This blog post outlines effective strategies for reducing health insurance costs, including comparing plans, considering high deductible health plans, maximizing preventive care benefits, and participating in wellness programs. It emphasizes the importance of annually reviewing your benefits, utilizing tools like FSAs, and negotiating medical bills to achieve a balance between affordable premiums and adequate coverage while maintaining overall health.",
+      "publishedAt": "2024-10-20T14:53:41.922Z",
+      "slug": "smart-strategies-for-reducing-health-insurance-costs",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Healthcare",
+          "value": "healthcare"
+        },
+        {
+          "label": "Budgeting",
+          "value": "budgeting"
+        }
+      ],
+      "title": "Smart Strategies for Reducing Health Insurance Costs"
     }
   ]
 }
