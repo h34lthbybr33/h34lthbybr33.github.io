@@ -6,6 +6,7 @@ import Link from 'next/link';
 import moment from 'moment';
 
 import { BlogPost } from '@www/_data/outstatic';
+import { buildBlogUrl } from '@www/_lib/util';
 
 export interface BlogPostTileProps extends React.HTMLAttributes<HTMLElement> {
   post: BlogPost;
@@ -21,7 +22,7 @@ const BlogPostTile: React.FC<BlogPostTileProps> = ({ post, className, ...props }
         </div>
         <p className="post-category">Blog Articles</p>
         <h2 className="title">
-          <Link href={`/blog/${post.slug}`}>{post.title}</Link>
+          <Link href={buildBlogUrl(post.slug)}>{post.title}</Link>
         </h2>
         <div className="d-flex align-items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}

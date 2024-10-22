@@ -6,7 +6,7 @@ import fs from 'fs/promises';
 import { getImageProps } from 'next/image';
 
 import { getBlogPosts } from '@www/_data/outstatic';
-import { buildFullUrl } from '@www/_lib/util';
+import { buildBlogUrl, buildFullUrl } from '@www/_lib/util';
 import siteInfo from '@www/_data/site-info';
 import contactInfo from '@www/_data/contact-info';
 
@@ -47,7 +47,7 @@ export async function generateFeeds(destinationPath: string): Promise<void> {
       title: post.title,
       description: post.description,
       date: new Date(post.publishedAt),
-      link: buildFullUrl(`/blog/${post.slug}`),
+      link: buildBlogUrl(post.slug, true),
       author: [
         {
           name: post.author?.name || contactInfo.name,
