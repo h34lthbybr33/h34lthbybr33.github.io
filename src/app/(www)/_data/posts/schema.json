@@ -28,6 +28,18 @@
         {
           "value": "aca",
           "label": "ACA"
+        },
+        {
+          "value": "budgeting",
+          "label": "Budgeting"
+        },
+        {
+          "value": "definitions",
+          "label": "Definitions"
+        },
+        {
+          "value": "terminology",
+          "label": "Terminology"
         }
       ]
     }
