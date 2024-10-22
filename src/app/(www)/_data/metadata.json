@@ -1,6 +1,6 @@
 {
-  "commit": "3943415d71451fd9b6b9f8fe7829f3344bae1e9b",
-  "generated": "2024-10-20T15:23:47.892Z",
+  "commit": "aee78f8d23e200d8d44b1873fd2eaf6735fc2661",
+  "generated": "2024-10-22T16:47:58.149Z",
   "metadata": [
     {
       "__outstatic": {
@@ -321,6 +321,38 @@
         }
       ],
       "title": "Smart Strategies for Reducing Health Insurance Costs"
+    },
+    {
+      "__outstatic": {
+        "commit": "aee78f8d23e200d8d44b1873fd2eaf6735fc2661",
+        "hash": "1729983908",
+        "path": "src/app/(www)/_data/posts/what-are-deductibles.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain what a health insurance deductible is. Understanding your deductible is essential for budgeting healthcare expenses, comparing insurance plans, and informing your decisions about medical care utilization.",
+      "publishedAt": "2024-10-22T16:16:50.942Z",
+      "slug": "what-are-deductibles",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Deductibles"
     }
   ]
 }
