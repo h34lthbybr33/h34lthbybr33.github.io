@@ -1,6 +1,6 @@
 {
-  "commit": "36a27f6b40e84463578fe2abe895041a961d192c",
-  "generated": "2024-10-22T19:19:33.180Z",
+  "commit": "e21c477d0262dd8eac2338b19a87be0c7cf79a86",
+  "generated": "2024-10-22T19:37:52.598Z",
   "metadata": [
     {
       "__outstatic": {
@@ -421,6 +421,42 @@
         }
       ],
       "title": "Understanding Health Insurance: Premiums"
+    },
+    {
+      "__outstatic": {
+        "commit": "e21c477d0262dd8eac2338b19a87be0c7cf79a86",
+        "hash": "682671548",
+        "path": "src/app/(www)/_data/posts/what-are-copayments-copays.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explore what health insurance copayments are, and highlighting their role in cost-sharing, budgeting and encouraging access to medical care.",
+      "publishedAt": "2024-10-24T13:00:56.000Z",
+      "slug": "what-are-copayments-copays",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Budgeting",
+          "value": "budgeting"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Copayments (Copays)"
     }
   ]
 }
