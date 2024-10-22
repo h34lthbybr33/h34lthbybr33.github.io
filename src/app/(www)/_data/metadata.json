@@ -1,6 +1,6 @@
 {
-  "commit": "8955370d68997da4a1f75d63261d6cc349089c4d",
-  "generated": "2024-10-22T17:00:47.302Z",
+  "commit": "36a27f6b40e84463578fe2abe895041a961d192c",
+  "generated": "2024-10-22T19:19:33.180Z",
   "metadata": [
     {
       "__outstatic": {
@@ -385,6 +385,42 @@
         }
       ],
       "title": "Understanding Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "36a27f6b40e84463578fe2abe895041a961d192c",
+        "hash": "3864429652",
+        "path": "src/app/(www)/_data/posts/what-are-premiums.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain what a health insurance premium is, highlighting its importance in budgeting, plan comparison, and understanding overall healthcare costs.",
+      "publishedAt": "2024-10-23T13:00:16.000Z",
+      "slug": "what-are-premiums",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Budgeting",
+          "value": "budgeting"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Premiums"
     }
   ]
 }
