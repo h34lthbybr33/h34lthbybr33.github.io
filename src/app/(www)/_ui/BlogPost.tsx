@@ -9,7 +9,7 @@ import moment from 'moment';
 import { BlogPost as BlogPostType } from '@www/_data/outstatic';
 import { Markdown, Section } from '.';
 import { BiFolder, BiTag } from 'react-icons/bi';
-import { buildBlogTagUrl, buildFullUrl, getBlogUrl } from '@www/_lib/util';
+import { buildBlogTagUrl, getBlogUrl } from '@www/_lib/util';
 
 export interface BlogPostProps extends React.HTMLAttributes<HTMLElement> {
   post: BlogPostType;

@@ -19,7 +19,7 @@ const Pagination: React.FC<PaginationProps> = ({
   ...props
 }) => {
   return (
-    <div className="container text-center">
+    <div className="container text-center" {...props}>
       <div className="row gy-4 gx-5">
         <div className="col-lg-12 position-relative align-self-center">
           <ul className="pagination pagination-lg justify-content-center">

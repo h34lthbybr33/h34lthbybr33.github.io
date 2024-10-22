@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 import { BlogPosts, PageTitle, Pagination } from '@www/_ui';
 import { getBlogPosts } from '@www/_data/outstatic';
 import { generateFeeds } from '@www/_lib/feeds';
-import { buildBlogPageUrl, buildBlogTagUrl } from '../_lib/util';
+import { buildBlogPageUrl } from '../_lib/util';
 import { BLOG_POSTS_PER_PAGE } from '../_data/site-settings';
 
 export const metadata: Metadata = {
