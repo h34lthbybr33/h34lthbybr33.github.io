@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { buildFullUrl } from '@www/_lib/util';
+import { buildFullUrl, getBlogUrl } from '@www/_lib/util';
 
 export default function Sitemap(): MetadataRoute.Sitemap {
   return [
@@ -10,7 +10,7 @@ export default function Sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     },
     {
-      url: buildFullUrl('/blog'),
+      url: getBlogUrl(true),
       lastModified: new Date(),
       changeFrequency: 'daily',
       priority: 0.5,

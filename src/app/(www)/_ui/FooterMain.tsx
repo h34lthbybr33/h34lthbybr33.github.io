@@ -3,11 +3,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import classNames from 'classnames';
+
+import { useCalendly, useSiteContext, SocialIcon } from '.';
+import { getBlogUrl } from '@www/_lib/util';
 
 import footerImage from '@www/_assets/img/logo/full.png';
-import { useCalendly, useSiteContext } from '.';
-import SocialIcon from './SocialIcon';
-import classNames from 'classnames';
 
 export interface FooterMainProps extends React.HTMLAttributes<HTMLElement> {
   //children?: React.ReactNode;
@@ -60,7 +61,7 @@ const FooterMain: React.FC<FooterMainProps> = ({ className, ...props }) => {
               <Link href=".">Home</Link>
             </li>
             <li className={footerLiClassName}>
-              <Link href="/blog">Blog Posts</Link>
+              <Link href={getBlogUrl()}>Blog Posts</Link>
             </li>
             <li className={footerLiClassName}>
               <Link href="/faq">Frequently Asked Questions</Link>

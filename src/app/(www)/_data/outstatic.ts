@@ -67,7 +67,12 @@ export const getBlogPostBySlug = async (slug: string): Promise<BlogPost> => {
     .first();
   return match;
 };
-export const getBlogPosts = async (limit?: number): Promise<BlogPostCollection> => {
+//TODO: Wrap this in a bigger object that includes pagination info.
+// e.g. totalPages, getPage(page) function, hasPrev, hasNext, etc.
+export const getBlogPosts = async ({
+  limit,
+  skip,
+}: { limit?: number; skip?: number } = {}): Promise<BlogPostCollection> => {
   const db = await load();
   let query = db
     .find<BlogPost>({ collection: BlogPostCollectionName, status: 'published' })
@@ -75,6 +80,9 @@ export const getBlogPosts = async (limit?: number): Promise<BlogPostCollection> 
     .sort({ publishedAt: -1 });
   if (typeof limit !== 'undefined') {
     query = query.limit(limit);
+  }
+  if (typeof skip !== 'undefined') {
+    query = query.skip(skip);
   }
   const collection: BlogPostCollection = await query.toArray();
   return collection;

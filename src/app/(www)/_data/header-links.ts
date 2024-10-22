@@ -1,3 +1,5 @@
+import { getBlogUrl } from '@www/_lib/util';
+
 export type HeaderLink = {
   text: string;
   title: string;
@@ -15,7 +17,7 @@ export const headerLinks: HeaderLinks = [
   {
     text: 'Blog',
     title: 'Latest blog posts',
-    url: '/blog',
+    url: getBlogUrl(),
   },
   {
     text: 'FAQ',

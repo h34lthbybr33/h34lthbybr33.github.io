@@ -23,6 +23,7 @@ export { default as ImageCard } from './ImageCard';
 export { default as Markdown } from './Markdown';
 export { default as Metricool } from './Metricool';
 export { default as PageTitle } from './PageTitle';
+export { default as Pagination } from './Pagination';
 export { default as Section, type SectionBackground, type SectionName } from './Section';
 export { default as SectionTitle } from './SectionTitle';
 export { default as SocialIcon } from './SocialIcon';
