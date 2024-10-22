@@ -1,6 +1,6 @@
 {
-  "commit": "aee78f8d23e200d8d44b1873fd2eaf6735fc2661",
-  "generated": "2024-10-22T16:47:58.149Z",
+  "commit": "8955370d68997da4a1f75d63261d6cc349089c4d",
+  "generated": "2024-10-22T17:00:47.302Z",
   "metadata": [
     {
       "__outstatic": {
@@ -353,6 +353,38 @@
         }
       ],
       "title": "Understanding Health Insurance: Deductibles"
+    },
+    {
+      "__outstatic": {
+        "commit": "8955370d68997da4a1f75d63261d6cc349089c4d",
+        "hash": "2083149017",
+        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "Health insurance can be complicated. In this post I outline some key terms to  know. In future posts, I will go over each term in plain terms with more detail.",
+      "publishedAt": "2024-10-21T13:00:19.000Z",
+      "slug": "understanding-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance"
     }
   ]
 }
