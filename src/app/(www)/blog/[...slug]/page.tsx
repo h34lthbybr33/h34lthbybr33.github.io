@@ -166,34 +166,47 @@ type GenerateMetadata = ({ params }: BlogPostPageProps) => Promise<Metadata>;
 export const generateMetadata: GenerateMetadata = async ({
   params: { slug },
 }: BlogPostPageProps) => {
-  if (slug.length > 1 && slug[0] === BLOG_TAG_SLUG) {
-    const tag = await getBlogPostTag(slug[1]);
-    if (typeof tag !== 'undefined') {
-      return {
-        title: `${tag?.label} blog posts`,
-        description: `All blog posts tagged with ${tag?.label}`,
-      };
-    }
-  } else if (slug.length === 1) {
-    const post = await getBlogPostBySlug(slug[0]);
-
-    if (typeof post !== 'undefined') {
-      return {
-        title: post.title || siteInfo.title,
-        description: post.description || siteInfo.title,
-        openGraph: {
-          type: 'article',
-          title: post.title,
-          description: post.description,
-          url: buildBlogUrl(post.slug, true),
-          images: [buildFullUrl(post.coverImage || defaultPostImage.src)],
-          publishedTime: post.publishedAt,
-          authors: post.author?.name,
-          tags: post.tags.map((tag) => tag && tag.label),
-        },
-      };
-    }
+  switch (slug[0]) {
+    case BLOG_PAGE_SLUG:
+      const page = slug.length > 1 ? parseInt(slug[1] || '') : 1;
+      if (!isNaN(page)) {
+        return {
+          title: `Older blog posts`,
+          description: `Page ${page} of older blog posts.`,
+          keywords: siteInfo.keywords,
+        };
+      }
+      break;
+    case BLOG_TAG_SLUG:
+      const tag = await getBlogPostTag(slug[1]);
+      if (typeof tag !== 'undefined') {
+        return {
+          title: `${tag?.label} blog posts`,
+          description: `All blog posts tagged with ${tag?.label}.`,
+          keywords: siteInfo.keywords,
+        };
+      }
+      break;
+    default:
+      const post = await getBlogPostBySlug(slug[0]);
+      if (typeof post !== 'undefined') {
+        return {
+          title: post.title || siteInfo.title,
+          description: post.description || siteInfo.title,
+          keywords: siteInfo.keywords,
+          openGraph: {
+            type: 'article',
+            title: post.title,
+            description: post.description,
+            url: buildBlogUrl(post.slug, true),
+            images: [buildFullUrl(post.coverImage || defaultPostImage.src)],
+            publishedTime: post.publishedAt,
+            authors: post.author?.name,
+            tags: post.tags.map((tag) => tag && tag.label),
+          },
+        };
+      }
+      break;
   }
-
   return {} as Metadata;
 };
