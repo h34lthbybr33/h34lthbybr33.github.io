@@ -1,6 +1,6 @@
 {
-  "commit": "0df578b4953da1445e8f04d418d551a383d37ad7",
-  "generated": "2024-10-23T12:08:37.567Z",
+  "commit": "b3695c3139a5c7969d879eca01bfbf791e3dc1c2",
+  "generated": "2024-10-23T12:41:33.680Z",
   "metadata": [
     {
       "__outstatic": {
@@ -492,8 +492,8 @@
     },
     {
       "__outstatic": {
-        "commit": "0df578b4953da1445e8f04d418d551a383d37ad7",
-        "hash": "3864429652",
+        "commit": "b3695c3139a5c7969d879eca01bfbf791e3dc1c2",
+        "hash": "1797819072",
         "path": "src/app/(www)/_data/posts/what-are-premiums.md"
       },
       "author": {
@@ -505,7 +505,7 @@
       "description": "In this post, I explain what a health insurance premium is, highlighting its importance in budgeting, plan comparison, and understanding overall healthcare costs.",
       "publishedAt": "2024-10-23T13:00:16.000Z",
       "slug": "what-are-premiums",
-      "status": "draft",
+      "status": "published",
       "tags": [
         {
           "label": "Insurance",
