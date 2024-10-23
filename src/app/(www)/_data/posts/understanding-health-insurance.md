@@ -13,7 +13,7 @@ publishedAt: '2024-10-21T13:00:19.000Z'
 
 Understanding health insurance can be challenging due to the jargon commonly used. In the coming days I'll break down each of these terms into simple language. For now, here are some key health insurance terms to know:
 
- 1. **Premium**: The amount you pay for your health insurance coverage, typically billed monthly.
+ 1. [**Premium**](/blog/what-are-premiums): The amount you pay for your health insurance coverage, typically billed monthly.
 
  2. [**Deductible**](/blog/what-are-deductibles): The amount you must pay out-of-pocket for healthcare services before your insurance begins to pay.
 
