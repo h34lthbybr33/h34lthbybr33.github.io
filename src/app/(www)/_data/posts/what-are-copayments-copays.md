@@ -1,11 +1,11 @@
 ---
 title: 'Understanding Health Insurance: Copayments (Copays)'
-status: 'draft'
+status: 'published'
 author:
   name: 'Bree Thomas'
   picture: '/images/avatar-A0MD.png'
 slug: 'what-are-copayments-copays'
-description: 'In this post, I explore what health insurance copayments are, and highlighting their role in cost-sharing, budgeting and encouraging access to medical care.'
+description: 'Explore what health insurance copayments are, and highlighting their role in cost-sharing, budgeting and encouraging access to medical care.'
 coverImage: '/images/open-book-with-glasses-A5Mj.jpg'
 tags: [{"value":"insurance","label":"Insurance"},{"value":"budgeting","label":"Budgeting"},{"value":"definitions","label":"Definitions"},{"value":"terminology","label":"Terminology"}]
 publishedAt: '2024-10-24T13:00:56.000Z'
