@@ -24,7 +24,7 @@ export default async function BlogPage() {
   return (
     <>
       <PageTitle breadcrumbTitle="Blog" />
-      <BlogPosts posts={posts} />
+      <BlogPosts posts={posts.slice(0, Math.min(posts.length, BLOG_POSTS_PER_PAGE))} />
       <Pagination
         currentPage={1}
         totalPages={totalPages}
