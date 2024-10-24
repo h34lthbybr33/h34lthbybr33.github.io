@@ -1,9 +1,9 @@
 'use client';
 
 import React from 'react';
+import Image, { StaticImageData } from 'next/image';
 
 import { Section, SectionBackground } from '.';
-import Image, { StaticImageData } from 'next/image';
 
 interface AboutProps extends React.HTMLAttributes<HTMLElement> {
   id?: string;

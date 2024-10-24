@@ -3,10 +3,10 @@
 import React from 'react';
 import Link from 'next/link';
 import { sendGAEvent } from '@next/third-parties/google';
+import { BiEnvelope, BiPhone, BiMessageDetail } from 'react-icons/bi';
 
 import { formatTelephone, normalizeTelephone } from '@/lib/util';
 import { SocialIcon, useSiteContext } from '.';
-import { BiEnvelope, BiPhone, BiMessageDetail } from 'react-icons/bi';
 
 export interface HeaderTopBarProps extends React.HTMLAttributes<HTMLElement> {}
 

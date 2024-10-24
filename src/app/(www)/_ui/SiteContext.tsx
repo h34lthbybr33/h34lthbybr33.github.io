@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { SocialMediaAccount } from '../_data/social-links';
+import { SocialMediaAccount } from '@www/_data/social-links';
 
 interface ISiteContext {
   contactEmail: string;

@@ -2,8 +2,7 @@
 
 import React from 'react';
 
-import HeaderTopBar from './HeaderTopBar';
-import HeaderMain from './HeaderMain';
+import { HeaderTopBar, HeaderMain } from '.';
 
 export interface HeaderProps extends React.HTMLAttributes<HTMLElement> {}
 
