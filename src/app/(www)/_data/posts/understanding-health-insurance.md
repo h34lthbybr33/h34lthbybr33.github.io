@@ -5,7 +5,7 @@ author:
   name: 'Bree Thomas'
   picture: '/images/avatar-A0MD.png'
 slug: 'understanding-health-insurance'
-description: 'Health insurance can be complicated. In this post I outline some key terms to  know. In future posts, I will go over each term in plain terms with more detail.'
+description: 'Health insurance can be complicated. In this post I outline some key terms to know.'
 coverImage: '/images/open-book-with-glasses-A5Mj.jpg'
 tags: [{"value":"insurance","label":"Insurance"},{"value":"definitions","label":"Definitions"},{"value":"terminology","label":"Terminology"}]
 publishedAt: '2024-10-21T13:00:19.000Z'
@@ -17,7 +17,7 @@ Understanding health insurance can be challenging due to the jargon commonly use
 
  2. [**Deductible**](/blog/what-are-deductibles): The amount you must pay out-of-pocket for healthcare services before your insurance begins to pay.
 
- 3. **Copayment (Copay)**: A fixed amount you pay for a specific service or prescription at the time of the visit, separate from your deductible.
+ 3. [**Copayment (Copay)**](/blog/what-are-copayments-copays): A fixed amount you pay for a specific service or prescription at the time of the visit, separate from your deductible.
 
  4. **Coinsurance**: The percentage of costs you share with your insurance provider after meeting your deductible. For example, if your coinsurance is 20%, you pay 20% of the costs, and the insurance pays 80%.
 
