@@ -19,7 +19,7 @@ Understanding health insurance can be challenging due to the jargon commonly use
 
  3. [**Copayment (Copay)**](/blog/what-are-copayments-copays): A fixed amount you pay for a specific service or prescription at the time of the visit, separate from your deductible.
 
- 4. **Coinsurance**: The percentage of costs you share with your insurance provider after meeting your deductible. For example, if your coinsurance is 20%, you pay 20% of the costs, and the insurance pays 80%.
+ 4. [**Coinsurance**](/blog/what-are-out-of-pocket-maximums): The percentage of costs you share with your insurance provider after meeting your deductible. For example, if your coinsurance is 20%, you pay 20% of the costs, and the insurance pays 80%.
 
  5. **Out-of-Pocket Maximum**: The maximum amount you’ll have to pay for covered services in a plan year. Once you reach this limit, your insurer pays 100% of covered expenses.
 
