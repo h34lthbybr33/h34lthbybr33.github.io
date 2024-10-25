@@ -40,6 +40,10 @@
         {
           "value": "terminology",
           "label": "Terminology"
+        },
+        {
+          "value": "comparisons",
+          "label": "Comparisons"
         }
       ]
     }
