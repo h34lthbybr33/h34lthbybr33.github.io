@@ -1,6 +1,6 @@
 {
-  "commit": "365feeeb1b49f501dcf48b0b209530e242360256",
-  "generated": "2024-10-25T15:06:27.733Z",
+  "commit": "f991e8bd7f4d61218154e674e52997cd1d97e0f5",
+  "generated": "2024-10-25T15:06:59.659Z",
   "metadata": [
     {
       "__outstatic": {
@@ -356,38 +356,6 @@
     },
     {
       "__outstatic": {
-        "commit": "8955370d68997da4a1f75d63261d6cc349089c4d",
-        "hash": "2083149017",
-        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "Health insurance can be complicated. In this post I outline some key terms to  know. In future posts, I will go over each term in plain terms with more detail.",
-      "publishedAt": "2024-10-21T13:00:19.000Z",
-      "slug": "understanding-health-insurance",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance"
-    },
-    {
-      "__outstatic": {
         "commit": "e21c477d0262dd8eac2338b19a87be0c7cf79a86",
         "hash": "682671548",
         "path": "src/app/(www)/_data/posts/what-are-copayments-copays.md"
@@ -525,6 +493,38 @@
         }
       ],
       "title": "Understanding Health Insurance: Out-of-Pocket Maximum"
+    },
+    {
+      "__outstatic": {
+        "commit": "f991e8bd7f4d61218154e674e52997cd1d97e0f5",
+        "hash": "872933348",
+        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
+      "publishedAt": "2024-10-21T13:00:19.000Z",
+      "slug": "understanding-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance"
     }
   ]
 }
