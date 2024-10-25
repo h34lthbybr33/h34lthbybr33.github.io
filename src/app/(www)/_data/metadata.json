@@ -1,6 +1,6 @@
 {
-  "commit": "b57fccc48f9e2493b36b8839a3be3176630bacf1",
-  "generated": "2024-10-25T17:43:18.346Z",
+  "commit": "2a7aa91d5324b760aca7e2fda8b797771c7e7667",
+  "generated": "2024-10-25T17:43:27.141Z",
   "metadata": [
     {
       "__outstatic": {
@@ -557,34 +557,6 @@
         }
       ],
       "title": "Understanding Health Insurance: Out-of-Network"
-    },
-    {
-      "__outstatic": {
-        "commit": "3573c85587246022684ee933aa8f367f91d17b52",
-        "hash": "2150084005",
-        "path": "src/app/(www)/_data/posts/health-insurance-is-all-about-networking.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/blocks-chained-together-k5Nj.jpg",
-      "description": "The table compares in-network and out-of-network health insurance options, highlighting the key differences and when to choose which.",
-      "publishedAt": "2024-10-25T17:08:07.339Z",
-      "slug": "health-insurance-is-all-about-networking",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Comparisons",
-          "value": "comparisons"
-        }
-      ],
-      "title": "Health insurance is all about networking"
     },
     {
       "__outstatic": {
