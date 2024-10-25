@@ -1,27 +1,7 @@
 {
-  "commit": "f991e8bd7f4d61218154e674e52997cd1d97e0f5",
-  "generated": "2024-10-25T15:06:59.659Z",
+  "commit": "21c1c384dc00661fae15baf1be83d58b31ff87da",
+  "generated": "2024-10-25T17:51:35.711Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "3d5f6865ddff18b968be4c036448b7b7ecb4bc87",
-        "hash": "944757758",
-        "path": "src/app/(www)/_data/about/nice-to-meet-you.md"
-      },
-      "author": {
-        "name": "",
-        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
-      },
-      "collection": "about",
-      "coverImage": "/images/standing-by-window-c1OT.jpg",
-      "darkBackground": "",
-      "description": "",
-      "imageOnRight": "",
-      "publishedAt": "2024-09-27T20:40:52.691Z",
-      "slug": "nice-to-meet-you",
-      "status": "published",
-      "title": "Nice to meet you…"
-    },
     {
       "__outstatic": {
         "commit": "745a5b62809082bc0dc78a2c2e23f70701fba2e5",
@@ -41,38 +21,6 @@
       "slug": "my-mission-goal",
       "status": "published",
       "title": "My Mission / Goal"
-    },
-    {
-      "__outstatic": {
-        "commit": "123446575e25ad53dc6f6e6f09a1bf5dde9436e4",
-        "hash": "4110812908",
-        "path": "src/app/(www)/_data/posts/the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/045a014e-AzNz.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/pexels-kindelmedia-7688366-Q4Mz.jpg",
-      "description": "",
-      "publishedAt": "2024-10-01T19:28:17.124Z",
-      "slug": "the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Healthcare",
-          "value": "healthcare"
-        },
-        {
-          "label": "Open Enrollment",
-          "value": "openEnrollment"
-        }
-      ],
-      "title": "The Benefits of Using a Personal Insurance Agent During Open Enrollment"
     },
     {
       "__outstatic": {
@@ -148,75 +96,39 @@
     },
     {
       "__outstatic": {
-        "commit": "6290315ea229cf5edde48bccb014c2ce8f6cbddd",
-        "hash": "4176707408",
-        "path": "src/app/(www)/_data/posts/why-you-should-avoid-general-insurance-quote-websites-and-choose-a-licensed-insurance-broker.md"
+        "commit": "3d5f6865ddff18b968be4c036448b7b7ecb4bc87",
+        "hash": "944757758",
+        "path": "src/app/(www)/_data/about/nice-to-meet-you.md"
       },
       "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
+        "name": "",
+        "picture": "https://avatars.githubusercontent.com/u/180702101?v=4"
       },
-      "collection": "posts",
-      "coverImage": "/images/woman-on-laptop-YxNz.jpg",
-      "description": "In this post, I discuss the drawbacks of using general insurance quote websites, including the potential sale of your personal information, lack of personalized support, and hidden costs. Instead, I advocate for leveraging a licensed insurance broker who can provide tailored recommendations, expert knowledge, and dedicated advocacy, ensuring you find the best coverage for your individual needs.",
-      "publishedAt": "2024-10-19T17:24:15.000Z",
-      "slug": "why-you-should-avoid-general-insurance-quote-websites-and-choose-a-licensed-insurance-broker",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Open Enrollment",
-          "value": "openEnrollment"
-        }
-      ],
-      "title": "Why You Should Avoid General Insurance Quote Websites and Choose a Licensed Insurance Broker"
-    },
-    {
-      "__outstatic": {
-        "commit": "39936d2c778df63f18f9e8567aa459f21efcd999",
-        "hash": "711681554",
-        "path": "src/app/(www)/_data/posts/your-pre-enrollment-to-do-list-essential-steps-before-searching-for-health-insurance.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/mother-and-child-at-table-Q4OD.jpg",
-      "description": "This blog post outlines a comprehensive pre-enrollment to-do list for individuals preparing to search for health insurance during open enrollment. By following this checklist, individuals can streamline their health insurance search, ultimately finding coverage that best suits their family's needs.",
-      "publishedAt": "2024-10-17T19:49:31.959Z",
-      "slug": "your-pre-enrollment-to-do-list-essential-steps-before-searching-for-health-insurance",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Open Enrollment",
-          "value": "openEnrollment"
-        },
-        {
-          "label": "Checklist",
-          "value": "checklist"
-        }
-      ],
-      "title": "Your Pre-Enrollment To-Do List: Essential Steps Before Searching for Health Insurance"
-    },
-    {
-      "__outstatic": {
-        "commit": "292212b2ec9ae1817bc37a17970cee99fffdba92",
-        "hash": "3468792464",
-        "path": "src/app/(www)/_data/posts/welcome-to-my-blog.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/045a014e-IxMD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/pexels-cottonbro-3826676-g4Nz.jpg",
+      "collection": "about",
+      "coverImage": "/images/standing-by-window-c1OT.jpg",
+      "darkBackground": "",
       "description": "",
-      "publishedAt": "2024-09-29T18:44:47.675Z",
-      "slug": "welcome-to-my-blog",
+      "imageOnRight": "",
+      "publishedAt": "2024-09-27T20:40:52.691Z",
+      "slug": "nice-to-meet-you",
+      "status": "published",
+      "title": "Nice to meet you…"
+    },
+    {
+      "__outstatic": {
+        "commit": "e88cd85c05746393acb310667d01594574f41f1e",
+        "hash": "1104338856",
+        "path": "src/app/(www)/_data/posts/understanding-why-aca-plans-can-be-costlier-than-private-insurance-for-the-healthy.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/money-budgeting-I3ND.jpg",
+      "description": "This blog post explains why ACA plans can be more expensive for relatively healthy individuals compared to private insurance. It encourages healthy individuals to evaluate their healthcare usage and consider alternative options, such as lower-premium private plans or catastrophic coverage, to find insurance that better aligns with their needs and budget.",
+      "publishedAt": "2024-10-18T13:50:38.052Z",
+      "slug": "understanding-why-aca-plans-can-be-costlier-than-private-insurance-for-the-healthy",
       "status": "published",
       "tags": [
         {
@@ -224,11 +136,11 @@
           "value": "insurance"
         },
         {
-          "label": "Healthcare",
-          "value": "healthcare"
+          "label": "ACA",
+          "value": "aca"
         }
       ],
-      "title": "Welcome to My Blog: Your Trusted Health Insurance Guide!"
+      "title": "Understanding Why ACA Plans Can Be Costlier Than Private Insurance for the Healthy"
     },
     {
       "__outstatic": {
@@ -264,19 +176,19 @@
     },
     {
       "__outstatic": {
-        "commit": "65f208e89162ff936064a50e9ec27d04e8e3ccdb",
-        "hash": "1104338856",
-        "path": "src/app/(www)/_data/posts/understanding-why-aca-plans-can-be-costlier-than-private-insurance-for-the-healthy.md"
+        "commit": "8441fab561f948cbddde0ee85cc62ebfb3cca31d",
+        "hash": "460733253",
+        "path": "src/app/(www)/_data/posts/the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment.md"
       },
       "author": {
         "name": "Bree Thomas",
         "picture": "/images/avatar-A0MD.png"
       },
       "collection": "posts",
-      "coverImage": "/images/money-budgeting-I3ND.jpg",
-      "description": "This blog post explains why ACA plans can be more expensive for relatively healthy individuals compared to private insurance. It encourages healthy individuals to evaluate their healthcare usage and consider alternative options, such as lower-premium private plans or catastrophic coverage, to find insurance that better aligns with their needs and budget.",
-      "publishedAt": "2024-10-18T13:50:38.052Z",
-      "slug": "understanding-why-aca-plans-can-be-costlier-than-private-insurance-for-the-healthy",
+      "coverImage": "/images/pexels-kindelmedia-7688366-Q4Mz.jpg",
+      "description": "",
+      "publishedAt": "2024-10-01T19:28:17.124Z",
+      "slug": "the-benefits-of-using-a-personal-insurance-agent-during-open-enrollment",
       "status": "published",
       "tags": [
         {
@@ -284,15 +196,19 @@
           "value": "insurance"
         },
         {
-          "label": "ACA",
-          "value": "aca"
+          "label": "Healthcare",
+          "value": "healthcare"
+        },
+        {
+          "label": "Open Enrollment",
+          "value": "openEnrollment"
         }
       ],
-      "title": "Understanding Why ACA Plans Can Be Costlier Than Private Insurance for the Healthy"
+      "title": "The Benefits of Using a Personal Insurance Agent During Open Enrollment"
     },
     {
       "__outstatic": {
-        "commit": "3943415d71451fd9b6b9f8fe7829f3344bae1e9b",
+        "commit": "128fcb3eda650992f3d78bedd2401cb027d86764",
         "hash": "2333074329",
         "path": "src/app/(www)/_data/posts/smart-strategies-for-reducing-health-insurance-costs.md"
       },
@@ -324,107 +240,7 @@
     },
     {
       "__outstatic": {
-        "commit": "aee78f8d23e200d8d44b1873fd2eaf6735fc2661",
-        "hash": "1729983908",
-        "path": "src/app/(www)/_data/posts/what-are-deductibles.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "In this post, I explain what a health insurance deductible is. Understanding your deductible is essential for budgeting healthcare expenses, comparing insurance plans, and informing your decisions about medical care utilization.",
-      "publishedAt": "2024-10-22T16:16:50.942Z",
-      "slug": "what-are-deductibles",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance: Deductibles"
-    },
-    {
-      "__outstatic": {
-        "commit": "e21c477d0262dd8eac2338b19a87be0c7cf79a86",
-        "hash": "682671548",
-        "path": "src/app/(www)/_data/posts/what-are-copayments-copays.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "In this post, I explore what health insurance copayments are, and highlighting their role in cost-sharing, budgeting and encouraging access to medical care.",
-      "publishedAt": "2024-10-24T13:00:56.000Z",
-      "slug": "what-are-copayments-copays",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Budgeting",
-          "value": "budgeting"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance: Copayments (Copays)"
-    },
-    {
-      "__outstatic": {
-        "commit": "6ec1b1b1623c7adc1a2cf571d8c86d4836ddf9e8",
-        "hash": "874544955",
-        "path": "src/app/(www)/_data/posts/what-is-a-network.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "In this post, we define what a health insurance network is, and highlighting its importance in reducing costs, facilitating access to care, and aiding in the selection of the right insurance plan.",
-      "publishedAt": "2024-10-26T13:00:11.000Z",
-      "slug": "what-is-a-network",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance: Network"
-    },
-    {
-      "__outstatic": {
-        "commit": "b3695c3139a5c7969d879eca01bfbf791e3dc1c2",
+        "commit": "c3d755977ab3d0880d7c1bda1fd935ee63afe8ba",
         "hash": "1797819072",
         "path": "src/app/(www)/_data/posts/what-are-premiums.md"
       },
@@ -460,7 +276,7 @@
     },
     {
       "__outstatic": {
-        "commit": "365feeeb1b49f501dcf48b0b209530e242360256",
+        "commit": "1952e7f20514909736d8c39213f444095c228c98",
         "hash": "3619912068",
         "path": "src/app/(www)/_data/posts/what-are-out-of-pocket-maximums.md"
       },
@@ -496,8 +312,256 @@
     },
     {
       "__outstatic": {
-        "commit": "f991e8bd7f4d61218154e674e52997cd1d97e0f5",
-        "hash": "872933348",
+        "commit": "64db19e81e55e5a28b96a6720465f57c18e84c10",
+        "hash": "1729983908",
+        "path": "src/app/(www)/_data/posts/what-are-deductibles.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain what a health insurance deductible is. Understanding your deductible is essential for budgeting healthcare expenses, comparing insurance plans, and informing your decisions about medical care utilization.",
+      "publishedAt": "2024-10-22T16:16:50.942Z",
+      "slug": "what-are-deductibles",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Deductibles"
+    },
+    {
+      "__outstatic": {
+        "commit": "183dd998ad54b73a58fd55a4568b04762c5eb1f3",
+        "hash": "2163088207",
+        "path": "src/app/(www)/_data/posts/what-are-copayments-copays.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "Explore what health insurance copayments are, and highlighting their role in cost-sharing, budgeting and encouraging access to medical care.",
+      "publishedAt": "2024-10-24T13:00:56.000Z",
+      "slug": "what-are-copayments-copays",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Budgeting",
+          "value": "budgeting"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Copayments (Copays)"
+    },
+    {
+      "__outstatic": {
+        "commit": "1e620cf1f7324c1544f0c4960ccfc20027709dbd",
+        "hash": "525391889",
+        "path": "src/app/(www)/_data/posts/welcome-to-my-blog.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/pexels-cottonbro-3826676-g4Nz.jpg",
+      "description": "",
+      "publishedAt": "2024-09-29T18:44:47.675Z",
+      "slug": "welcome-to-my-blog",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Healthcare",
+          "value": "healthcare"
+        }
+      ],
+      "title": "Welcome to My Blog: Your Trusted Health Insurance Guide!"
+    },
+    {
+      "__outstatic": {
+        "commit": "d9b02cde667e190acb15d81fd1c65c60fb141d76",
+        "hash": "4237471076",
+        "path": "src/app/(www)/_data/posts/what-is-out-of-network.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain what out-of-network means in health insurance, and highlight its importance in relation to higher healthcare costs, limited coverage, and the need for careful planning when seeking medical care.",
+      "publishedAt": "2024-10-28T13:00:59.000Z",
+      "slug": "what-is-out-of-network",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Out-of-Network"
+    },
+    {
+      "__outstatic": {
+        "commit": "a49ce34dd1c52119a52513c654d2bc9784a4762e",
+        "hash": "668384222",
+        "path": "src/app/(www)/_data/posts/what-is-in-network.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, we define what in-network means in health insurance, and highlight its significance in cost savings, simplified claims processes, and access to quality care.",
+      "publishedAt": "2024-10-27T13:00:28.000Z",
+      "slug": "what-is-in-network",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: In-Network"
+    },
+    {
+      "__outstatic": {
+        "commit": "de5bcc2b299ecfd7a6d699b9f8e6d678414a7d6d",
+        "hash": "874544955",
+        "path": "src/app/(www)/_data/posts/what-is-a-network.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, we define what a health insurance network is, and highlighting its importance in reducing costs, facilitating access to care, and aiding in the selection of the right insurance plan.",
+      "publishedAt": "2024-10-26T13:00:11.000Z",
+      "slug": "what-is-a-network",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Network"
+    },
+    {
+      "__outstatic": {
+        "commit": "39936d2c778df63f18f9e8567aa459f21efcd999",
+        "hash": "711681554",
+        "path": "src/app/(www)/_data/posts/your-pre-enrollment-to-do-list-essential-steps-before-searching-for-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/mother-and-child-at-table-Q4OD.jpg",
+      "description": "This blog post outlines a comprehensive pre-enrollment to-do list for individuals preparing to search for health insurance during open enrollment. By following this checklist, individuals can streamline their health insurance search, ultimately finding coverage that best suits their family's needs.",
+      "publishedAt": "2024-10-17T19:49:31.959Z",
+      "slug": "your-pre-enrollment-to-do-list-essential-steps-before-searching-for-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Open Enrollment",
+          "value": "openEnrollment"
+        },
+        {
+          "label": "Checklist",
+          "value": "checklist"
+        }
+      ],
+      "title": "Your Pre-Enrollment To-Do List: Essential Steps Before Searching for Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "6290315ea229cf5edde48bccb014c2ce8f6cbddd",
+        "hash": "4176707408",
+        "path": "src/app/(www)/_data/posts/why-you-should-avoid-general-insurance-quote-websites-and-choose-a-licensed-insurance-broker.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/woman-on-laptop-YxNz.jpg",
+      "description": "In this post, I discuss the drawbacks of using general insurance quote websites, including the potential sale of your personal information, lack of personalized support, and hidden costs. Instead, I advocate for leveraging a licensed insurance broker who can provide tailored recommendations, expert knowledge, and dedicated advocacy, ensuring you find the best coverage for your individual needs.",
+      "publishedAt": "2024-10-19T17:24:15.000Z",
+      "slug": "why-you-should-avoid-general-insurance-quote-websites-and-choose-a-licensed-insurance-broker",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Open Enrollment",
+          "value": "openEnrollment"
+        }
+      ],
+      "title": "Why You Should Avoid General Insurance Quote Websites and Choose a Licensed Insurance Broker"
+    },
+    {
+      "__outstatic": {
+        "commit": "21c1c384dc00661fae15baf1be83d58b31ff87da",
+        "hash": "1067996373",
         "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
       },
       "author": {

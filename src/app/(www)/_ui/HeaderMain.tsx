@@ -4,11 +4,11 @@ import React from 'react';
 import Link from 'next/link';
 import { FaBoltLightning as CTAIcon } from 'react-icons/fa6';
 import { usePathname } from 'next/navigation';
+import Image from 'next/image';
 
 import { useCalendly, useSiteContext } from '.';
 import headerImage from '@www/_assets/img/logo/blue-bold.svg';
 import headerLinks from '@www/_data/header-links';
-import Image from 'next/image';
 
 export interface HeaderMainProps extends React.HTMLAttributes<HTMLElement> {}
 

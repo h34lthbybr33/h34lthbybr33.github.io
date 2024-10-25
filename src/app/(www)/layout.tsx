@@ -14,7 +14,7 @@ import {
   SiteContext,
   Footer,
   Metricool,
-} from './_ui';
+} from '@www/_ui';
 import socialMedia from '@www/_data/social-links';
 
 import 'bootstrap/dist/css/bootstrap.min.css';

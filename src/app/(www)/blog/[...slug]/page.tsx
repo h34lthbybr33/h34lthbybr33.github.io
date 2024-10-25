@@ -50,6 +50,10 @@ const SinglePost: React.FC<{ slug: string }> = async ({ slug }) => {
 const PostsByPage: React.FC<{ page: number }> = async ({ page }) => {
   const posts = await getBlogPosts();
   const totalPages = Math.ceil(posts.length / BLOG_POSTS_PER_PAGE);
+  if (page < 0 || page > totalPages) {
+    return redirect(getBlogUrl());
+  }
+
   const start = (page - 1) * BLOG_POSTS_PER_PAGE;
   const end = Math.min(posts.length, start + BLOG_POSTS_PER_PAGE);
 
@@ -124,7 +128,7 @@ export default async function BlogPostPage({ params: { slug } }: BlogPostPagePro
   switch (slug[0]) {
     case BLOG_PAGE_SLUG:
       const page = slug.length > 1 ? parseInt(slug[1] || '') : 1;
-      if (!isNaN(page)) {
+      if (!isNaN(page) && page > 0) {
         return <PostsByPage page={page} />;
       }
       break;
@@ -154,7 +158,7 @@ export const generateStaticParams = async () => {
     const lastPage = Math.ceil(posts.length / BLOG_POSTS_PER_PAGE);
     staticParams = staticParams.concat(
       range(lastPage, 1).map((key) => ({
-        slug: [BLOG_PAGE_SLUG, `${key + 1}`], //TODO: use buildBlogSlugUrl
+        slug: [BLOG_PAGE_SLUG, `${key}`], //TODO: use buildBlogSlugUrl
       })),
     );
   }
