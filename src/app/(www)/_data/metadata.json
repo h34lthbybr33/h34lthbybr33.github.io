@@ -1,6 +1,6 @@
 {
-  "commit": "3573c85587246022684ee933aa8f367f91d17b52",
-  "generated": "2024-10-25T17:40:01.755Z",
+  "commit": "b57fccc48f9e2493b36b8839a3be3176630bacf1",
+  "generated": "2024-10-25T17:43:18.346Z",
   "metadata": [
     {
       "__outstatic": {
@@ -392,38 +392,6 @@
     },
     {
       "__outstatic": {
-        "commit": "6ec1b1b1623c7adc1a2cf571d8c86d4836ddf9e8",
-        "hash": "874544955",
-        "path": "src/app/(www)/_data/posts/what-is-a-network.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "In this post, we define what a health insurance network is, and highlighting its importance in reducing costs, facilitating access to care, and aiding in the selection of the right insurance plan.",
-      "publishedAt": "2024-10-26T13:00:11.000Z",
-      "slug": "what-is-a-network",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance: Network"
-    },
-    {
-      "__outstatic": {
         "commit": "b3695c3139a5c7969d879eca01bfbf791e3dc1c2",
         "hash": "1797819072",
         "path": "src/app/(www)/_data/posts/what-are-premiums.md"
@@ -617,6 +585,38 @@
         }
       ],
       "title": "Health insurance is all about networking"
+    },
+    {
+      "__outstatic": {
+        "commit": "b57fccc48f9e2493b36b8839a3be3176630bacf1",
+        "hash": "854041527",
+        "path": "src/app/(www)/_data/posts/what-is-a-network.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, we define what a health insurance network is, and highlighting its importance in reducing costs, facilitating access to care, and aiding in the selection of the right insurance plan.",
+      "publishedAt": "2024-10-26T13:00:11.000Z",
+      "slug": "what-is-a-network",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Network"
     }
   ]
 }
