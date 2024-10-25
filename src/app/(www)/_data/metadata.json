@@ -1,6 +1,6 @@
 {
-  "commit": "71e22088b9c72852c20ec39462391ca2611f6635",
-  "generated": "2024-10-25T17:25:45.848Z",
+  "commit": "e059c3d4041f92776ec75543046d087360056c7e",
+  "generated": "2024-10-25T17:31:47.081Z",
   "metadata": [
     {
       "__outstatic": {
@@ -557,6 +557,38 @@
         }
       ],
       "title": "Understanding Health Insurance: In-Network"
+    },
+    {
+      "__outstatic": {
+        "commit": "e059c3d4041f92776ec75543046d087360056c7e",
+        "hash": "4237471076",
+        "path": "src/app/(www)/_data/posts/what-is-out-of-network.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain what out-of-network means in health insurance, and highlight its importance in relation to higher healthcare costs, limited coverage, and the need for careful planning when seeking medical care.",
+      "publishedAt": "2024-10-28T13:00:59.000Z",
+      "slug": "what-is-out-of-network",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Out-of-Network"
     }
   ]
 }
