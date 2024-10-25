@@ -1,6 +1,6 @@
 {
-  "commit": "53fc1c3e1ef214a1b3b3bc0667dac61d8c008180",
-  "generated": "Fri, 25 Oct 2024 17:44:26 GMT",
+  "commit": "21c1c384dc00661fae15baf1be83d58b31ff87da",
+  "generated": "2024-10-25T17:51:35.711Z",
   "metadata": [
     {
       "__outstatic": {
@@ -141,38 +141,6 @@
         }
       ],
       "title": "Understanding Why ACA Plans Can Be Costlier Than Private Insurance for the Healthy"
-    },
-    {
-      "__outstatic": {
-        "commit": "00dc3dd581ab3bf509413aad72f641b58a093b1d",
-        "hash": "872933348",
-        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
-      "publishedAt": "2024-10-21T13:00:19.000Z",
-      "slug": "understanding-health-insurance",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance"
     },
     {
       "__outstatic": {
@@ -589,6 +557,38 @@
         }
       ],
       "title": "Why You Should Avoid General Insurance Quote Websites and Choose a Licensed Insurance Broker"
+    },
+    {
+      "__outstatic": {
+        "commit": "21c1c384dc00661fae15baf1be83d58b31ff87da",
+        "hash": "1067996373",
+        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
+      "publishedAt": "2024-10-21T13:00:19.000Z",
+      "slug": "understanding-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance"
     }
   ]
 }
