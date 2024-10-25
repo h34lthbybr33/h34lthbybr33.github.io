@@ -1,6 +1,6 @@
 {
-  "commit": "b3695c3139a5c7969d879eca01bfbf791e3dc1c2",
-  "generated": "2024-10-23T12:41:33.680Z",
+  "commit": "365feeeb1b49f501dcf48b0b209530e242360256",
+  "generated": "2024-10-25T15:06:27.733Z",
   "metadata": [
     {
       "__outstatic": {
@@ -424,42 +424,6 @@
     },
     {
       "__outstatic": {
-        "commit": "333e760d45fc145e69dc1269f6cb38f485a9630e",
-        "hash": "1131669258",
-        "path": "src/app/(www)/_data/posts/what-are-out-of-pocket-maximums.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "In this post, I explain what an out-of-pocket maximum is, and highlighting its role in providing financial protection, aiding budgeting, and assisting in comparing insurance plans.",
-      "publishedAt": "2024-10-25T13:00:09.000Z",
-      "slug": "what-are-out-of-pocket-maximums",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Budgeting",
-          "value": "budgeting"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance: Out-of-Pocket Maximum"
-    },
-    {
-      "__outstatic": {
         "commit": "6ec1b1b1623c7adc1a2cf571d8c86d4836ddf9e8",
         "hash": "874544955",
         "path": "src/app/(www)/_data/posts/what-is-a-network.md"
@@ -525,6 +489,42 @@
         }
       ],
       "title": "Understanding Health Insurance: Premiums"
+    },
+    {
+      "__outstatic": {
+        "commit": "365feeeb1b49f501dcf48b0b209530e242360256",
+        "hash": "3619912068",
+        "path": "src/app/(www)/_data/posts/what-are-out-of-pocket-maximums.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain what an out-of-pocket maximum is, and highlighting its role in providing financial protection, aiding budgeting, and assisting in comparing insurance plans.",
+      "publishedAt": "2024-10-25T13:00:09.000Z",
+      "slug": "what-are-out-of-pocket-maximums",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Budgeting",
+          "value": "budgeting"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Out-of-Pocket Maximum"
     }
   ]
 }
