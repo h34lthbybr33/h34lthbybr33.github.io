@@ -1,6 +1,6 @@
 {
-  "commit": "0c488fe750da71d6a6ce747d8bbbd4186894856c",
-  "generated": "2024-10-27T15:28:39.867Z",
+  "commit": "6f5600f2026d43c06bb0d45c05fafc613b7645ab",
+  "generated": "2024-10-27T15:28:50.965Z",
   "metadata": [
     {
       "__outstatic": {
@@ -440,38 +440,6 @@
     },
     {
       "__outstatic": {
-        "commit": "a49ce34dd1c52119a52513c654d2bc9784a4762e",
-        "hash": "668384222",
-        "path": "src/app/(www)/_data/posts/what-is-in-network.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "In this post, we define what in-network means in health insurance, and highlight its significance in cost savings, simplified claims processes, and access to quality care.",
-      "publishedAt": "2024-10-27T13:00:28.000Z",
-      "slug": "what-is-in-network",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance: In-Network"
-    },
-    {
-      "__outstatic": {
         "commit": "39936d2c778df63f18f9e8567aa459f21efcd999",
         "hash": "711681554",
         "path": "src/app/(www)/_data/posts/your-pre-enrollment-to-do-list-essential-steps-before-searching-for-health-insurance.md"
@@ -589,6 +557,38 @@
         }
       ],
       "title": "Understanding Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "6f5600f2026d43c06bb0d45c05fafc613b7645ab",
+        "hash": "885152835",
+        "path": "src/app/(www)/_data/posts/what-is-in-network.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, we define what in-network means in health insurance, and highlight its significance in cost savings, simplified claims processes, and access to quality care.",
+      "publishedAt": "2024-10-27T13:00:28.000Z",
+      "slug": "what-is-in-network",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: In-Network"
     }
   ]
 }
