@@ -23,7 +23,7 @@ Understanding health insurance can be challenging due to the jargon commonly use
 
  5. [**Out-of-Pocket Maximum**](/blog/what-are-out-of-pocket-maximums): The maximum amount you’ll have to pay for covered services in a plan year. Once you reach this limit, your insurer pays 100% of covered expenses.
 
- 6. **Network**: A group of healthcare providers and facilities that have contracted with your insurance company to deliver healthcare services at negotiated rates.
+ 6. [**Network**](/blog/what-is-a-network): A group of healthcare providers and facilities that have contracted with your insurance company to deliver healthcare services at negotiated rates.
 
  7. **In-Network vs. Out-of-Network**: In-network providers are those who participate in your plan’s network, often resulting in lower costs. Out-of-network providers do not have an agreement with your insurer, leading to higher costs or reduced coverage.
 

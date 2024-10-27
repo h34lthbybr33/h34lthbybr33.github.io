@@ -1,6 +1,6 @@
 {
-  "commit": "8eab0817de8984a83607cfefd7bbdff5835f3cbe",
-  "generated": "2024-10-27T15:28:19.982Z",
+  "commit": "0c488fe750da71d6a6ce747d8bbbd4186894856c",
+  "generated": "2024-10-27T15:28:39.867Z",
   "metadata": [
     {
       "__outstatic": {
@@ -528,38 +528,6 @@
     },
     {
       "__outstatic": {
-        "commit": "21c1c384dc00661fae15baf1be83d58b31ff87da",
-        "hash": "1067996373",
-        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
-      "publishedAt": "2024-10-21T13:00:19.000Z",
-      "slug": "understanding-health-insurance",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance"
-    },
-    {
-      "__outstatic": {
         "commit": "8eab0817de8984a83607cfefd7bbdff5835f3cbe",
         "hash": "1563247679",
         "path": "src/app/(www)/_data/posts/what-is-a-network.md"
@@ -589,6 +557,38 @@
         }
       ],
       "title": "Understanding Health Insurance: Network"
+    },
+    {
+      "__outstatic": {
+        "commit": "0c488fe750da71d6a6ce747d8bbbd4186894856c",
+        "hash": "595414731",
+        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
+      "publishedAt": "2024-10-21T13:00:19.000Z",
+      "slug": "understanding-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance"
     }
   ]
 }
