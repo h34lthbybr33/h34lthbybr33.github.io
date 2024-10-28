@@ -25,7 +25,7 @@ Understanding health insurance can be challenging due to the jargon commonly use
 
  6. [**Network**](/blog/what-is-a-network): A group of healthcare providers and facilities that have contracted with your insurance company to deliver healthcare services at negotiated rates.
 
- 7. [**In-Network**](/blog/what-is-in-network) **vs. Out-of-Network**: In-network providers are those who participate in your plan’s network, often resulting in lower costs. Out-of-network providers do not have an agreement with your insurer, leading to higher costs or reduced coverage.
+ 7. [**In-Network**](/blog/what-is-in-network) **vs. [Out-of-Network](/blog/what-is-out-of-network)**: In-network providers are those who participate in your plan’s network, often resulting in lower costs. Out-of-network providers do not have an agreement with your insurer, leading to higher costs or reduced coverage.
 
  8. **Essential Health Benefits**: A set of healthcare service categories that must be covered by health insurance plans under the Affordable Care Act, including emergency services, maternity care, and mental health services.
 
