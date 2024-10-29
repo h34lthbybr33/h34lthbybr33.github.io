@@ -1,6 +1,6 @@
 {
-  "commit": "836d7e9096df56c541e251b6a87748c6e9fdadd1",
-  "generated": "2024-10-29T19:12:36.922Z",
+  "commit": "840fab84f290b873bb48ef9552716e2c5858664f",
+  "generated": "2024-10-29T19:22:50.942Z",
   "metadata": [
     {
       "__outstatic": {
@@ -625,6 +625,38 @@
         }
       ],
       "title": "Understanding Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "840fab84f290b873bb48ef9552716e2c5858664f",
+        "hash": "3119319633",
+        "path": "src/app/(www)/_data/posts/what-is-a-pre-existing-condition.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain what a pre-existing condition is, and discuss its impact on coverage options, the protections provided under the Affordable Care Act, and the importance of understanding this term for informed decision-making about healthcare plans.",
+      "publishedAt": "2024-10-30T13:00:06.000Z",
+      "slug": "what-is-a-pre-existing-condition",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Pre-existing Condition"
     }
   ]
 }
