@@ -33,6 +33,8 @@ Understanding health insurance can be challenging due to the jargon commonly use
 
 10. **Health Savings Account (HSA)**: A tax-advantaged savings account that allows you to set aside money for qualified medical expenses, often paired with high-deductible health plans.
 
+11. **Flexible Spending Account (FSA)**: A tax-advantaged savings account that allows employees to set aside pre-tax dollars from their salary to pay for eligible medical expenses, including out-of-pocket healthcare costs not covered by insurance.
+
 Familiarizing yourself with these terms can help you better understand your health insurance options and make informed decisions about your coverage. If you have any questions or need more clarification, feel free to ask!
 
 Stay informed and healthy,\
