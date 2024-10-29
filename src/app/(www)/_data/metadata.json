@@ -1,6 +1,6 @@
 {
-  "commit": "840fab84f290b873bb48ef9552716e2c5858664f",
-  "generated": "2024-10-29T19:22:50.942Z",
+  "commit": "585c672930712ac9ef3a7195f63c410fcc34d1c6",
+  "generated": "2024-10-29T19:27:52.943Z",
   "metadata": [
     {
       "__outstatic": {
@@ -657,6 +657,42 @@
         }
       ],
       "title": "Understanding Health Insurance: Pre-existing Condition"
+    },
+    {
+      "__outstatic": {
+        "commit": "585c672930712ac9ef3a7195f63c410fcc34d1c6",
+        "hash": "525740419",
+        "path": "src/app/(www)/_data/posts/what-is-health-savings-account.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I discuss the benefits of a Health Savings Account (HSA), emphasizing its value for individuals enrolled in high-deductible health plans. I highlight the tax advantages, including tax-deductible contributions, tax-free growth, and tax-free withdrawals for qualified medical expenses. Additionally, I cover the flexibility of HSAs, such as rollover capabilities and portability, and how they provide a proactive approach to managing healthcare costs and long-term savings.",
+      "publishedAt": "2024-10-31T13:00:38.000Z",
+      "slug": "what-is-health-savings-account",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Taxes",
+          "value": "taxes"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Health Savings Account"
     }
   ]
 }
