@@ -27,7 +27,7 @@ Understanding health insurance can be challenging due to the jargon commonly use
 
  7. [**In-Network**](/blog/what-is-in-network) **vs. [Out-of-Network](/blog/what-is-out-of-network)**: In-network providers are those who participate in your plan’s network, often resulting in lower costs. Out-of-network providers do not have an agreement with your insurer, leading to higher costs or reduced coverage.
 
- 8. **Essential Health Benefits**: A set of healthcare service categories that must be covered by health insurance plans under the Affordable Care Act, including emergency services, maternity care, and mental health services.
+ 8. [**Essential Health Benefits**](/blog/what-are-essential-health-benefits): A set of healthcare service categories that must be covered by health insurance plans under the Affordable Care Act, including emergency services, maternity care, and mental health services.
 
  9. **Pre-existing Condition**: A health issue that existed before enrolling in a new health insurance plan; coverage for these conditions is now protected under the Affordable Care Act.
 
