@@ -1,6 +1,6 @@
 {
-  "commit": "43f0dcb8da06d69e5ab0178c6c4831cc21fef512",
-  "generated": "2024-10-28T14:16:41.335Z",
+  "commit": "7936e21c0697f6f23c636b7496d4bd238416c9d2",
+  "generated": "2024-10-29T19:12:15.072Z",
   "metadata": [
     {
       "__outstatic": {
@@ -589,6 +589,42 @@
         }
       ],
       "title": "Understanding Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "7936e21c0697f6f23c636b7496d4bd238416c9d2",
+        "hash": "169227037",
+        "path": "src/app/(www)/_data/posts/what-are-essential-health-benefits.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain essential health benefits (EHBs) as a set of healthcare services required to be covered by health insurance plans under the Affordable Care Act, detailing their importance for ensuring comprehensive, accessible, and affordable healthcare for individuals and families.",
+      "publishedAt": "2024-10-29T18:45:43.283Z",
+      "slug": "what-are-essential-health-benefits",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "ACA",
+          "value": "aca"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Essential Health Benefits"
     }
   ]
 }
