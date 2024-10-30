@@ -1,6 +1,18 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript", "prettier"],
   "rules": {
-    "react/no-unescaped-entities": 0
+    "react/no-unescaped-entities": 0,
+    "@typescript-eslint/no-empty-object-type": [
+      "error",
+      {
+        "allowInterfaces": "with-single-extends"
+      }
+    ],
+    "@typescript-eslint/no-require-imports": [
+      "error",
+      {
+        "allow": ["\\.(jpe?g|png|gif|svg)$"]
+      }
+    ]
   }
 }
