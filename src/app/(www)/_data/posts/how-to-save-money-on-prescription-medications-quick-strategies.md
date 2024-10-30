@@ -44,3 +44,7 @@ Don’t hesitate to discuss medication options with your healthcare provider. Th
 ### Conclusion
 
 Saving money on prescription medications doesn’t have to be complicated. By utilizing generic medications, shopping around, and taking advantage of discount programs, you can significantly reduce your costs. Always communicate with your healthcare providers about your financial concerns, and be proactive in seeking cost-saving strategies. If you have questions about your health insurance coverage and how it relates to your medications, please feel free to reach out—I’m here to help!
+
+Stay healthy and cost conscious,\
+Bree Thomas\
+Your Health Insurance Agent
