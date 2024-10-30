@@ -1,6 +1,6 @@
 {
-  "commit": "21c1c384dc00661fae15baf1be83d58b31ff87da",
-  "generated": "2024-10-25T17:51:35.711Z",
+  "commit": "da2b8a8768bc2cdac002b1a09933e671fe0135a2",
+  "generated": "2024-10-30T14:09:25.255Z",
   "metadata": [
     {
       "__outstatic": {
@@ -408,102 +408,6 @@
     },
     {
       "__outstatic": {
-        "commit": "d9b02cde667e190acb15d81fd1c65c60fb141d76",
-        "hash": "4237471076",
-        "path": "src/app/(www)/_data/posts/what-is-out-of-network.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "In this post, I explain what out-of-network means in health insurance, and highlight its importance in relation to higher healthcare costs, limited coverage, and the need for careful planning when seeking medical care.",
-      "publishedAt": "2024-10-28T13:00:59.000Z",
-      "slug": "what-is-out-of-network",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance: Out-of-Network"
-    },
-    {
-      "__outstatic": {
-        "commit": "a49ce34dd1c52119a52513c654d2bc9784a4762e",
-        "hash": "668384222",
-        "path": "src/app/(www)/_data/posts/what-is-in-network.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "In this post, we define what in-network means in health insurance, and highlight its significance in cost savings, simplified claims processes, and access to quality care.",
-      "publishedAt": "2024-10-27T13:00:28.000Z",
-      "slug": "what-is-in-network",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance: In-Network"
-    },
-    {
-      "__outstatic": {
-        "commit": "de5bcc2b299ecfd7a6d699b9f8e6d678414a7d6d",
-        "hash": "874544955",
-        "path": "src/app/(www)/_data/posts/what-is-a-network.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "In this post, we define what a health insurance network is, and highlighting its importance in reducing costs, facilitating access to care, and aiding in the selection of the right insurance plan.",
-      "publishedAt": "2024-10-26T13:00:11.000Z",
-      "slug": "what-is-a-network",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance: Network"
-    },
-    {
-      "__outstatic": {
         "commit": "39936d2c778df63f18f9e8567aa459f21efcd999",
         "hash": "711681554",
         "path": "src/app/(www)/_data/posts/your-pre-enrollment-to-do-list-essential-steps-before-searching-for-health-insurance.md"
@@ -560,8 +464,240 @@
     },
     {
       "__outstatic": {
-        "commit": "21c1c384dc00661fae15baf1be83d58b31ff87da",
-        "hash": "1067996373",
+        "commit": "8eab0817de8984a83607cfefd7bbdff5835f3cbe",
+        "hash": "1563247679",
+        "path": "src/app/(www)/_data/posts/what-is-a-network.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, we define what a health insurance network is, and highlighting its importance in reducing costs, facilitating access to care, and aiding in the selection of the right insurance plan.",
+      "publishedAt": "2024-10-26T13:00:11.000Z",
+      "slug": "what-is-a-network",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Network"
+    },
+    {
+      "__outstatic": {
+        "commit": "6f5600f2026d43c06bb0d45c05fafc613b7645ab",
+        "hash": "885152835",
+        "path": "src/app/(www)/_data/posts/what-is-in-network.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, we define what in-network means in health insurance, and highlight its significance in cost savings, simplified claims processes, and access to quality care.",
+      "publishedAt": "2024-10-27T13:00:28.000Z",
+      "slug": "what-is-in-network",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: In-Network"
+    },
+    {
+      "__outstatic": {
+        "commit": "884cabf0e0ccdc02dd7b6cfff8de458bf9ce0187",
+        "hash": "2729136646",
+        "path": "src/app/(www)/_data/posts/what-is-out-of-network.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain what out-of-network means in health insurance, and highlight its importance in relation to higher healthcare costs, limited coverage, and the need for careful planning when seeking medical care.",
+      "publishedAt": "2024-10-28T13:00:59.000Z",
+      "slug": "what-is-out-of-network",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Out-of-Network"
+    },
+    {
+      "__outstatic": {
+        "commit": "7936e21c0697f6f23c636b7496d4bd238416c9d2",
+        "hash": "169227037",
+        "path": "src/app/(www)/_data/posts/what-are-essential-health-benefits.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain essential health benefits (EHBs) as a set of healthcare services required to be covered by health insurance plans under the Affordable Care Act, detailing their importance for ensuring comprehensive, accessible, and affordable healthcare for individuals and families.",
+      "publishedAt": "2024-10-29T18:45:43.283Z",
+      "slug": "what-are-essential-health-benefits",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "ACA",
+          "value": "aca"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Essential Health Benefits"
+    },
+    {
+      "__outstatic": {
+        "commit": "a6f7171f9d332f0e11bacf93f2bcbcf67ff6b033",
+        "hash": "3265253770",
+        "path": "src/app/(www)/_data/posts/what-is-a-flexible-spending-account.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain the benefits of a Flexible Spending Account (FSA), emphasizing its role in providing tax savings and financial flexibility for managing out-of-pocket healthcare expenses while also noting the importance of understanding the use-it-or-lose-it rule associated with these accounts.",
+      "publishedAt": "2024-11-01T13:00:46.000Z",
+      "slug": "what-is-a-flexible-spending-account",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Flexible Spending Account"
+    },
+    {
+      "__outstatic": {
+        "commit": "d85062fc2ae70ca98ffdb491095f25bd2de68e4e",
+        "hash": "1452870493",
+        "path": "src/app/(www)/_data/posts/what-is-health-savings-account.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I discuss the benefits of a Health Savings Account (HSA), emphasizing its value for individuals enrolled in high-deductible health plans. I highlight the tax advantages, including tax-deductible contributions, tax-free growth, and tax-free withdrawals for qualified medical expenses. Additionally, I cover the flexibility of HSAs, such as rollover capabilities and portability, and how they provide a proactive approach to managing healthcare costs and long-term savings.",
+      "publishedAt": "2024-10-31T13:00:38.000Z",
+      "slug": "what-is-health-savings-account",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Taxes",
+          "value": "taxes"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Health Savings Account"
+    },
+    {
+      "__outstatic": {
+        "commit": "b76aeb3596fa720b4db8b9f2c93610aea10e8188",
+        "hash": "3457671876",
+        "path": "src/app/(www)/_data/posts/what-is-a-pre-existing-condition.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain what a pre-existing condition is, and discuss its impact on coverage options, the protections provided under the Affordable Care Act, and the importance of understanding this term for informed decision-making about healthcare plans.",
+      "publishedAt": "2024-10-30T13:00:06.000Z",
+      "slug": "what-is-a-pre-existing-condition",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Pre-existing Condition"
+    },
+    {
+      "__outstatic": {
+        "commit": "00dc8ee1a84613f854b07ccb544bc5d689e6eeaf",
+        "hash": "725221824",
         "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
       },
       "author": {
@@ -589,6 +725,50 @@
         }
       ],
       "title": "Understanding Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "da2b8a8768bc2cdac002b1a09933e671fe0135a2",
+        "hash": "1396237947",
+        "path": "src/app/(www)/_data/posts/how-to-save-money-on-prescription-medications-quick-strategies.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/taking-daily-medication-MzOT.jpg",
+      "description": "By implementing these strategies, you can effectively manage your healthcare expenses and maintain access to necessary medications while promoting your family's well-being.",
+      "publishedAt": "2024-10-30T13:39:43.000Z",
+      "slug": "how-to-save-money-on-prescription-medications-quick-strategies",
+      "status": "published",
+      "tags": [
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "PrescriptionSavings",
+          "value": "prescriptionSavings"
+        },
+        {
+          "label": "HealthcareTips",
+          "value": "healthcareTips"
+        },
+        {
+          "label": "GenericMedications",
+          "value": "genericMedications"
+        },
+        {
+          "label": "PharmacySavings",
+          "value": "pharmacySavings"
+        },
+        {
+          "label": "PatientAssistancePrograms",
+          "value": "patientAssistancePrograms"
+        }
+      ],
+      "title": "How to Save Money on Prescription Medications: Quick Strategies"
     }
   ]
 }

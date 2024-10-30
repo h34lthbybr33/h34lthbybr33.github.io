@@ -23,15 +23,17 @@ Understanding health insurance can be challenging due to the jargon commonly use
 
  5. [**Out-of-Pocket Maximum**](/blog/what-are-out-of-pocket-maximums): The maximum amount you’ll have to pay for covered services in a plan year. Once you reach this limit, your insurer pays 100% of covered expenses.
 
- 6. **Network**: A group of healthcare providers and facilities that have contracted with your insurance company to deliver healthcare services at negotiated rates.
+ 6. [**Network**](/blog/what-is-a-network): A group of healthcare providers and facilities that have contracted with your insurance company to deliver healthcare services at negotiated rates.
 
- 7. **In-Network vs. Out-of-Network**: In-network providers are those who participate in your plan’s network, often resulting in lower costs. Out-of-network providers do not have an agreement with your insurer, leading to higher costs or reduced coverage.
+ 7. [**In-Network**](/blog/what-is-in-network) **vs. [Out-of-Network](/blog/what-is-out-of-network)**: In-network providers are those who participate in your plan’s network, often resulting in lower costs. Out-of-network providers do not have an agreement with your insurer, leading to higher costs or reduced coverage.
 
- 8. **Essential Health Benefits**: A set of healthcare service categories that must be covered by health insurance plans under the Affordable Care Act, including emergency services, maternity care, and mental health services.
+ 8. [**Essential Health Benefits**](/blog/what-are-essential-health-benefits): A set of healthcare service categories that must be covered by health insurance plans under the Affordable Care Act, including emergency services, maternity care, and mental health services.
 
- 9. **Pre-existing Condition**: A health issue that existed before enrolling in a new health insurance plan; coverage for these conditions is now protected under the Affordable Care Act.
+ 9. [**Pre-existing Condition**](/blog/what-is-a-pre-existing-condition): A health issue that existed before enrolling in a new health insurance plan; coverage for these conditions is now protected under the Affordable Care Act.
 
 10. **Health Savings Account (HSA)**: A tax-advantaged savings account that allows you to set aside money for qualified medical expenses, often paired with high-deductible health plans.
+
+11. **Flexible Spending Account (FSA)**: A tax-advantaged savings account that allows employees to set aside pre-tax dollars from their salary to pay for eligible medical expenses, including out-of-pocket healthcare costs not covered by insurance.
 
 Familiarizing yourself with these terms can help you better understand your health insurance options and make informed decisions about your coverage. If you have any questions or need more clarification, feel free to ask!
 
