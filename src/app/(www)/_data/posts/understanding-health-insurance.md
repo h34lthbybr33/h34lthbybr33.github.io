@@ -29,7 +29,7 @@ Understanding health insurance can be challenging due to the jargon commonly use
 
  8. [**Essential Health Benefits**](/blog/what-are-essential-health-benefits): A set of healthcare service categories that must be covered by health insurance plans under the Affordable Care Act, including emergency services, maternity care, and mental health services.
 
- 9. **Pre-existing Condition**: A health issue that existed before enrolling in a new health insurance plan; coverage for these conditions is now protected under the Affordable Care Act.
+ 9. [**Pre-existing Condition**](/blog/what-is-a-pre-existing-condition): A health issue that existed before enrolling in a new health insurance plan; coverage for these conditions is now protected under the Affordable Care Act.
 
 10. **Health Savings Account (HSA)**: A tax-advantaged savings account that allows you to set aside money for qualified medical expenses, often paired with high-deductible health plans.
 

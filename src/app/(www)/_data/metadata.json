@@ -1,6 +1,6 @@
 {
-  "commit": "b76aeb3596fa720b4db8b9f2c93610aea10e8188",
-  "generated": "2024-10-30T13:46:12.730Z",
+  "commit": "00dc8ee1a84613f854b07ccb544bc5d689e6eeaf",
+  "generated": "2024-10-30T13:46:28.958Z",
   "metadata": [
     {
       "__outstatic": {
@@ -664,38 +664,6 @@
     },
     {
       "__outstatic": {
-        "commit": "4c4589644afb57806a6ab2ea8ac2a7d258314811",
-        "hash": "3943940641",
-        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
-      "publishedAt": "2024-10-21T13:00:19.000Z",
-      "slug": "understanding-health-insurance",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance"
-    },
-    {
-      "__outstatic": {
         "commit": "b76aeb3596fa720b4db8b9f2c93610aea10e8188",
         "hash": "3457671876",
         "path": "src/app/(www)/_data/posts/what-is-a-pre-existing-condition.md"
@@ -725,6 +693,38 @@
         }
       ],
       "title": "Understanding Health Insurance: Pre-existing Condition"
+    },
+    {
+      "__outstatic": {
+        "commit": "00dc8ee1a84613f854b07ccb544bc5d689e6eeaf",
+        "hash": "725221824",
+        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
+      "publishedAt": "2024-10-21T13:00:19.000Z",
+      "slug": "understanding-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance"
     }
   ]
 }
