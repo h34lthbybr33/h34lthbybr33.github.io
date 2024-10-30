@@ -1,6 +1,6 @@
 {
-  "commit": "00dc8ee1a84613f854b07ccb544bc5d689e6eeaf",
-  "generated": "2024-10-30T13:46:28.958Z",
+  "commit": "da2b8a8768bc2cdac002b1a09933e671fe0135a2",
+  "generated": "2024-10-30T14:09:25.255Z",
   "metadata": [
     {
       "__outstatic": {
@@ -725,6 +725,50 @@
         }
       ],
       "title": "Understanding Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "da2b8a8768bc2cdac002b1a09933e671fe0135a2",
+        "hash": "1396237947",
+        "path": "src/app/(www)/_data/posts/how-to-save-money-on-prescription-medications-quick-strategies.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/taking-daily-medication-MzOT.jpg",
+      "description": "By implementing these strategies, you can effectively manage your healthcare expenses and maintain access to necessary medications while promoting your family's well-being.",
+      "publishedAt": "2024-10-30T13:39:43.000Z",
+      "slug": "how-to-save-money-on-prescription-medications-quick-strategies",
+      "status": "published",
+      "tags": [
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "PrescriptionSavings",
+          "value": "prescriptionSavings"
+        },
+        {
+          "label": "HealthcareTips",
+          "value": "healthcareTips"
+        },
+        {
+          "label": "GenericMedications",
+          "value": "genericMedications"
+        },
+        {
+          "label": "PharmacySavings",
+          "value": "pharmacySavings"
+        },
+        {
+          "label": "PatientAssistancePrograms",
+          "value": "patientAssistancePrograms"
+        }
+      ],
+      "title": "How to Save Money on Prescription Medications: Quick Strategies"
     }
   ]
 }

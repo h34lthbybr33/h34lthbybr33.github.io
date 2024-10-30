@@ -48,6 +48,30 @@
         {
           "value": "taxes",
           "label": "Taxes"
+        },
+        {
+          "value": "healthInsurance",
+          "label": "HealthInsurance"
+        },
+        {
+          "value": "prescriptionSavings",
+          "label": "PrescriptionSavings"
+        },
+        {
+          "value": "healthcareTips",
+          "label": "HealthcareTips"
+        },
+        {
+          "value": "genericMedications",
+          "label": "GenericMedications"
+        },
+        {
+          "value": "pharmacySavings",
+          "label": "PharmacySavings"
+        },
+        {
+          "value": "patientAssistancePrograms",
+          "label": "PatientAssistancePrograms"
         }
       ]
     }
