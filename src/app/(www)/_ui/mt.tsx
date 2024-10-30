@@ -2,6 +2,7 @@
 
 import React from 'react';
 
+// eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export interface __Component__Props /*extends React.HTMLAttributes<HTMLElement>*/ {
   //children?: React.ReactNode;
 }
