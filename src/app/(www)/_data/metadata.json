@@ -1,6 +1,6 @@
 {
-  "commit": "da2b8a8768bc2cdac002b1a09933e671fe0135a2",
-  "generated": "2024-10-30T14:09:25.255Z",
+  "commit": "d131c616d3836d1b303f1fab7e49e37d6ecdcb5d",
+  "generated": "2024-10-30T14:56:44.965Z",
   "metadata": [
     {
       "__outstatic": {
@@ -728,8 +728,8 @@
     },
     {
       "__outstatic": {
-        "commit": "da2b8a8768bc2cdac002b1a09933e671fe0135a2",
-        "hash": "1396237947",
+        "commit": "d131c616d3836d1b303f1fab7e49e37d6ecdcb5d",
+        "hash": "3986844840",
         "path": "src/app/(www)/_data/posts/how-to-save-money-on-prescription-medications-quick-strategies.md"
       },
       "author": {
