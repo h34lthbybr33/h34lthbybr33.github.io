@@ -1,6 +1,6 @@
 ---
 title: 'Understanding Health Insurance: Pre-existing Condition'
-status: 'draft'
+status: 'published'
 author:
   name: 'Bree Thomas'
   picture: '/images/avatar-A0MD.png'

@@ -1,6 +1,6 @@
 {
-  "commit": "585c672930712ac9ef3a7195f63c410fcc34d1c6",
-  "generated": "2024-10-29T19:27:52.943Z",
+  "commit": "00dc8ee1a84613f854b07ccb544bc5d689e6eeaf",
+  "generated": "2024-10-30T13:46:28.958Z",
   "metadata": [
     {
       "__outstatic": {
@@ -596,9 +596,9 @@
     },
     {
       "__outstatic": {
-        "commit": "836d7e9096df56c541e251b6a87748c6e9fdadd1",
-        "hash": "39559953",
-        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
+        "commit": "a6f7171f9d332f0e11bacf93f2bcbcf67ff6b033",
+        "hash": "3265253770",
+        "path": "src/app/(www)/_data/posts/what-is-a-flexible-spending-account.md"
       },
       "author": {
         "name": "Bree Thomas",
@@ -606,41 +606,9 @@
       },
       "collection": "posts",
       "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
-      "publishedAt": "2024-10-21T13:00:19.000Z",
-      "slug": "understanding-health-insurance",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance"
-    },
-    {
-      "__outstatic": {
-        "commit": "840fab84f290b873bb48ef9552716e2c5858664f",
-        "hash": "3119319633",
-        "path": "src/app/(www)/_data/posts/what-is-a-pre-existing-condition.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "In this post, I explain what a pre-existing condition is, and discuss its impact on coverage options, the protections provided under the Affordable Care Act, and the importance of understanding this term for informed decision-making about healthcare plans.",
-      "publishedAt": "2024-10-30T13:00:06.000Z",
-      "slug": "what-is-a-pre-existing-condition",
+      "description": "In this post, I explain the benefits of a Flexible Spending Account (FSA), emphasizing its role in providing tax savings and financial flexibility for managing out-of-pocket healthcare expenses while also noting the importance of understanding the use-it-or-lose-it rule associated with these accounts.",
+      "publishedAt": "2024-11-01T13:00:46.000Z",
+      "slug": "what-is-a-flexible-spending-account",
       "status": "draft",
       "tags": [
         {
@@ -656,12 +624,12 @@
           "value": "terminology"
         }
       ],
-      "title": "Understanding Health Insurance: Pre-existing Condition"
+      "title": "Understanding Health Insurance: Flexible Spending Account"
     },
     {
       "__outstatic": {
-        "commit": "585c672930712ac9ef3a7195f63c410fcc34d1c6",
-        "hash": "525740419",
+        "commit": "d85062fc2ae70ca98ffdb491095f25bd2de68e4e",
+        "hash": "1452870493",
         "path": "src/app/(www)/_data/posts/what-is-health-savings-account.md"
       },
       "author": {
@@ -693,6 +661,70 @@
         }
       ],
       "title": "Understanding Health Insurance: Health Savings Account"
+    },
+    {
+      "__outstatic": {
+        "commit": "b76aeb3596fa720b4db8b9f2c93610aea10e8188",
+        "hash": "3457671876",
+        "path": "src/app/(www)/_data/posts/what-is-a-pre-existing-condition.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain what a pre-existing condition is, and discuss its impact on coverage options, the protections provided under the Affordable Care Act, and the importance of understanding this term for informed decision-making about healthcare plans.",
+      "publishedAt": "2024-10-30T13:00:06.000Z",
+      "slug": "what-is-a-pre-existing-condition",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Pre-existing Condition"
+    },
+    {
+      "__outstatic": {
+        "commit": "00dc8ee1a84613f854b07ccb544bc5d689e6eeaf",
+        "hash": "725221824",
+        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
+      "publishedAt": "2024-10-21T13:00:19.000Z",
+      "slug": "understanding-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance"
     }
   ]
 }

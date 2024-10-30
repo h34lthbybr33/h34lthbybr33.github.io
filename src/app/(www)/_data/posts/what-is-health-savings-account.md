@@ -46,5 +46,5 @@ Understanding the value of an HSA can help you take control of your healthcare s
 A Health Savings Account (HSA) is a powerful financial tool that can help you save for medical expenses while enjoying tax benefits and flexibility. If you are enrolled in a high-deductible health plan, considering an HSA can be a smart move for both your healthcare and financial planning. If you have any questions about HSAs or need assistance setting one up, please don’t hesitate to reach out—I’m here to help!
 
 Stay informed and empowered in managing your healthcare finances,\
-\[Your Name\]\
+Bree Thomas\
 Your Health Insurance Agent
