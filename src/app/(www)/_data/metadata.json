@@ -1,6 +1,6 @@
 {
-  "commit": "a04ec952cb5da6780b4ec20975b062576a2eabb1",
-  "generated": "2024-10-31T13:12:56.370Z",
+  "commit": "34a7ff8cbe1c083cc2e3d72a4e54ebf8d6eccb08",
+  "generated": "2024-10-31T13:13:15.644Z",
   "metadata": [
     {
       "__outstatic": {
@@ -660,38 +660,6 @@
     },
     {
       "__outstatic": {
-        "commit": "00dc8ee1a84613f854b07ccb544bc5d689e6eeaf",
-        "hash": "725221824",
-        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
-      "publishedAt": "2024-10-21T13:00:19.000Z",
-      "slug": "understanding-health-insurance",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance"
-    },
-    {
-      "__outstatic": {
         "commit": "d131c616d3836d1b303f1fab7e49e37d6ecdcb5d",
         "hash": "3986844840",
         "path": "src/app/(www)/_data/posts/how-to-save-money-on-prescription-medications-quick-strategies.md"
@@ -813,6 +781,38 @@
         }
       ],
       "title": "Understanding Health Insurance: Health Savings Account"
+    },
+    {
+      "__outstatic": {
+        "commit": "34a7ff8cbe1c083cc2e3d72a4e54ebf8d6eccb08",
+        "hash": "121715233",
+        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
+      "publishedAt": "2024-10-21T13:00:19.000Z",
+      "slug": "understanding-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance"
     }
   ]
 }
