@@ -72,6 +72,26 @@
         {
           "value": "patientAssistancePrograms",
           "label": "PatientAssistancePrograms"
+        },
+        {
+          "value": "halloweenSafety",
+          "label": "HalloweenSafety"
+        },
+        {
+          "value": "spookySeason",
+          "label": "SpookySeason"
+        },
+        {
+          "value": "trickOrTreat",
+          "label": "TrickOrTreat"
+        },
+        {
+          "value": "halloweenFun",
+          "label": "HalloweenFun"
+        },
+        {
+          "value": "safetyFirst",
+          "label": "SafetyFirst"
         }
       ]
     }

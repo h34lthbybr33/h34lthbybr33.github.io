@@ -1,6 +1,6 @@
 {
-  "commit": "d131c616d3836d1b303f1fab7e49e37d6ecdcb5d",
-  "generated": "2024-10-30T14:56:44.965Z",
+  "commit": "f063592d36ecddb721c03b4acf6dc5dc519e10bb",
+  "generated": "2024-10-31T13:12:42.340Z",
   "metadata": [
     {
       "__outstatic": {
@@ -769,6 +769,50 @@
         }
       ],
       "title": "How to Save Money on Prescription Medications: Quick Strategies"
+    },
+    {
+      "__outstatic": {
+        "commit": "f063592d36ecddb721c03b4acf6dc5dc519e10bb",
+        "hash": "3315750042",
+        "path": "src/app/(www)/_data/posts/spooktacular-safety-how-to-enjoy-halloween-without-the-frights.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/bree-halloween-costume-UzOD.jpg",
+      "description": "In this Halloween-themed blog post, I share helpful safety tips for enjoying the holiday while keeping health insurance humor in mind, emphasizing that being responsible doesn’t have to be spooky.",
+      "publishedAt": "2024-10-31T12:42:24.400Z",
+      "slug": "spooktacular-safety-how-to-enjoy-halloween-without-the-frights",
+      "status": "published",
+      "tags": [
+        {
+          "label": "HalloweenSafety",
+          "value": "halloweenSafety"
+        },
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "SpookySeason",
+          "value": "spookySeason"
+        },
+        {
+          "label": "TrickOrTreat",
+          "value": "trickOrTreat"
+        },
+        {
+          "label": "HalloweenFun",
+          "value": "halloweenFun"
+        },
+        {
+          "label": "SafetyFirst",
+          "value": "safetyFirst"
+        }
+      ],
+      "title": "Spooktacular Safety: How to Enjoy Halloween Without the Frights"
     }
   ]
 }
