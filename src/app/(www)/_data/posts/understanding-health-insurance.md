@@ -31,7 +31,7 @@ Understanding health insurance can be challenging due to the jargon commonly use
 
  9. [**Pre-existing Condition**](/blog/what-is-a-pre-existing-condition): A health issue that existed before enrolling in a new health insurance plan; coverage for these conditions is now protected under the Affordable Care Act.
 
-10. **Health Savings Account (HSA)**: A tax-advantaged savings account that allows you to set aside money for qualified medical expenses, often paired with high-deductible health plans.
+10. [**Health Savings Account (HSA)**](/blog/what-is-health-savings-account): A tax-advantaged savings account that allows you to set aside money for qualified medical expenses, often paired with high-deductible health plans.
 
 11. **Flexible Spending Account (FSA)**: A tax-advantaged savings account that allows employees to set aside pre-tax dollars from their salary to pay for eligible medical expenses, including out-of-pocket healthcare costs not covered by insurance.
 

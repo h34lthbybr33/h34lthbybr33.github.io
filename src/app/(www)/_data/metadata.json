@@ -1,6 +1,6 @@
 {
-  "commit": "d131c616d3836d1b303f1fab7e49e37d6ecdcb5d",
-  "generated": "2024-10-30T14:56:44.965Z",
+  "commit": "34a7ff8cbe1c083cc2e3d72a4e54ebf8d6eccb08",
+  "generated": "2024-10-31T13:13:15.644Z",
   "metadata": [
     {
       "__outstatic": {
@@ -628,42 +628,6 @@
     },
     {
       "__outstatic": {
-        "commit": "d85062fc2ae70ca98ffdb491095f25bd2de68e4e",
-        "hash": "1452870493",
-        "path": "src/app/(www)/_data/posts/what-is-health-savings-account.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "In this post, I discuss the benefits of a Health Savings Account (HSA), emphasizing its value for individuals enrolled in high-deductible health plans. I highlight the tax advantages, including tax-deductible contributions, tax-free growth, and tax-free withdrawals for qualified medical expenses. Additionally, I cover the flexibility of HSAs, such as rollover capabilities and portability, and how they provide a proactive approach to managing healthcare costs and long-term savings.",
-      "publishedAt": "2024-10-31T13:00:38.000Z",
-      "slug": "what-is-health-savings-account",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Taxes",
-          "value": "taxes"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance: Health Savings Account"
-    },
-    {
-      "__outstatic": {
         "commit": "b76aeb3596fa720b4db8b9f2c93610aea10e8188",
         "hash": "3457671876",
         "path": "src/app/(www)/_data/posts/what-is-a-pre-existing-condition.md"
@@ -693,38 +657,6 @@
         }
       ],
       "title": "Understanding Health Insurance: Pre-existing Condition"
-    },
-    {
-      "__outstatic": {
-        "commit": "00dc8ee1a84613f854b07ccb544bc5d689e6eeaf",
-        "hash": "725221824",
-        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
-      "publishedAt": "2024-10-21T13:00:19.000Z",
-      "slug": "understanding-health-insurance",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance"
     },
     {
       "__outstatic": {
@@ -769,6 +701,118 @@
         }
       ],
       "title": "How to Save Money on Prescription Medications: Quick Strategies"
+    },
+    {
+      "__outstatic": {
+        "commit": "f063592d36ecddb721c03b4acf6dc5dc519e10bb",
+        "hash": "3315750042",
+        "path": "src/app/(www)/_data/posts/spooktacular-safety-how-to-enjoy-halloween-without-the-frights.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/bree-halloween-costume-UzOD.jpg",
+      "description": "In this Halloween-themed blog post, I share helpful safety tips for enjoying the holiday while keeping health insurance humor in mind, emphasizing that being responsible doesn’t have to be spooky.",
+      "publishedAt": "2024-10-31T12:42:24.400Z",
+      "slug": "spooktacular-safety-how-to-enjoy-halloween-without-the-frights",
+      "status": "published",
+      "tags": [
+        {
+          "label": "HalloweenSafety",
+          "value": "halloweenSafety"
+        },
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "SpookySeason",
+          "value": "spookySeason"
+        },
+        {
+          "label": "TrickOrTreat",
+          "value": "trickOrTreat"
+        },
+        {
+          "label": "HalloweenFun",
+          "value": "halloweenFun"
+        },
+        {
+          "label": "SafetyFirst",
+          "value": "safetyFirst"
+        }
+      ],
+      "title": "Spooktacular Safety: How to Enjoy Halloween Without the Frights"
+    },
+    {
+      "__outstatic": {
+        "commit": "a04ec952cb5da6780b4ec20975b062576a2eabb1",
+        "hash": "1050909906",
+        "path": "src/app/(www)/_data/posts/what-is-health-savings-account.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I discuss the benefits of a Health Savings Account (HSA), emphasizing its value for individuals enrolled in high-deductible health plans. I highlight the tax advantages, including tax-deductible contributions, tax-free growth, and tax-free withdrawals for qualified medical expenses. Additionally, I cover the flexibility of HSAs, such as rollover capabilities and portability, and how they provide a proactive approach to managing healthcare costs and long-term savings.",
+      "publishedAt": "2024-10-31T13:00:38.000Z",
+      "slug": "what-is-health-savings-account",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Taxes",
+          "value": "taxes"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Health Savings Account"
+    },
+    {
+      "__outstatic": {
+        "commit": "34a7ff8cbe1c083cc2e3d72a4e54ebf8d6eccb08",
+        "hash": "121715233",
+        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
+      "publishedAt": "2024-10-21T13:00:19.000Z",
+      "slug": "understanding-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance"
     }
   ]
 }
