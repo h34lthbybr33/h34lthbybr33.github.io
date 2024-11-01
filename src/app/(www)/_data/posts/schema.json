@@ -92,6 +92,34 @@
         {
           "value": "safetyFirst",
           "label": "SafetyFirst"
+        },
+        {
+          "value": "weightLoss",
+          "label": "WeightLoss"
+        },
+        {
+          "value": "prescriptionCoverage",
+          "label": "PrescriptionCoverage"
+        },
+        {
+          "value": "medicare",
+          "label": "Medicare"
+        },
+        {
+          "value": "medicaid",
+          "label": "Medicaid"
+        },
+        {
+          "value": "obesity",
+          "label": "Obesity"
+        },
+        {
+          "value": "privateInsurance",
+          "label": "PrivateInsurance"
+        },
+        {
+          "value": "healthcareCosts",
+          "label": "HealthcareCosts"
         }
       ]
     }
