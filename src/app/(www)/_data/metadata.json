@@ -1,6 +1,6 @@
 {
   "commit": "ca2a37603f9293753a2cba544fc6cfb1c0e9c746",
-  "generated": "2024-11-01T14:16:41.916Z",
+  "generated": "2024-11-01T14:16:45.073Z",
   "metadata": [
     {
       "__outstatic": {
@@ -785,7 +785,7 @@
     {
       "__outstatic": {
         "commit": "ca2a37603f9293753a2cba544fc6cfb1c0e9c746",
-        "hash": "3265253770",
+        "hash": "3659056336",
         "path": "src/app/(www)/_data/posts/what-is-a-flexible-spending-account.md"
       },
       "author": {
@@ -797,7 +797,7 @@
       "description": "In this post, I explain the benefits of a Flexible Spending Account (FSA), emphasizing its role in providing tax savings and financial flexibility for managing out-of-pocket healthcare expenses while also noting the importance of understanding the use-it-or-lose-it rule associated with these accounts.",
       "publishedAt": "2024-11-01T13:00:46.000Z",
       "slug": "what-is-a-flexible-spending-account",
-      "status": "draft",
+      "status": "published",
       "tags": [
         {
           "label": "Insurance",
