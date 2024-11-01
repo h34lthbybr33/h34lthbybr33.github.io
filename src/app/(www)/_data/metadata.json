@@ -1,6 +1,6 @@
 {
-  "commit": "ca2a37603f9293753a2cba544fc6cfb1c0e9c746",
-  "generated": "2024-11-01T14:16:45.073Z",
+  "commit": "2964e7f43f28abf95ece830c6b0f7117af8271d2",
+  "generated": "2024-11-01T14:17:04.207Z",
   "metadata": [
     {
       "__outstatic": {
@@ -752,38 +752,6 @@
     },
     {
       "__outstatic": {
-        "commit": "34a7ff8cbe1c083cc2e3d72a4e54ebf8d6eccb08",
-        "hash": "121715233",
-        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
-      "publishedAt": "2024-10-21T13:00:19.000Z",
-      "slug": "understanding-health-insurance",
-      "status": "published",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance"
-    },
-    {
-      "__outstatic": {
         "commit": "ca2a37603f9293753a2cba544fc6cfb1c0e9c746",
         "hash": "3659056336",
         "path": "src/app/(www)/_data/posts/what-is-a-flexible-spending-account.md"
@@ -813,6 +781,38 @@
         }
       ],
       "title": "Understanding Health Insurance: Flexible Spending Account"
+    },
+    {
+      "__outstatic": {
+        "commit": "2964e7f43f28abf95ece830c6b0f7117af8271d2",
+        "hash": "826949307",
+        "path": "src/app/(www)/_data/posts/understanding-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "Health insurance can be complicated. In this post I outline some key terms to know.",
+      "publishedAt": "2024-10-21T13:00:19.000Z",
+      "slug": "understanding-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance"
     }
   ]
 }
