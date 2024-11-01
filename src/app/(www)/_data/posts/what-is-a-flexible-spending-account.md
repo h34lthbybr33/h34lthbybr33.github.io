@@ -4,7 +4,7 @@ author:
   picture: '/images/avatar-A0MD.png'
 coverImage: '/images/open-book-with-glasses-A5Mj.jpg'
 title: 'Understanding Health Insurance: Flexible Spending Account'
-status: 'draft'
+status: 'published'
 slug: 'what-is-a-flexible-spending-account'
 description: 'In this post, I explain the benefits of a Flexible Spending Account (FSA), emphasizing its role in providing tax savings and financial flexibility for managing out-of-pocket healthcare expenses while also noting the importance of understanding the use-it-or-lose-it rule associated with these accounts.'
 tags: [{"value":"insurance","label":"Insurance"},{"value":"definitions","label":"Definitions"},{"value":"terminology","label":"Terminology"}]
