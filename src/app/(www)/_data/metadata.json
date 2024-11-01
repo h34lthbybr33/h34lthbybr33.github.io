@@ -1,6 +1,6 @@
 {
-  "commit": "34a7ff8cbe1c083cc2e3d72a4e54ebf8d6eccb08",
-  "generated": "2024-10-31T13:13:15.644Z",
+  "commit": "ca2a37603f9293753a2cba544fc6cfb1c0e9c746",
+  "generated": "2024-11-01T14:16:41.916Z",
   "metadata": [
     {
       "__outstatic": {
@@ -596,38 +596,6 @@
     },
     {
       "__outstatic": {
-        "commit": "a6f7171f9d332f0e11bacf93f2bcbcf67ff6b033",
-        "hash": "3265253770",
-        "path": "src/app/(www)/_data/posts/what-is-a-flexible-spending-account.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
-      "description": "In this post, I explain the benefits of a Flexible Spending Account (FSA), emphasizing its role in providing tax savings and financial flexibility for managing out-of-pocket healthcare expenses while also noting the importance of understanding the use-it-or-lose-it rule associated with these accounts.",
-      "publishedAt": "2024-11-01T13:00:46.000Z",
-      "slug": "what-is-a-flexible-spending-account",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "Insurance",
-          "value": "insurance"
-        },
-        {
-          "label": "Definitions",
-          "value": "definitions"
-        },
-        {
-          "label": "Terminology",
-          "value": "terminology"
-        }
-      ],
-      "title": "Understanding Health Insurance: Flexible Spending Account"
-    },
-    {
-      "__outstatic": {
         "commit": "b76aeb3596fa720b4db8b9f2c93610aea10e8188",
         "hash": "3457671876",
         "path": "src/app/(www)/_data/posts/what-is-a-pre-existing-condition.md"
@@ -813,6 +781,38 @@
         }
       ],
       "title": "Understanding Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "ca2a37603f9293753a2cba544fc6cfb1c0e9c746",
+        "hash": "3265253770",
+        "path": "src/app/(www)/_data/posts/what-is-a-flexible-spending-account.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/open-book-with-glasses-A5Mj.jpg",
+      "description": "In this post, I explain the benefits of a Flexible Spending Account (FSA), emphasizing its role in providing tax savings and financial flexibility for managing out-of-pocket healthcare expenses while also noting the importance of understanding the use-it-or-lose-it rule associated with these accounts.",
+      "publishedAt": "2024-11-01T13:00:46.000Z",
+      "slug": "what-is-a-flexible-spending-account",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "Definitions",
+          "value": "definitions"
+        },
+        {
+          "label": "Terminology",
+          "value": "terminology"
+        }
+      ],
+      "title": "Understanding Health Insurance: Flexible Spending Account"
     }
   ]
 }
