@@ -120,6 +120,26 @@
         {
           "value": "healthcareCosts",
           "label": "HealthcareCosts"
+        },
+        {
+          "value": "voting",
+          "label": "Voting"
+        },
+        {
+          "value": "civicDuty",
+          "label": "CivicDuty"
+        },
+        {
+          "value": "healthcarePolicies",
+          "label": "HealthcarePolicies"
+        },
+        {
+          "value": "publicHealth",
+          "label": "PublicHealth"
+        },
+        {
+          "value": "yourVoteMatters",
+          "label": "YourVoteMatters"
         }
       ]
     }

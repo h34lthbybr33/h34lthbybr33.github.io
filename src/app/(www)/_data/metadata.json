@@ -1,6 +1,6 @@
 {
-  "commit": "9fb0d83e4e928d9b34e4874510661d7cbe4ad863",
-  "generated": "2024-11-01T17:53:48.715Z",
+  "commit": "d93af0e0cd640d62e8748a132271d5b88b46721f",
+  "generated": "2024-11-05T19:52:59.506Z",
   "metadata": [
     {
       "__outstatic": {
@@ -865,6 +865,58 @@
         }
       ],
       "title": "Understanding Coverage of Weight Loss Prescription Medications in Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "d93af0e0cd640d62e8748a132271d5b88b46721f",
+        "hash": "2997811067",
+        "path": "src/app/(www)/_data/posts/the-importance-of-voting-its-impact-on-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/voting-day-E0Nz.jpg",
+      "description": "In this post, I explore the importance of voting and its significant impact on health insurance policies, coverage, and costs. I discuss how elected representatives influence healthcare programs and regulations, encouraging readers to engage in the democratic process.",
+      "publishedAt": "2024-11-05T19:19:29.492Z",
+      "slug": "the-importance-of-voting-its-impact-on-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "Voting",
+          "value": "voting"
+        },
+        {
+          "label": "CivicDuty",
+          "value": "civicDuty"
+        },
+        {
+          "label": "HealthcarePolicies",
+          "value": "healthcarePolicies"
+        },
+        {
+          "label": "Medicare",
+          "value": "medicare"
+        },
+        {
+          "label": "Medicaid",
+          "value": "medicaid"
+        },
+        {
+          "label": "PublicHealth",
+          "value": "publicHealth"
+        },
+        {
+          "label": "YourVoteMatters",
+          "value": "yourVoteMatters"
+        }
+      ],
+      "title": "The Importance of Voting: Its Impact on Health Insurance"
     }
   ]
 }
