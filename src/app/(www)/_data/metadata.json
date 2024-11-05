@@ -1,6 +1,6 @@
 {
-  "commit": "2964e7f43f28abf95ece830c6b0f7117af8271d2",
-  "generated": "2024-11-01T14:17:04.207Z",
+  "commit": "afedbd52261870bae75056d426432689a5a4b73f",
+  "generated": "2024-11-05T19:53:09.027Z",
   "metadata": [
     {
       "__outstatic": {
@@ -813,6 +813,110 @@
         }
       ],
       "title": "Understanding Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "d93af0e0cd640d62e8748a132271d5b88b46721f",
+        "hash": "2997811067",
+        "path": "src/app/(www)/_data/posts/the-importance-of-voting-its-impact-on-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/voting-day-E0Nz.jpg",
+      "description": "In this post, I explore the importance of voting and its significant impact on health insurance policies, coverage, and costs. I discuss how elected representatives influence healthcare programs and regulations, encouraging readers to engage in the democratic process.",
+      "publishedAt": "2024-11-05T19:19:29.492Z",
+      "slug": "the-importance-of-voting-its-impact-on-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "Voting",
+          "value": "voting"
+        },
+        {
+          "label": "CivicDuty",
+          "value": "civicDuty"
+        },
+        {
+          "label": "HealthcarePolicies",
+          "value": "healthcarePolicies"
+        },
+        {
+          "label": "Medicare",
+          "value": "medicare"
+        },
+        {
+          "label": "Medicaid",
+          "value": "medicaid"
+        },
+        {
+          "label": "PublicHealth",
+          "value": "publicHealth"
+        },
+        {
+          "label": "YourVoteMatters",
+          "value": "yourVoteMatters"
+        }
+      ],
+      "title": "The Importance of Voting: Its Impact on Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "afedbd52261870bae75056d426432689a5a4b73f",
+        "hash": "482674856",
+        "path": "src/app/(www)/_data/posts/understanding-coverage-of-weight-loss-prescription-medications-in-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/scale-measuring-tape-UwMT.jpg",
+      "description": "This blog post discusses the coverage of weight loss prescription medications under public health insurance (Medicare and Medicaid) and private health insurance, highlighting variability in coverage, prior authorization requirements, and the importance of understanding specific policy details.",
+      "publishedAt": "2024-11-03T01:00:42.000Z",
+      "slug": "understanding-coverage-of-weight-loss-prescription-medications-in-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "WeightLoss",
+          "value": "weightLoss"
+        },
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "PrescriptionCoverage",
+          "value": "prescriptionCoverage"
+        },
+        {
+          "label": "Medicare",
+          "value": "medicare"
+        },
+        {
+          "label": "Medicaid",
+          "value": "medicaid"
+        },
+        {
+          "label": "Obesity",
+          "value": "obesity"
+        },
+        {
+          "label": "PrivateInsurance",
+          "value": "privateInsurance"
+        },
+        {
+          "label": "HealthcareCosts",
+          "value": "healthcareCosts"
+        }
+      ],
+      "title": "Understanding Coverage of Weight Loss Prescription Medications in Health Insurance"
     }
   ]
 }
