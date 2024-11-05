@@ -1,6 +1,6 @@
 {
-  "commit": "d93af0e0cd640d62e8748a132271d5b88b46721f",
-  "generated": "2024-11-05T19:52:59.506Z",
+  "commit": "afedbd52261870bae75056d426432689a5a4b73f",
+  "generated": "2024-11-05T19:53:09.027Z",
   "metadata": [
     {
       "__outstatic": {
@@ -816,58 +816,6 @@
     },
     {
       "__outstatic": {
-        "commit": "9fb0d83e4e928d9b34e4874510661d7cbe4ad863",
-        "hash": "2622583870",
-        "path": "src/app/(www)/_data/posts/understanding-coverage-of-weight-loss-prescription-medications-in-health-insurance.md"
-      },
-      "author": {
-        "name": "Bree Thomas",
-        "picture": "/images/avatar-A0MD.png"
-      },
-      "collection": "posts",
-      "coverImage": "/images/scale-measuring-tape-UwMT.jpg",
-      "description": "This blog post discusses the coverage of weight loss prescription medications under public health insurance (Medicare and Medicaid) and private health insurance, highlighting variability in coverage, prior authorization requirements, and the importance of understanding specific policy details.",
-      "publishedAt": "2024-11-03T01:00:42.000Z",
-      "slug": "understanding-coverage-of-weight-loss-prescription-medications-in-health-insurance",
-      "status": "draft",
-      "tags": [
-        {
-          "label": "WeightLoss",
-          "value": "weightLoss"
-        },
-        {
-          "label": "HealthInsurance",
-          "value": "healthInsurance"
-        },
-        {
-          "label": "PrescriptionCoverage",
-          "value": "prescriptionCoverage"
-        },
-        {
-          "label": "Medicare",
-          "value": "medicare"
-        },
-        {
-          "label": "Medicaid",
-          "value": "medicaid"
-        },
-        {
-          "label": "Obesity",
-          "value": "obesity"
-        },
-        {
-          "label": "PrivateInsurance",
-          "value": "privateInsurance"
-        },
-        {
-          "label": "HealthcareCosts",
-          "value": "healthcareCosts"
-        }
-      ],
-      "title": "Understanding Coverage of Weight Loss Prescription Medications in Health Insurance"
-    },
-    {
-      "__outstatic": {
         "commit": "d93af0e0cd640d62e8748a132271d5b88b46721f",
         "hash": "2997811067",
         "path": "src/app/(www)/_data/posts/the-importance-of-voting-its-impact-on-health-insurance.md"
@@ -917,6 +865,58 @@
         }
       ],
       "title": "The Importance of Voting: Its Impact on Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "afedbd52261870bae75056d426432689a5a4b73f",
+        "hash": "482674856",
+        "path": "src/app/(www)/_data/posts/understanding-coverage-of-weight-loss-prescription-medications-in-health-insurance.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/scale-measuring-tape-UwMT.jpg",
+      "description": "This blog post discusses the coverage of weight loss prescription medications under public health insurance (Medicare and Medicaid) and private health insurance, highlighting variability in coverage, prior authorization requirements, and the importance of understanding specific policy details.",
+      "publishedAt": "2024-11-03T01:00:42.000Z",
+      "slug": "understanding-coverage-of-weight-loss-prescription-medications-in-health-insurance",
+      "status": "published",
+      "tags": [
+        {
+          "label": "WeightLoss",
+          "value": "weightLoss"
+        },
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "PrescriptionCoverage",
+          "value": "prescriptionCoverage"
+        },
+        {
+          "label": "Medicare",
+          "value": "medicare"
+        },
+        {
+          "label": "Medicaid",
+          "value": "medicaid"
+        },
+        {
+          "label": "Obesity",
+          "value": "obesity"
+        },
+        {
+          "label": "PrivateInsurance",
+          "value": "privateInsurance"
+        },
+        {
+          "label": "HealthcareCosts",
+          "value": "healthcareCosts"
+        }
+      ],
+      "title": "Understanding Coverage of Weight Loss Prescription Medications in Health Insurance"
     }
   ]
 }

@@ -1,6 +1,6 @@
 ---
 title: 'Understanding Coverage of Weight Loss Prescription Medications in Health Insurance'
-status: 'draft'
+status: 'published'
 author:
   name: 'Bree Thomas'
   picture: '/images/avatar-A0MD.png'
