@@ -17,7 +17,8 @@ const HeaderMain: React.FC<HeaderMainProps> = ({ ...props }): JSX.Element => {
   const { bookQuote } = useCalendly();
   const { siteTitle } = useSiteContext();
 
-  const isActive = (href: string) => pathname === href;
+  const isActive = (href: string) =>
+    pathname === href || (href.length > 1 && pathname.startsWith(href));
   const handleCtaClick: React.MouseEventHandler = (
     e: React.MouseEvent<HTMLElement>, // eslint-disable-line @typescript-eslint/no-unused-vars
   ) => {
