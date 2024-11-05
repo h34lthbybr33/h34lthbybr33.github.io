@@ -40,3 +40,7 @@ Voting is not just a right; it's a civic duty. When you cast your vote, you are 
 Voting is an essential part of maintaining the health of our democracy and ensuring that our voices are heard in matters of public health and health insurance. It plays a significant role in shaping the policies that directly affect healthcare coverage, costs, and accessibility. No matter your political views, engaging in the electoral process is fundamental to demonstrating your civic duty and making a difference in your community.
 
 As a health insurance agent, I encourage everyone to participate in upcoming elections—research the candidates, understand the issues, and make your voice heard. Remember, your vote is your voice!
+
+Stay healthy and engaged in your community,\
+Bree Thomas\
+Your Health Insurance Agent
