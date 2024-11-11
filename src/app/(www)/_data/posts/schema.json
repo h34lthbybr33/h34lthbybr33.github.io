@@ -140,6 +140,26 @@
         {
           "value": "yourVoteMatters",
           "label": "YourVoteMatters"
+        },
+        {
+          "value": "veteransDay",
+          "label": "VeteransDay"
+        },
+        {
+          "value": "honorOurVeterans",
+          "label": "HonorOurVeterans"
+        },
+        {
+          "value": "supportOurTroops",
+          "label": "SupportOurTroops"
+        },
+        {
+          "value": "thankYouVeterans",
+          "label": "ThankYouVeterans"
+        },
+        {
+          "value": "communityEngagement",
+          "label": "CommunityEngagement"
         }
       ]
     }

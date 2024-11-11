@@ -1,6 +1,6 @@
 {
-  "commit": "afedbd52261870bae75056d426432689a5a4b73f",
-  "generated": "2024-11-05T19:53:09.027Z",
+  "commit": "65cfc1708ffca4e34af550080fd8a1a31736869e",
+  "generated": "2024-11-11T15:14:02.216Z",
   "metadata": [
     {
       "__outstatic": {
@@ -917,6 +917,46 @@
         }
       ],
       "title": "Understanding Coverage of Weight Loss Prescription Medications in Health Insurance"
+    },
+    {
+      "__outstatic": {
+        "commit": "65cfc1708ffca4e34af550080fd8a1a31736869e",
+        "hash": "3542235618",
+        "path": "src/app/(www)/_data/posts/honoring-our-heroes-celebrating-veterans-day.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/america-flag-k1MD.jpg",
+      "description": "In this blog post, we celebrate Veterans Day, recognizing the sacrifices of those who have served in the military. We also offer meaningful ways to honor veterans, including attending ceremonies, volunteering, educating others, supporting causes, and expressing gratitude.",
+      "publishedAt": "2024-11-11T14:39:59.159Z",
+      "slug": "honoring-our-heroes-celebrating-veterans-day",
+      "status": "published",
+      "tags": [
+        {
+          "label": "VeteransDay",
+          "value": "veteransDay"
+        },
+        {
+          "label": "HonorOurVeterans",
+          "value": "honorOurVeterans"
+        },
+        {
+          "label": "SupportOurTroops",
+          "value": "supportOurTroops"
+        },
+        {
+          "label": "ThankYouVeterans",
+          "value": "thankYouVeterans"
+        },
+        {
+          "label": "CommunityEngagement",
+          "value": "communityEngagement"
+        }
+      ],
+      "title": "Honoring Our Heroes: Celebrating Veterans Day"
     }
   ]
 }
