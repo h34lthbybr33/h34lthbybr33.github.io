@@ -160,6 +160,30 @@
         {
           "value": "communityEngagement",
           "label": "CommunityEngagement"
+        },
+        {
+          "value": "healthcareChanges",
+          "label": "HealthcareChanges"
+        },
+        {
+          "value": "telehealth",
+          "label": "Telehealth"
+        },
+        {
+          "value": "mentalHealth",
+          "label": "MentalHealth"
+        },
+        {
+          "value": "prescriptionDrugs",
+          "label": "PrescriptionDrugs"
+        },
+        {
+          "value": "healthBenefits",
+          "label": "HealthBenefits"
+        },
+        {
+          "value": "preventiveCare",
+          "label": "PreventiveCare"
         }
       ]
     }
