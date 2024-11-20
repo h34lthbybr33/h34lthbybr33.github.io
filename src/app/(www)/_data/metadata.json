@@ -1,6 +1,6 @@
 {
-  "commit": "65cfc1708ffca4e34af550080fd8a1a31736869e",
-  "generated": "2024-11-11T15:14:02.216Z",
+  "commit": "edcfb2b16211a75dbb04f8f90e9a16852cb0dc13",
+  "generated": "2024-11-20T18:02:02.427Z",
   "metadata": [
     {
       "__outstatic": {
@@ -957,6 +957,118 @@
         }
       ],
       "title": "Honoring Our Heroes: Celebrating Veterans Day"
+    },
+    {
+      "__outstatic": {
+        "commit": "2f2de7fa696cfb7944363f3c661365d027e0bd37",
+        "hash": "3732212211",
+        "path": "src/app/(www)/_data/posts/significant-health-insurance-changes-for-2024-what-you-need-to-know.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/stethoscope-k1Nj.jpg",
+      "description": "In this blog post, I discuss the significant health insurance changes anticipated for 2024, including rising premiums, expanded subsidies, enhanced telehealth coverage, strengthened mental health parity, possible Medicaid expansions, prescription drug price caps, revamped employee benefits, and improved coverage for preventive services.",
+      "publishedAt": "2024-11-18T17:13:27.000Z",
+      "slug": "significant-health-insurance-changes-for-2024-what-you-need-to-know",
+      "status": "published",
+      "tags": [
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "HealthcareChanges",
+          "value": "healthcareChanges"
+        },
+        {
+          "label": "Telehealth",
+          "value": "telehealth"
+        },
+        {
+          "label": "MentalHealth",
+          "value": "mentalHealth"
+        },
+        {
+          "label": "Medicaid",
+          "value": "medicaid"
+        },
+        {
+          "label": "PrescriptionDrugs",
+          "value": "prescriptionDrugs"
+        },
+        {
+          "label": "HealthBenefits",
+          "value": "healthBenefits"
+        },
+        {
+          "label": "PreventiveCare",
+          "value": "preventiveCare"
+        }
+      ],
+      "title": "Significant Health Insurance Changes for 2024: What You Need to Know"
+    },
+    {
+      "__outstatic": {
+        "commit": "edcfb2b16211a75dbb04f8f90e9a16852cb0dc13",
+        "hash": "3047339463",
+        "path": "src/app/(www)/_data/posts/telehealth-a-double-edged-sword-in-health-coverage.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/nurse-on-video-call-E4OT.jpg",
+      "description": "In this blog post, I review the impact of telehealth on health coverage, discussing its advantages such as increased access to care and cost efficiency, alongside potential drawbacks including limited physical examinations and insurance coverage variability.",
+      "publishedAt": "2024-11-20T17:26:34.679Z",
+      "slug": "telehealth-a-double-edged-sword-in-health-coverage",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Telehealth",
+          "value": "telehealth"
+        },
+        {
+          "label": "VirtualCare",
+          "value": "virtualCare"
+        },
+        {
+          "label": "HealthCoverage",
+          "value": "healthCoverage"
+        },
+        {
+          "label": "Healthcare",
+          "value": "healthcare"
+        },
+        {
+          "label": "DigitalHealth",
+          "value": "digitalHealth"
+        },
+        {
+          "label": "PatientAccess",
+          "value": "patientAccess"
+        },
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "HealthTips",
+          "value": "healthTips"
+        },
+        {
+          "label": "Telemedicine",
+          "value": "telemedicine"
+        },
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        }
+      ],
+      "title": "Telehealth: A Double-Edged Sword in Health Coverage"
     }
   ]
 }
