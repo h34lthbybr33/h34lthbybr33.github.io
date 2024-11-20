@@ -1,6 +1,6 @@
 {
-  "commit": "2f2de7fa696cfb7944363f3c661365d027e0bd37",
-  "generated": "2024-11-20T17:50:46.056Z",
+  "commit": "edcfb2b16211a75dbb04f8f90e9a16852cb0dc13",
+  "generated": "2024-11-20T18:02:02.427Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1009,6 +1009,66 @@
         }
       ],
       "title": "Significant Health Insurance Changes for 2024: What You Need to Know"
+    },
+    {
+      "__outstatic": {
+        "commit": "edcfb2b16211a75dbb04f8f90e9a16852cb0dc13",
+        "hash": "3047339463",
+        "path": "src/app/(www)/_data/posts/telehealth-a-double-edged-sword-in-health-coverage.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/nurse-on-video-call-E4OT.jpg",
+      "description": "In this blog post, I review the impact of telehealth on health coverage, discussing its advantages such as increased access to care and cost efficiency, alongside potential drawbacks including limited physical examinations and insurance coverage variability.",
+      "publishedAt": "2024-11-20T17:26:34.679Z",
+      "slug": "telehealth-a-double-edged-sword-in-health-coverage",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Telehealth",
+          "value": "telehealth"
+        },
+        {
+          "label": "VirtualCare",
+          "value": "virtualCare"
+        },
+        {
+          "label": "HealthCoverage",
+          "value": "healthCoverage"
+        },
+        {
+          "label": "Healthcare",
+          "value": "healthcare"
+        },
+        {
+          "label": "DigitalHealth",
+          "value": "digitalHealth"
+        },
+        {
+          "label": "PatientAccess",
+          "value": "patientAccess"
+        },
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "HealthTips",
+          "value": "healthTips"
+        },
+        {
+          "label": "Telemedicine",
+          "value": "telemedicine"
+        },
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        }
+      ],
+      "title": "Telehealth: A Double-Edged Sword in Health Coverage"
     }
   ]
 }
