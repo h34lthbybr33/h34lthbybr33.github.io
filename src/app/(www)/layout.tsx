@@ -45,7 +45,10 @@ const siteImageProps = getImageProps({
 });
 
 export const metadata: Metadata = {
-  title: `${siteInfo.title} | ${siteInfo.description}`,
+  title: {
+    default: `${siteInfo.title} | ${siteInfo.description}`,
+    template: `%s | ${siteInfo.title}`,
+  },
   description: siteInfo.description,
   keywords: siteInfo.keywords,
   openGraph: {
