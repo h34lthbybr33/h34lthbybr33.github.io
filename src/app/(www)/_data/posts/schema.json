@@ -140,6 +140,50 @@
         {
           "value": "yourVoteMatters",
           "label": "YourVoteMatters"
+        },
+        {
+          "value": "veteransDay",
+          "label": "VeteransDay"
+        },
+        {
+          "value": "honorOurVeterans",
+          "label": "HonorOurVeterans"
+        },
+        {
+          "value": "supportOurTroops",
+          "label": "SupportOurTroops"
+        },
+        {
+          "value": "thankYouVeterans",
+          "label": "ThankYouVeterans"
+        },
+        {
+          "value": "communityEngagement",
+          "label": "CommunityEngagement"
+        },
+        {
+          "value": "healthcareChanges",
+          "label": "HealthcareChanges"
+        },
+        {
+          "value": "telehealth",
+          "label": "Telehealth"
+        },
+        {
+          "value": "mentalHealth",
+          "label": "MentalHealth"
+        },
+        {
+          "value": "prescriptionDrugs",
+          "label": "PrescriptionDrugs"
+        },
+        {
+          "value": "healthBenefits",
+          "label": "HealthBenefits"
+        },
+        {
+          "value": "preventiveCare",
+          "label": "PreventiveCare"
         }
       ]
     }
