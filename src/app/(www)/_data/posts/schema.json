@@ -184,6 +184,30 @@
         {
           "value": "preventiveCare",
           "label": "PreventiveCare"
+        },
+        {
+          "value": "virtualCare",
+          "label": "VirtualCare"
+        },
+        {
+          "value": "healthCoverage",
+          "label": "HealthCoverage"
+        },
+        {
+          "value": "digitalHealth",
+          "label": "DigitalHealth"
+        },
+        {
+          "value": "patientAccess",
+          "label": "PatientAccess"
+        },
+        {
+          "value": "healthTips",
+          "label": "HealthTips"
+        },
+        {
+          "value": "telemedicine",
+          "label": "Telemedicine"
         }
       ]
     }
