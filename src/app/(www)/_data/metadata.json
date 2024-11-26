@@ -1,6 +1,6 @@
 {
-  "commit": "edcfb2b16211a75dbb04f8f90e9a16852cb0dc13",
-  "generated": "2024-11-20T18:02:02.427Z",
+  "commit": "a6160f0c3d7e8504c7ab6d4015878a3cc8bd8e30",
+  "generated": "2024-11-25T20:52:47.021Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1069,6 +1069,58 @@
         }
       ],
       "title": "Telehealth: A Double-Edged Sword in Health Coverage"
+    },
+    {
+      "__outstatic": {
+        "commit": "a6160f0c3d7e8504c7ab6d4015878a3cc8bd8e30",
+        "hash": "914086802",
+        "path": "src/app/(www)/_data/posts/traveling-for-thanksgiving-how-a-ppo-can-enhance-your-peace-of-mind.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/vw-bus-in-forest-U3OD.jpg",
+      "description": "This blog post discusses the benefits of having a Preferred Provider Organization (PPO) health insurance plan while traveling (such as for Thanksgiving), highlighting the flexibility in provider choice, nationwide coverage, out-of-network benefits, and convenient access to urgent care. It encourages travelers to ensure they are covered during their journeys.",
+      "publishedAt": "2024-11-25T13:19:56.726Z",
+      "slug": "traveling-for-thanksgiving-how-a-ppo-can-enhance-your-peace-of-mind",
+      "status": "published",
+      "tags": [
+        {
+          "label": "ThanksgivingTravel",
+          "value": "thanksgivingTravel"
+        },
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "PPO",
+          "value": "ppo"
+        },
+        {
+          "label": "TravelHealth",
+          "value": "travelHealth"
+        },
+        {
+          "label": "FamilyTime",
+          "value": "familyTime"
+        },
+        {
+          "label": "SafeTravels",
+          "value": "safeTravels"
+        },
+        {
+          "label": "HealthcareCoverage",
+          "value": "healthcareCoverage"
+        },
+        {
+          "label": "HolidaySeason",
+          "value": "holidaySeason"
+        }
+      ],
+      "title": "Traveling for Thanksgiving: How a PPO Can Enhance Your Peace of Mind"
     }
   ]
 }

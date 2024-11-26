@@ -208,6 +208,34 @@
         {
           "value": "telemedicine",
           "label": "Telemedicine"
+        },
+        {
+          "value": "thanksgivingTravel",
+          "label": "ThanksgivingTravel"
+        },
+        {
+          "value": "ppo",
+          "label": "PPO"
+        },
+        {
+          "value": "travelHealth",
+          "label": "TravelHealth"
+        },
+        {
+          "value": "familyTime",
+          "label": "FamilyTime"
+        },
+        {
+          "value": "safeTravels",
+          "label": "SafeTravels"
+        },
+        {
+          "value": "healthcareCoverage",
+          "label": "HealthcareCoverage"
+        },
+        {
+          "value": "holidaySeason",
+          "label": "HolidaySeason"
         }
       ]
     }
