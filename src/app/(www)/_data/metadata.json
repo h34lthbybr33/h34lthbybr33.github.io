@@ -1,6 +1,6 @@
 {
-  "commit": "a6160f0c3d7e8504c7ab6d4015878a3cc8bd8e30",
-  "generated": "2024-11-25T20:52:47.021Z",
+  "commit": "6ceb22b3303a24677a06be871da6cb482f1de613",
+  "generated": "2024-12-02T07:08:48.772Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1121,6 +1121,54 @@
         }
       ],
       "title": "Traveling for Thanksgiving: How a PPO Can Enhance Your Peace of Mind"
+    },
+    {
+      "__outstatic": {
+        "commit": "6ceb22b3303a24677a06be871da6cb482f1de613",
+        "hash": "400656012",
+        "path": "src/app/(www)/_data/posts/reminder-open-enrollment-for-health-insurance-is-just-around-the-corner.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/woman-writing-in-calendar-Q2OT.jpg",
+      "description": "This blog post serves as a reminder to clients that the open enrollment period for health insurance is approaching, emphasizing its importance and offering assistance in navigating options.",
+      "publishedAt": "2024-12-02T06:33:11.484Z",
+      "slug": "reminder-open-enrollment-for-health-insurance-is-just-around-the-corner",
+      "status": "published",
+      "tags": [
+        {
+          "label": "Open Enrollment",
+          "value": "openEnrollment"
+        },
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "HealthCoverage",
+          "value": "healthCoverage"
+        },
+        {
+          "label": "Insurance Agent",
+          "value": "insuranceAgent"
+        },
+        {
+          "label": "Enroll Now",
+          "value": "enrollNow"
+        },
+        {
+          "label": "Healthy 2025",
+          "value": "healthy2025"
+        },
+        {
+          "label": "Insurance Help",
+          "value": "insuranceHelp"
+        }
+      ],
+      "title": "Reminder: Open Enrollment for Health Insurance is Just Around the Corner!"
     }
   ]
 }

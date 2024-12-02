@@ -236,6 +236,22 @@
         {
           "value": "holidaySeason",
           "label": "HolidaySeason"
+        },
+        {
+          "value": "insuranceAgent",
+          "label": "Insurance Agent"
+        },
+        {
+          "value": "enrollNow",
+          "label": "Enroll Now"
+        },
+        {
+          "value": "healthy2025",
+          "label": "Healthy 2025"
+        },
+        {
+          "value": "insuranceHelp",
+          "label": "Insurance Help"
         }
       ]
     }
