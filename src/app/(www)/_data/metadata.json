@@ -1,6 +1,6 @@
 {
   "commit": "55eed76373073f0ccfef53059e30ee8dab10a3c0",
-  "generated": "2024-12-13T16:18:46.747Z",
+  "generated": "2024-12-13T16:20:25.005Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1221,7 +1221,7 @@
     {
       "__outstatic": {
         "commit": "55eed76373073f0ccfef53059e30ee8dab10a3c0",
-        "hash": "3411444133",
+        "hash": "562933188",
         "path": "src/app/(www)/_data/posts/transitioning-from-an-hsa-to-an-fsa-key-considerations-for-your-health-insurance-plan.md"
       },
       "author": {
@@ -1229,12 +1229,44 @@
         "picture": "/images/avatar-A0MD.png"
       },
       "collection": "posts",
-      "coverImage": "/images/two-train-tracks-UyMz.jpg",
+      "coverImage": "/images/two-train-tracks-kxMj.jpg",
       "description": "In this blog post, I discuss the considerations and important factors to keep in mind when transitioning from a high-deductible health plan with a Health Savings Account (HSA) to a plan that includes a Flexible Spending Account (FSA), emphasizing the differences and strategies for effective migration.",
       "publishedAt": "2024-12-13T15:41:57.000Z",
       "slug": "transitioning-from-an-hsa-to-an-fsa-key-considerations-for-your-health-insurance-plan",
       "status": "published",
       "tags": [
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "FSA",
+          "value": "fsa"
+        },
+        {
+          "label": "HSA",
+          "value": "hsa"
+        },
+        {
+          "label": "HighDeductiblePlans",
+          "value": "highDeductiblePlans"
+        },
+        {
+          "label": "Insurance",
+          "value": "insurance"
+        },
+        {
+          "label": "InsuranceTransition",
+          "value": "insuranceTransition"
+        },
+        {
+          "label": "HealthcareCosts",
+          "value": "healthcareCosts"
+        },
+        {
+          "label": "HealthSavings",
+          "value": "healthSavings"
+        }
       ],
       "title": "Transitioning from an HSA to an FSA: Key Considerations for Your Health Insurance Plan"
     }
