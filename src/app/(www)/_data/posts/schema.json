@@ -276,6 +276,10 @@
         {
           "value": "healthAndWellness",
           "label": "HealthAndWellness"
+        },
+        {
+          "value": "healthSavings",
+          "label": "HealthSavings"
         }
       ]
     }
