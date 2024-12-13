@@ -44,3 +44,7 @@ Before making the transition, it’s crucial to understand the fundamental diffe
 Migrating from an FSA to an HDHP with an HSA can be a beneficial decision, especially if you’re looking for more control over your healthcare savings and expenses. However, it’s vital to understand the distinctions between the two accounts and how each can serve your healthcare needs. By taking the time to carefully plan your transition, you can maximize both your health insurance coverage and your savings.
 
 If you have questions or need assistance navigating this transition, don’t hesitate to reach out—I’m here to help!
+
+Stay healthy and informed,\
+Bree Thomas\
+Your Health Insurance Agent
