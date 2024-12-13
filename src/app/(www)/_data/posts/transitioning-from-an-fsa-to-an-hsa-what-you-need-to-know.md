@@ -1,6 +1,6 @@
 ---
 title: 'Transitioning from an FSA to an HSA: What You Need to Know'
-status: 'draft'
+status: 'published'
 author:
   name: 'Bree Thomas'
   picture: '/images/avatar-A0MD.png'
