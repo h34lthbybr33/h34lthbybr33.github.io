@@ -1,6 +1,6 @@
 {
-  "commit": "6ceb22b3303a24677a06be871da6cb482f1de613",
-  "generated": "2024-12-02T07:08:48.772Z",
+  "commit": "2e6f5314f3e10996488dc96d944aac8216d6cbf5",
+  "generated": "2024-12-13T16:07:24.126Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1169,6 +1169,54 @@
         }
       ],
       "title": "Reminder: Open Enrollment for Health Insurance is Just Around the Corner!"
+    },
+    {
+      "__outstatic": {
+        "commit": "2e6f5314f3e10996488dc96d944aac8216d6cbf5",
+        "hash": "1202792924",
+        "path": "src/app/(www)/_data/posts/transitioning-from-an-fsa-to-an-hsa-what-you-need-to-know.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/train-switch-MzNz.jpg",
+      "description": "In this blog post, I explore the considerations and important factors to keep in mind when transitioning from a health insurance plan with a Flexible Spending Account (FSA) to a high-deductible health plan (HDHP) with a Health Savings Account (HSA), highlighting key differences and strategies for a smooth migration.",
+      "publishedAt": "2024-12-12T15:30:51.000Z",
+      "slug": "transitioning-from-an-fsa-to-an-hsa-what-you-need-to-know",
+      "status": "draft",
+      "tags": [
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "FSA",
+          "value": "fsa"
+        },
+        {
+          "label": "HSA",
+          "value": "hsa"
+        },
+        {
+          "label": "HighDeductiblePlans",
+          "value": "highDeductiblePlans"
+        },
+        {
+          "label": "HealthcareSavings",
+          "value": "healthcareSavings"
+        },
+        {
+          "label": "InsuranceTransition",
+          "value": "insuranceTransition"
+        },
+        {
+          "label": "HealthAndWellness",
+          "value": "healthAndWellness"
+        }
+      ],
+      "title": "Transitioning from an FSA to an HSA: What You Need to Know"
     }
   ]
 }
