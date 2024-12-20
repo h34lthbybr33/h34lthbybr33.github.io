@@ -252,6 +252,34 @@
         {
           "value": "insuranceHelp",
           "label": "Insurance Help"
+        },
+        {
+          "value": "fsa",
+          "label": "FSA"
+        },
+        {
+          "value": "hsa",
+          "label": "HSA"
+        },
+        {
+          "value": "highDeductiblePlans",
+          "label": "HighDeductiblePlans"
+        },
+        {
+          "value": "healthcareSavings",
+          "label": "HealthcareSavings"
+        },
+        {
+          "value": "insuranceTransition",
+          "label": "InsuranceTransition"
+        },
+        {
+          "value": "healthAndWellness",
+          "label": "HealthAndWellness"
+        },
+        {
+          "value": "healthSavings",
+          "label": "HealthSavings"
         }
       ]
     }
