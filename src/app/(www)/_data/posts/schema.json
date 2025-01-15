@@ -280,6 +280,30 @@
         {
           "value": "healthSavings",
           "label": "HealthSavings"
+        },
+        {
+          "value": "taxTips",
+          "label": "TaxTips"
+        },
+        {
+          "value": "2024Taxes",
+          "label": "2024Taxes"
+        },
+        {
+          "value": "taxReturns",
+          "label": "TaxReturns"
+        },
+        {
+          "value": "uninsured",
+          "label": "Uninsured"
+        },
+        {
+          "value": "underinsured",
+          "label": "Underinsured"
+        },
+        {
+          "value": "financialWellness",
+          "label": "FinancialWellness"
         }
       ]
     }

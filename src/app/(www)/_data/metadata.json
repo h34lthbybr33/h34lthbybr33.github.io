@@ -1,6 +1,6 @@
 {
-  "commit": "78d5f51fc8aa3e8af8c1ed6bf85a158785cd8b35",
-  "generated": "2024-12-18T15:46:19.401Z",
+  "commit": "1763f521fffa60266475d75682fd77a9f4976c7b",
+  "generated": "2025-01-15T20:57:36.053Z",
   "metadata": [
     {
       "__outstatic": {
@@ -1269,6 +1269,66 @@
         }
       ],
       "title": "Significant Health Insurance Changes for 2025: What You Need to Know"
+    },
+    {
+      "__outstatic": {
+        "commit": "1763f521fffa60266475d75682fd77a9f4976c7b",
+        "hash": "883028742",
+        "path": "src/app/(www)/_data/posts/navigating-tax-concerns-related-to-health-insurance-coverage-in-2024.md"
+      },
+      "author": {
+        "name": "Bree Thomas",
+        "picture": "/images/avatar-A0MD.png"
+      },
+      "collection": "posts",
+      "coverImage": "/images/tax-time-A3Mj.jpg",
+      "description": "This blog post discusses the potential tax concerns related to health insurance coverage for the 2024 tax year, highlighting implications for those who are uninsured or underinsured, as well as exploring tax breaks such as premium tax credits and contributions to HSAs and FSAs. Understanding these factors can help manage healthcare costs and maximize savings when filing your taxes.",
+      "publishedAt": "2025-01-15T19:55:32.253Z",
+      "slug": "navigating-tax-concerns-related-to-health-insurance-coverage-in-2024",
+      "status": "published",
+      "tags": [
+        {
+          "label": "HealthInsurance",
+          "value": "healthInsurance"
+        },
+        {
+          "label": "TaxTips",
+          "value": "taxTips"
+        },
+        {
+          "label": "2024Taxes",
+          "value": "2024Taxes"
+        },
+        {
+          "label": "TaxReturns",
+          "value": "taxReturns"
+        },
+        {
+          "label": "Uninsured",
+          "value": "uninsured"
+        },
+        {
+          "label": "Underinsured",
+          "value": "underinsured"
+        },
+        {
+          "label": "HSA",
+          "value": "hsa"
+        },
+        {
+          "label": "FSA",
+          "value": "fsa"
+        },
+        {
+          "label": "FinancialWellness",
+          "value": "financialWellness"
+        },
+        {
+          "label": "HealthcareCosts",
+          "value": "healthcareCosts"
+        }
+      ],
+      "title": "Navigating Tax Concerns Related to Health Insurance Coverage in 2024"
     }
   ]
 }
